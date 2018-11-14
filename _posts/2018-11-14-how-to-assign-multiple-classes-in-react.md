@@ -25,7 +25,7 @@ export default class Button extends React.Component {
 
 ## [classNames package](#classnames-package)
 It's pretty simple:
-* [install `classNames`](https://github.com/JedWatson/classnames#classnames) package if you haven't already.
+* [install `classNames`](https://github.com/JedWatson/classnames#classnames){:target="blank"} package if you haven't already.
 * Import it to your component
 ```javascript
 import classNames from 'classnames'

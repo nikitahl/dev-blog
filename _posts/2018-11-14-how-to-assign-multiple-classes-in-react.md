@@ -1,19 +1,19 @@
 ---
 layout: post
-title: "How to assign multiple classes in React"
-description: Example and explanation of how to assign multiple classes in React to an element
+title: How to assign multiple classes to an element in React
+description: Examples and explanation of how to assign multiple classes to an element in React
 tags: [react, jsx, javascript]
 comments: true
 ---
 
-There are a few ways to assign multiple classes in React to an element. It can be achieved via an external package or natively.
+There are a few ways how to assign multiple classes to an element in React. It can be achieved via an external package or natively.
 
 Depending on your project and requirements you can choose whichever method suits your needs best.
 
 * [using `classNames` package](#classnames-package)
 * [natively](#natively)
 
-Lets say we have a following button component.
+Let's say we have the following button component.
 
 ```jsx
 export default class Button extends React.Component {
@@ -23,7 +23,7 @@ export default class Button extends React.Component {
 }
 ```
 
-## [classNames package](#classnames-package)
+## classNames package
 It's pretty simple:
 * [install `classNames`](https://github.com/JedWatson/classnames#classnames){:target="blank"} package if you haven't already.
 * Import it to your component
@@ -60,8 +60,7 @@ let buttonType = 'primary'
 classNames({ [`btn-${buttonType}`]: true })
 ```
 
-
-## [Natively](#natively)
+## Natively
 You can assign multiple classes to an element by using plain old JavaScript. And even imitate `classNames` package.
 
 * multiple classes as a string
@@ -122,7 +121,7 @@ export default class Button extends React.Component {
 
 If you have a complex system you can do lots of cool stuff with that. You can define the classes array outisde of the render function and manipulate it as you want.
 
-So you might not need `classNames` package in the first place unless its been already used in your project.
+So you might not need `classNames` package in the first place unless it's been already used in your project.
 
 ---
 

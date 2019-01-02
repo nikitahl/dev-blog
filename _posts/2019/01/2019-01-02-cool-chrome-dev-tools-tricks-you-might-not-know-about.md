@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Cool Chrome Dev Tools tricks and tips you might not know about
-description: A short list of Chrome Dev Tools tricks and tips that may ease the daily life of developers
+description: A list of Chrome Dev Tools tricks and tips that may ease the daily life of developers
 tags: [tips, development]
 comments: true
 ---
@@ -45,15 +45,15 @@ It can be set inside *Settings* under *Appearance*.
 
 ## 3. Switch between Dev Tools panels
 There's an easy way to switch between Dev Tools panels via keyboard.
-* <kbd>cmd</kbd> + <kbd>1-9</kbd> for MAC
-* <kbd>ctrl</kbd> + <kbd>1-9</kbd> for Windows
+* <kbd>cmd</kbd> + <kbd>1-9</kbd> for MAC;
+* <kbd>ctrl</kbd> + <kbd>1-9</kbd> for Windows and Linux.
 
 ![Dev Tools panel switch](../../../images/dev-tools/dev-tools-panels.gif "Dev Tools panel switch")
 
 ## 4. Switching between CSS properties
-While in the *Styles* panel click on the CSS property and press
-* <kbd>tab</kbd> to jump to the next property
-* <kbd>tab</kbd> + <kbd>shift</kbd> to jump to the previous property
+While in the *Styles* panel click on the CSS property and press:
+* <kbd>tab</kbd> to jump to the next property;
+* <kbd>tab</kbd> + <kbd>shift</kbd> to jump to the previous property.
 
 ![Switching between CSS properties](../../../images/dev-tools/switch-css-props.gif "Switching between CSS properties")
 
@@ -63,14 +63,14 @@ You can easily toggle element visibility inside element DOM tree by pressing <kb
 ![Toggle element visibility](../../../images/dev-tools/hide-element.gif "Toggle element visibility")
 
 ## 6. Edit element attributes
-Inside element DOM tree press <kbd>enter</kbd> key on the selected element to edit attribute. Pess <kbd>tab</kbd> to edit next attribute, press <kbd>tab</kbd> + <kbd>shift</kbd> edit previous attribute.
+Inside element DOM tree press <kbd>enter</kbd> key on the selected element to edit attribute. Press <kbd>tab</kbd> to edit next attribute, press <kbd>tab</kbd> + <kbd>shift</kbd> edit previous attribute.
 
 ![Edit element attributes](../../../images/dev-tools/edit-element-attrs.gif "Edit element attributes")
 
 ## 7. Search DOM tree
 To find any attribute, element, content or any other string inside DOM tree just press:
-* <kbd>cmd</kbd> + <kbd>f</kbd> for MAC
-* <kbd>ctrl</kbd> + <kbd>f</kbd> for Windows
+* <kbd>cmd</kbd> + <kbd>f</kbd> for MAC;
+* <kbd>ctrl</kbd> + <kbd>f</kbd> for Windows and Linux.
 
 ![Search DOM tree](../../../images/dev-tools/dom-tree-search.png "Search DOM tree")
 
@@ -113,8 +113,8 @@ Numeric CSS values can easily be incremented and decremented by using certain ke
 * Dcrement value by 0.1 <kbd>alt</kbd> + <kbd>&darr;</kbd>;
 * Increment value by 10 <kbd>shift</kbd> + <kbd>&uarr;</kbd>;
 * Dcrement value by 10 <kbd>shift</kbd> + <kbd>&darr;</kbd>;
-* Increment value by 100 <kbd>cmd</kbd> + <kbd>&uarr;</kbd> (MAC), <kbd>ctrl</kbd> + <kbd>&uarr;</kbd> (Windows);
-* Dcrement value by 100 <kbd>cmd</kbd> + <kbd>&darr;</kbd> (MAC),  <kbd>ctrl</kbd> + <kbd>&darr;</kbd> (Windows).
+* Increment value by 100 <kbd>cmd</kbd> + <kbd>&uarr;</kbd> (MAC), <kbd>ctrl</kbd> + <kbd>&uarr;</kbd> (Windows and Linux);
+* Dcrement value by 100 <kbd>cmd</kbd> + <kbd>&darr;</kbd> (MAC),  <kbd>ctrl</kbd> + <kbd>&darr;</kbd> (Windows and Linux).
 
 ![Increment CSS values](../../../images/dev-tools/increment-value.gif "Increment CSS values")
 
@@ -136,7 +136,7 @@ You can easily change the color format by holding <kbd>shift</kbd> key and click
 ![Return last evaluated expression](../../../images/dev-tools/last-evaluated-expression.png "Return last evaluated expression")
 
 ## Bonus: Expand all sub-properties of an object that's been logged to the console
-Once the object is logged, hold <kbd>alt</kbd> key and click expand **&#x025B8;**.
+Once the object is logged, hold <kbd>alt</kbd> key and click expand **&#x025B8;** icon.
 
 ![Expand all sub-properties](../../../images/dev-tools/expand-props.gif "Expand all sub-properties")
 

@@ -45,11 +45,12 @@ footer-links:
   linkedin: nikita-hlopov-15824b98
   pinterest:
   rss: # just type anything here for a working RSS icon
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  stackoverflow: users/5674688/nikitahl
   tumblr: # https://<username>.tumblr.com
   twitter: nikita_hlopov
   youtube: # channel/<your_long_string> or user/<user-name>
   codepen: nikitahl
+  codewars: nikitahl
 
 # Text under the icons in footer
 footer-text: © 2019 Nikita Hlopov

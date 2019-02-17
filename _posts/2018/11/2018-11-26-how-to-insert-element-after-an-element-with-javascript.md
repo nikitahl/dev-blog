@@ -67,7 +67,11 @@ So, in fact, you can insert an element at any position you want for a given targ
 
 The best part is that this **method is supported by all browsers**, even Internet Explorer! Check out the full documentation on [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentElement){:target="blank"}.
 
-[Browser support](https://caniuse.com/#search=insertAdjacentElement()){:target="blank"} for `insertAdjacentElement()`.
+Browser support for `insertAdjacentElement()`.
+
+<p class="ciu_embed" data-feature="insert-adjacent" data-periods="future_1,current,past_1" data-accessible-colours="false">
+<a href="https://caniuse.com/#feat=insert-adjacent">Can I Use Element.insertAdjacentElement()?</a> Data on support for the Element.insertAdjacentElement() feature across the major browsers from caniuse.com.
+</p>
 
 ## insertAdjacentHTML()
 Another way to insert element after another element is to use `insertAdjacentHTML()` method.
@@ -120,7 +124,12 @@ As you can see `insertAdjacentHTML()` method also takes two arguments:
 
 Full documentation on [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentHTML){:target="blank"}. And just like with the previous method it is supported by all browsers.
 
-[Browser support](https://caniuse.com/#search=insertAdjacentHTML()){:target="blank"} for `insertAdjacentHTML()`.
+Browser support for `insertAdjacentHTML()`.
+
+<p class="ciu_embed" data-feature="insertadjacenthtml" data-periods="future_1,current,past_1" data-accessible-colours="false">
+<a href="https://caniuse.com/#feat=insertadjacenthtml">Can I Use Element.insertAdjacentHTML()?</a> Data on support for the Element.insertAdjacentHTML() feature across the major browsers from caniuse.com.
+</p>
 
 ---
+<script src="https://cdn.jsdelivr.net/gh/ireade/caniuse-embed/caniuse-embed.min.js"></script>
 

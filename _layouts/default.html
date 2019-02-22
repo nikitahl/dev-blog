@@ -17,5 +17,24 @@
     </div>
 
     {% include analytics.html %}
+    <script type="text/javascript">
+      (function () {
+        var themeToggle = document.getElementById("theme-toggle");
+
+        function toggleTheme(e) {
+          var theme = window.localStorage.theme;
+          if (window.localStorage.theme && e) {
+            document.body.classList.remove("theme-" + theme);
+            window.localStorage.theme = theme === "light" ? "dark" : "light";
+          } else if (!window.localStorage.theme) {
+            window.localStorage.theme = "light";
+          }
+          document.body.classList.add("theme-" + window.localStorage.theme);
+        }
+        
+        themeToggle.addEventListener("click", toggleTheme);
+        toggleTheme();
+      })();
+    </script>
   </body>
 </html>

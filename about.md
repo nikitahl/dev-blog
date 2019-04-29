@@ -5,12 +5,36 @@ description: Who I am and what I do.
 permalink: /about/
 ---
 
-Hello, my name is Nikita!
+<style type="text/css">
+	.about-container {
+		display: flex
+	}
+	.about-image-container {
+		width: 200px;
+		height: 140px;
+		overflow: hidden;
+		border-radius: 50%;
+		margin: 0 30px 0 0
+	}
+	@media screen and (max-width: 641px) {
+		.about-container {
+			flex-direction: column
+		}
+		.about-image-container {
+			height: 200px;
+		}
+	}
+</style>
+<div class="about-container">
+	<div class="about-image-container">
+		<img src="../../../images/me.png" alt="Nikita Hlopov profile picture">
+	</div>
+	<div class="about-content-container">
+		<p>Hello, my name is Nikita!</p>
+		<p>Currently I'm a full time frontend developer at <a href="http://visualcomposer.com" target="_blank">visualcomposer.com</a></p>
+		<p>I've started frontend development profession as a job but in a while it became my hobby.</p>
+		<p>In this blog I'll post my observations and share experience related to frontend web development.</p>
+		<p>Follow me: Links in the footer &darr;</p>
+	</div>
+</div>
 
-Currently I'm a full time frontend developer at [visualcomposer.com](http://visualcomposer.com){:target="blank"}
-
-I've started this profession as a job but in a while it became my hobby.
-
-In this blog I'll post my observations and share experience related to frontend web development.
-
-Follow me: Links in the footer &darr;

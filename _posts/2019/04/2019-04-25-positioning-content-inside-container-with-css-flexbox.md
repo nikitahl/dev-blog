@@ -161,7 +161,7 @@ The `width` by default is equal to 100% if the container's `display` property is
 The `flex-direction` property is optional, however, it might affect the further positioning of the content.
 
 <blockquote>
-The `flex-direction` CSS property sets how flex items are placed in the flex container defining the main axis and the direction
+The <code>flex-direction</code> CSS property sets how flex items are placed in the flex container defining the main axis and the direction
 <br />
 &mdash;<cite><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex-direction" target="_blank">MDN</a></cite>
 </blockquote>

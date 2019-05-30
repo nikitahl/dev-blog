@@ -123,6 +123,4 @@ If you have a complex system you can do lots of cool stuff with that. You can de
 
 So you might not need `classNames` package in the first place unless it's been already used in your project.
 
----
-
 

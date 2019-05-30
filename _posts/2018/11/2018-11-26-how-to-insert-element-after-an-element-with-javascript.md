@@ -130,6 +130,5 @@ Browser support for `insertAdjacentHTML()`.
 <a href="https://caniuse.com/#feat=insertadjacenthtml">Can I Use Element.insertAdjacentHTML()?</a> Data on support for the Element.insertAdjacentHTML() feature across the major browsers from caniuse.com.
 </p>
 
----
 <script src="https://cdn.jsdelivr.net/gh/ireade/caniuse-embed/caniuse-embed.min.js"></script>
 

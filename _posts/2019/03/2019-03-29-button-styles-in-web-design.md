@@ -134,5 +134,3 @@ This article on Medium describes the [7 rules for button design](https://uxplane
 
 To conclude, there is no actual point in this article, just an observation I've noticed and found it interesting, so I decided to share it with you.
 
-
----

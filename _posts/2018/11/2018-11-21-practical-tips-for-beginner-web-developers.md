@@ -136,14 +136,5 @@ Being a developer also means that you constantly have to learn and improve yours
 
 Never stop learning.
 
----
-
-
-
-
-
-
-
-
 
 

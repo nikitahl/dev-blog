@@ -140,14 +140,3 @@ Once the object is logged, hold <kbd>alt</kbd> key and click expand **&#x025B8;*
 
 ![Expand all sub-properties](../../../images/dev-tools/expand-props.gif "Expand all sub-properties")
 
----
-
-
-
-
-
-
-
-
-
-

@@ -164,6 +164,3 @@ Test results chart snapshot:
 
 As you can see the `for` loop is the fastest way to find an item in an array.
 
----
-
-

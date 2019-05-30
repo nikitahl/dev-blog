@@ -120,14 +120,5 @@ attributes['data-validate'] = true
 attributes['aria-label'] = 'User email'
 ```
 
----
-
-
-
-
-
-
-
-
 
 

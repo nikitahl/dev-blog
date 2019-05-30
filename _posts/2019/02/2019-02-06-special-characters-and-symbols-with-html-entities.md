@@ -99,7 +99,5 @@ There are hundreds of various entities available. The following links contains a
 [https://dev.w3.org/html5/html-author/charref](https://dev.w3.org/html5/html-author/charref){:target="blank"} - Official W3C entity reference
 [https://www.toptal.com/designers/htmlarrows/symbols](https://www.toptal.com/designers/htmlarrows/symbols){:target="blank"} - Designers collection of entities with categories, search and view
 
----
-
 
 

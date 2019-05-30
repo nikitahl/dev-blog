@@ -34,7 +34,9 @@ permalink: /about/
 		<p>Currently I'm a full time frontend developer at <a href="http://visualcomposer.com" target="_blank">visualcomposer.com</a></p>
 		<p>I've started frontend development profession as a job but in a while it became my hobby.</p>
 		<p>In this blog I'll post my observations and share experience related to frontend web development.</p>
-		<p>Follow me: Links in the footer &darr;</p>
+		<p>I do hope that this little blog of mine brings value and knowledge to developers out there.</p>
+		<p>Follow me on:</p>
+		{% include svg-icons.html %}
 	</div>
 </div>
 

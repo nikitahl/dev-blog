@@ -11,10 +11,16 @@ permalink: /about/
 	}
 	.about-image-container {
 		width: 200px;
-		height: 140px;
+		height: 137px;
 		overflow: hidden;
 		border-radius: 50%;
 		margin: 0 30px 0 0
+	}
+	@media screen and (max-width: 768px) {
+		.about-image-container {
+			height: 130px;
+			flex: 0 0 130px;
+		}
 	}
 	@media screen and (max-width: 641px) {
 		.about-container {
@@ -22,6 +28,7 @@ permalink: /about/
 		}
 		.about-image-container {
 			height: 200px;
+			flex: 0 0 200px;
 		}
 	}
 </style>

@@ -10,8 +10,8 @@ permalink: /about/
 		display: flex
 	}
 	.about-image-container {
-		width: 200px;
-		height: 137px;
+		flex: 0 0 200px;
+		height: 200px;
 		overflow: hidden;
 		border-radius: 50%;
 		margin: 0 30px 0 0
@@ -27,6 +27,7 @@ permalink: /about/
 			flex-direction: column
 		}
 		.about-image-container {
+			width: 200px;
 			height: 200px;
 			flex: 0 0 200px;
 		}
@@ -38,11 +39,11 @@ permalink: /about/
 	</div>
 	<div class="about-content-container">
 		<p>Hello, my name is Nikita!</p>
-		<p>Currently I'm a full time frontend developer at <a href="http://visualcomposer.com" target="_blank">visualcomposer.com</a></p>
-		<p>I've started frontend development profession as a job but in a while it became my hobby.</p>
-		<p>In this blog I'll post my observations and share experience related to frontend web development.</p>
+		<p>I'm a full time frontend developer at <a href="http://visualcomposer.com" target="_blank">Visual Composer</a>.</p>
+		<p>Once I've started frontend development profession as a job but in a while it became my hobby.</p>
+		<p>In this blog I'll post my observations and share experience related to frontend web development. Sometimes I write here as well <a href="https://visualcomposer.com/blog/author/nikitahlopov/" target="_blank">Visual Composer blog</a>.</p>
 		<p>I do hope that this little blog of mine brings value and knowledge to developers out there.</p>
-		<p>Follow me on:</p>
+		<p>Find me on:</p>
 		{% include svg-icons.html %}
 	</div>
 </div>

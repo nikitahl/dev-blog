@@ -1,0 +1,61 @@
+#share-bar {
+  margin: 30px 0 0;
+  font-size: 20px;
+}
+
+#share-bar h4 {
+  font-size: 17px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.share-buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.share-button {
+  display: inline-flex;
+  align-items: center;
+  margin: 0 10px 10px 0;
+  padding: 5px 10px 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  color: $white;
+
+  &:hover {
+    color: $white;
+  }
+
+  &.facebook {
+    background: #3b5998;
+  }
+
+  &.twitter {
+    background: #55acee;
+  }
+
+  &.reddit {
+    background: #ff4500;
+  }
+
+  &.linkedin {
+    background: #007bb5;
+  }
+
+  &.email {
+    background: #444444;
+  }
+}
+
+.share-button svg {
+  width: 21px;
+  height: 21px;
+  fill: $white;
+}
+
+.share-button.reddit svg {
+  width: 17px;
+  height: 17px;
+  margin: 0 4px 0 0;
+}

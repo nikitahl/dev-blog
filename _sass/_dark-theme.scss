@@ -57,7 +57,9 @@ $dark-theme-text-color: #fff;
 	h1 a,
 	.nav-controls a,
 	.tags>.tag a,
-	.archive a {
+	.archive a,
+	#share-bar h4,
+	.share-button {
 		color: $dark-theme-text-color;
 	}
 
@@ -154,6 +156,10 @@ $dark-theme-text-color: #fff;
 
 	.about-content-container .svg-icon svg path {
 		fill: $dark-theme-text-color;
+	}
+
+	.share-button:hover {
+		color: $dark-theme-text-color;
 	}
 }
 

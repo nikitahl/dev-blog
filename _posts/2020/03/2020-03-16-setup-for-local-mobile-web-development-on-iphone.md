@@ -6,6 +6,17 @@ tags: [web, development, tips]
 comments: true
 ---
 
+Set up a local environment to develop and debug a web project for an iPhone/iPad device.
+
+This will allow you to inspect elements, use browser console and other development tools that are available in the [Safari browser](https://developer.apple.com/safari/tools/){:target="blank"} right on your mobile device.
+
+**NOTE: This manual will work only for Apple devices. This means that you have to have a MAC computer and an iPhone/iPad.**
+
+1. [Setting up a mobile device (iPhone/iPad)](#1-setting-up-a-mobile-device-iphoneipad)
+2. [Setting up a MAC](#2-setting-up-a-mac-iphoneipad)
+3. [Entering Inspector](#3-entering-inspector)
+4. [Tips](#4-tips)
+
 <style>
 .image-container {
   display: flex;
@@ -21,17 +32,6 @@ comments: true
   width: 50%;
 }
 </style>
-
-Set up a local environment to develop and debug a web project for an iPhone/iPad device.
-
-This will allow you to inspect elements, use browser console and other development tools that are available in the [Safari browser](https://developer.apple.com/safari/tools/){:target="blank"} right on your mobile device.
-
-**NOTE: This manual will work only for Apple devices. This means that you have to have a MAC computer and an iPhone/iPad.**
-
-1. [Setting up a mobile device (iPhone/iPad)](#1-setting-up-a-mobile-device-iphoneipad)
-2. [Setting up a MAC](#2-setting-up-a-mac-iphoneipad)
-3. [Entering Inspector](#3-entering-inspector)
-4. [Tips](#4-tips)
 
 ## 1. Setting up a mobile device (iPhone/iPad)
 

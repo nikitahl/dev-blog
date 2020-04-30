@@ -481,6 +481,20 @@ img {
 
   .read-more {
     font-size: 15px;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.entry {
+  a {
+    text-decoration: underline;
+
+    &:hover {
+      text-decoration: none;
+    }
   }
 }
 

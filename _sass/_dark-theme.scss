@@ -115,7 +115,7 @@ $dark-theme-text-color: #fff;
 
 	code.highlighter-rouge {
 		background-color: #252525;
-		color: #84c4ff;
+		color: #886ddb;
 	}
 
 	.highlight {
@@ -133,8 +133,12 @@ $dark-theme-text-color: #fff;
 	}
 
 	.highlight .kd {
-    color: #c0ca33;
+    color: #d3721e;
 	}
+
+	.highlight .nb {
+    color: #c3b54e;
+}
 
 	.highlight .nt,
 	.highlight .p {

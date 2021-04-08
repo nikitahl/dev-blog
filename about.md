@@ -39,10 +39,10 @@ permalink: /about/
 	</div>
 	<div class="about-content-container">
 		<p>Hello, my name is Nikita!</p>
-		<p>I'm a full time frontend developer at <a href="http://visualcomposer.com" target="_blank">Visual Composer</a>.</p>
+		<p>I'm a full time frontend developer at <a href="http://visualcomposer.com" target="_blank" rel="noreferrer noopener">Visual Composer</a>.</p>
 		<p>Once I've started frontend development profession as a job but in a while it became my hobby.</p>
-		<p>In this blog I'll post my observations and share experience related to frontend web development. Sometimes I write here as well <a href="https://visualcomposer.com/blog/author/nikitahlopov/" target="_blank">Visual Composer blog</a>.</p>
-		<p>I do hope that this little blog of mine brings value and knowledge to developers out there.</p>
+		<p>In this blog I'll post my observations and share experience related to frontend web development.</p>
+		<p>I do hope that this little blog of mine brings value, knowledge and help to developers out there. It is my contribution to the dev community around the world.</p>
 		<p>Find me on:</p>
 		{% include svg-icons.html %}
 	</div>

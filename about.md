@@ -41,7 +41,7 @@ permalink: /about/
 		<p>Hello, my name is Nikita!</p>
 		<p>I'm a full time frontend developer at <a href="http://visualcomposer.com" target="_blank" rel="noreferrer noopener">Visual Composer</a>.</p>
 		<p>Once I've started frontend development profession as a job but in a while it became my hobby.</p>
-		<p>Sometimes I like to make small projects like these:</p>
+		<p>Sometimes I like to make small tools like these:</p>
 		<ul>
 			<li><a href="https://nikitahl.github.io/css-base/">CSS Base</a> - An online tool to prototype and generate a base CSS theme</li>
 			<li><a href="https://nikitahl.github.io/svg-2-code/">SVG to Code</a> - Online tool to convert SVG to code and vice versa</li>

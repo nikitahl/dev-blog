@@ -5,8 +5,7 @@ title: Find string in string with Vanilla JavaScript
 date: 2021-09-15T13:28:24.232Z
 description: A complete guide to find string in string with JavaScript using the
   native String methods
-tags:
-  - js
+tags: [javascript]
 ---
 
 Finding a substring in a string can be done in a variety of ways, depending on your needs.

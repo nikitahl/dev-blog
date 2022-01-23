@@ -5,8 +5,7 @@ title: How to create a new element with class name in JavaScript
 date: 2021-02-02T14:06:55.871Z
 description: A complete guide to create a new element with class name in
   JavaScript. Native solution explained plus a tip on creating a custom function
-tags:
-  - js
+tags: [javascript]
 ---
 
 JavaScript provides a native way to create new elements. A single [`createElement()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement) method is available inside the document object which is [supported by all browsers](https://caniuse.com/mdn-api_document_createelement). But it's not enough to create a new element with a class name or any other attributes for that matter. 

@@ -6,9 +6,7 @@ date: 2021-03-09T20:59:22.941Z
 description: Lazy loading is a great way to boost your page performance. There
   are a few techniques how to lazy load images, videos and iframes natively or
   with JavaScript
-tags:
-  - performance
-  - js
+tags: [performance, javascript]
 ---
 
 Lazy load is a great way how to improve a website's performance. There are few ways how you can achieve that.

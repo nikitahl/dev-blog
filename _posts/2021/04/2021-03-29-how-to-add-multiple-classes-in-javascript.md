@@ -5,8 +5,7 @@ title: Add and remove multiple classes in JavaScript for DOM element
 date: 2021-04-12T07:20:40.572Z
 description: There are different ways how to add and remove multiple classes in
   JavaScript. In this guide I'm showing three ways how you can achieve that.
-tags:
-  - js
+tags: [javascript]
 ---
 Vanilla JavaScript allows you to add or remove multiple classes for the DOM element in 3 different ways. Depending on your needs you may choose one of the following:
 

@@ -5,9 +5,7 @@ title: Full page navigation with smooth scroll to anchor (CSS and JavaScript sol
 date: 2021-06-24T21:24:28.237Z
 description: Create a full page navigation with smooth scroll to anchor. It can
   be done with pure CSS or JavaScript solution.
-tags:
-  - css
-  - js
+tags: [css, javascript]
 ---
 
 A smooth scroll to anchor is a common concept for single-page applications. It features a sliding animation effect that helps the user to understand what’s currently is happening on the device screen. There are two ways you can implement it:

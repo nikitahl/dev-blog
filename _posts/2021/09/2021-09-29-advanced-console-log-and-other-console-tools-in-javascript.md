@@ -5,8 +5,7 @@ title: Advanced console log and other console tools in JavaScript
 date: 2021-09-29T21:18:25.765Z
 description: Tricks and tips to make your JavaScript console log more productive
   and efficient.
-tags:
-  - js
+tags: [javascript]
 ---
 Logging to the console is an essential part of debugging in JavaScript. In this article, I’d like to show you some tricks and tips to make your JavaScript console log more productive and efficient.
 

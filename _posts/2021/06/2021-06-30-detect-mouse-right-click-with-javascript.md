@@ -5,8 +5,7 @@ title: Detect mouse right-click with JavaScript
 date: 2021-06-30T14:22:18.160Z
 description: There are simple ways to detect mouse right-click with JavaScript,
   to handle custom cases for your web app
-tags:
-  - js
+tags: [javascript]
 ---
 
 JavaScript API allows developers to detect mouse right-click. It can be useful if you want to handle specific cases when a user clicks certain buttons on the mouse.

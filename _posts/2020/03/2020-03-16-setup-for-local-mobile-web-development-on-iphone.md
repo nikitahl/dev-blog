@@ -2,7 +2,7 @@
 layout: post
 title: Set up a local environment for mobile web development on iPhone/iPad
 description: Connect iPhone/iPad to a MAC and set up a local environment for mobile web development
-tags: [web, development, tips]
+tags: [development, tips]
 comments: true
 ---
 

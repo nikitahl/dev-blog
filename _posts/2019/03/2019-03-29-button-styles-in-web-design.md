@@ -2,7 +2,7 @@
 layout: post
 title: Modern button styles in web design
 description: An interesting observation of button styles used in web design today.
-tags: [html, css, web, design, ui]
+tags: [html, css]
 comments: true
 ---
 

@@ -6,8 +6,7 @@ date: 2021-08-26T12:21:12.144Z
 description: To get the current date in JavaScript you’ll only need the Vanilla
   JavaScript Date API. All the information about the current date can be
   accessed in one line of code in various formats.
-tags:
-  - js
+tags: [javascript]
 ---
 
 To get the current date in JavaScript you’ll only need the Vanilla JavaScript [Date API](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date). All the information about the current date can be accessed in one line of code in various formats.

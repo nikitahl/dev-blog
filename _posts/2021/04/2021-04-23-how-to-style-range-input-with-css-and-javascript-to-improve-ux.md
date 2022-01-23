@@ -5,10 +5,7 @@ title: Styling range input with CSS and JavaScript for better UX
 date: 2021-04-23T07:36:11.678Z
 description: A complete guide to style range input with CSS and JavaScript to
   make your UI consistent, more usable and visually appealing
-tags:
-  - css
-  - js
-  - html
+tags: [css, javascript, html]
 ---
 
 To style the range input with CSS you'll need to apply styles to two pseudo-elements: [`::-webkit-slider-thumb`](https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-slider-thumb) and [`::-webkit-slider-runnable-track`](https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-slider-runnable-track). Find out how you can apply custom styling and make the range input more functional and appealing.

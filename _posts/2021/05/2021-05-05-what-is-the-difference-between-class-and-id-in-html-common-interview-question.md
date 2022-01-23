@@ -5,10 +5,7 @@ title: What is the difference between class and id in HTML, CSS and JavaScript
 date: 2021-05-05T06:10:30.649Z
 description: A complete guide explaining the difference between class and id
   attributes in HTML, CSS and JavaScript.
-tags:
-  - html
-  - js
-  - css
+tags: [html, javascript, css]
 ---
 
 What is the difference between class and id in HTML, CSS, and JavaScript? That kind of question is quite common in [technical interviews](https://www.zuaneducation.com/blog/front-end-developer-interview-questions-and-answers/) for Front-end developers, especially for beginners.

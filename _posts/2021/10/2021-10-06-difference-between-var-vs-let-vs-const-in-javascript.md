@@ -7,7 +7,7 @@ description: In JavaScript you can declare a variable using one of three ways,
   var, let, or const. Understanding the difference will help you debug and write
   code more effectively.
 tags:
-  - js
+  - javascript
 ---
 
 In JavaScript you can declare a variable using one of three ways, var, let, or const. But how are they different and which one to use? Understanding the difference will help you debug and write code more effectively.

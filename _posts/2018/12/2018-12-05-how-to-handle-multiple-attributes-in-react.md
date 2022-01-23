@@ -2,7 +2,7 @@
 layout: post
 title: How to handle multiple attributes in ReactJS
 description: Handle multiple HTML attributes on an element with ease in ReactJS
-tags: [react, jsx, javascript]
+tags: [react, javascript]
 comments: true
 ---
 

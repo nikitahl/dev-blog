@@ -5,8 +5,7 @@ title: Listen for a class change in JavaScript
 date: 2021-09-01T14:54:54.296Z
 description: JavaScript possesses the ability to listen for a class change right
   out of the box. Without any additional libraries or hacky workarounds.
-tags:
-  - js
+tags: [javascript]
 ---
 
 JavaScript possesses the ability to listen for a class change right out of the box. Without any additional libraries or hacky workarounds. It can be done with the [`MutationObserver` interface](https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver).

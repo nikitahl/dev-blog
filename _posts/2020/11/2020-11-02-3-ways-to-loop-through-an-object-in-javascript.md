@@ -6,8 +6,7 @@ date: 2020-11-05T11:11:22.105Z
 description: There are different ways how to loop through object in JavaScript.
   It includes a built-in approach and a few workarounds that involves working
   with Arrays.
-tags:
-  - js
+tags: [javascript]
 ---
 There are multiple different ways how to loop through object in JavaScript. But ...
 

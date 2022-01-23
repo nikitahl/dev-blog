@@ -5,8 +5,7 @@ title: How to join two arrays in JavaScript
 date: 2021-07-28T06:18:27.830Z
 description: There are few ways how you can join two arrays in JavaScript,
   spread syntax, .concat() method and push() method
-tags:
-  - js
+tags: [javascript]
 ---
 
 There are a few ways how you can join two arrays in JavaScript, a spread syntax, a `concat()` method, and a `push()` method.

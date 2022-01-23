@@ -6,7 +6,7 @@ date: 2021-10-27T19:43:36.781Z
 description: JavaScript has a native and easy-to-use API to listen for element
   resize. ResizeObserver is a modern approach to handle element resize.
 tags:
-  - js
+  - javascript
 ---
 
 JavaScript has a native and easy-to-use API to listen for element resize. `ResizeObserver` is a modern approach to handle element resize.

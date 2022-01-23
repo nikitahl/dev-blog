@@ -2,7 +2,7 @@
 layout: post
 title: 9 Practical tips for beginner web developers
 description: A list of 9 practical tips and advices for beginner web developers
-tags: [web, development, tips]
+tags: [development, tips]
 comments: true
 ---
 

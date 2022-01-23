@@ -6,7 +6,7 @@ date: 2020-10-12T07:42:38.868Z
 description: A definitive guide explaining how to get the dimensions (width and
   height) of an HTML element with plain Vanilla JavaScript.
 tags:
-  - js
+  - javascript
 ---
 This guide will explain to you how to get the width and height of an HTML element with plain Vanilla JavaScript.
 

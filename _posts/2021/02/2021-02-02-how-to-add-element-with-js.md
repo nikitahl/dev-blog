@@ -5,8 +5,7 @@ title: A complete list of methods to add an element to DOM with JavaScript
 date: 2021-02-10T12:00:32.858Z
 description: A definitive guide to help you understand and decide how to add an
   element to DOM with Vanilla JavaScript.
-tags:
-  - js
+tags: [javascript]
 ---
 
 JavaScript API allows developers to add (append) an element to the DOM in several different ways. I'll explain each one of them in detail.

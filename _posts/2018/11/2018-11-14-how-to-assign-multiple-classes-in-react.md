@@ -2,7 +2,7 @@
 layout: post
 title: How to assign multiple class names to an element in React
 description: The complete guide on how to assign multiple class names to an element in React with examples and explanation
-tags: [react, jsx, javascript]
+tags: [react, javascript]
 comments: true
 ---
 

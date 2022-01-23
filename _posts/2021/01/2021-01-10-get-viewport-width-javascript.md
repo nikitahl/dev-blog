@@ -5,8 +5,7 @@ title: A complete guide to get viewport, device and document sizes with JavaScri
 date: 2021-01-15T07:21:23.793Z
 description: A complete guide explaining the difference between device, viewport
   and document, as well as providing ways to get the sizes (width and height)
-tags:
-  - js
+tags: [javascript]
 ---
 
 JavaScript provides a native API to get the width and height of a viewport. But it's important to understand the difference between what sizes you are getting as it may cause you some trouble.

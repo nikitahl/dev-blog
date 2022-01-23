@@ -6,10 +6,19 @@ layout: default
   <h1>{{ page.title }}</h1>
 
   <div class="meta">
+    <b class="date">Published: </b>
     <time class="date" datetime="{{ page.date | date_to_xmlschema }}">
       {{ page.date | date_to_string }}
-    </time>
+    </time> · 
+    <span class="reading-time"><b>Reading time:</b> {% include reading-time.html %}</span> · 
+  </div>
 
+  <div class="entry">
+    {{ content }}
+  </div>
+  {% include share-bar.html %}
+  <div class="tags-container">
+    <b class="tags-label">Tags: </b>
     <ul class="tag">
       {% for tag in page.tags %}
       <li>
@@ -20,13 +29,6 @@ layout: default
       {% endfor %}
     </ul>
   </div>
-
-  <span class="reading-time">{% include reading-time.html %}</span>
-
-  <div class="entry">
-    {{ content }}
-  </div>
-  {% include share-bar.html %}
   <hr />
 
 

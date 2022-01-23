@@ -17,7 +17,7 @@
 /**************/
 
 html {
-  font-size: $base-font-size;
+  font-size: 100%;
   scroll-behavior: smooth;
 }
 
@@ -53,27 +53,28 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 2.3em;
   a {
     color: inherit;
   }
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 1.6em;
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 1.4em;
 }
 
 h4 {
-  font-size: 18px;
+  font-size: 1.3em;
 }
 
 p {
   color: $text-color;
   margin: 15px 0;
+  font-size: 1.1em;
 }
 
 a {
@@ -323,7 +324,7 @@ img {
 //
 
 .wrapper-masthead {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .masthead {
@@ -343,7 +344,7 @@ img {
 
   @include mobile {
     float: none;
-    display: block;
+    display: inline-block;
     margin: 0 auto;
   }
 
@@ -357,7 +358,7 @@ img {
 
   @include mobile {
     float: none;
-    display: block;
+    display: inline-block;
     margin: 0 auto;
   }
 }
@@ -401,12 +402,14 @@ img {
     margin-left: 20px;
     color: $darkGray;
     text-align: right;
-    font-weight: 300;
     letter-spacing: 1px;
 
+    &:hover {
+      color: $gray;
+    }
+
     @include mobile {
-      margin: 0 10px;
-      color: $blue;
+      margin: 0 14px;
     }
   }
 }
@@ -439,11 +442,10 @@ img {
 
 .post {
   h1 {
-    margin-bottom: .1em;
+    margin: 0 0 10px;
   }
 
   .date {
-    font-weight: 300;
     font-size: $small-font-size;
     color: $base-lighten-color;
     margin-right: 3px;
@@ -545,8 +547,7 @@ img {
 .reading-time {
   display: inline-block;
   margin: 10px 0;
-  font-size: 16px;
-  font-style: italic;
+  font-size: 14px;
   color: $base-lighten-color;
 }
 
@@ -659,6 +660,14 @@ footer {
 
 .shadow {
   box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .25);
+}
+
+.tags-container {
+  margin: 20px 0;
+}
+
+.tags-label {
+  font-size: 1.3em;
 }
 
 @media screen and (max-width: 560px) {

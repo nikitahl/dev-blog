@@ -6,8 +6,8 @@ $moon-bg-color: #3e5a98;
 $transition-options: .25s ease-in-out;
 $toggle-width: 30px;
 $toggle-height: $toggle-width/2;
-$dark-theme-background-color: #313131;
-$dark-theme-text-color: #fff;
+$dark-theme-background-color: #1c1e26;
+$dark-theme-text-color: #eee;
 
 .theme-switch {
 	position: relative;
@@ -105,7 +105,8 @@ $dark-theme-text-color: #fff;
   }
 
 	.post .date,
-	.tags > .tag time {
+	.tags > .tag time,
+	.post .reading-time {
 		color: #bfbfbf;
 	}
 
@@ -114,8 +115,8 @@ $dark-theme-text-color: #fff;
 	}
 
 	code.highlighter-rouge {
-		background-color: #252525;
-		color: #886ddb;
+		background-color: #41454e;
+		color: #a5d7fd;
 	}
 
 	.highlight {

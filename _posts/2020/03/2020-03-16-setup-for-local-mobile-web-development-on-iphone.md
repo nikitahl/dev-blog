@@ -18,19 +18,9 @@ This will allow you to inspect elements, use browser console and other developme
 4. [Tips](#4-tips)
 
 <style>
-.image-container {
-  display: flex;
-  justify-content: center;
-  margin: 0 0 20px;
-}
-.image {
-  width: 90%;
-  margin: 0;
-}
-
-.image-vert {
-  width: 50%;
-}
+.image-container {display: flex;justify-content: center;margin: 0 0 20px;flex-direction:column}
+.image {width: 90%margin: 0}
+.image-vert img {width:50%}
 </style>
 
 ## 1. Setting up a mobile device (iPhone/iPad)
@@ -43,8 +33,12 @@ On a mobile device go to:
 
 and enable the Web Inspector switch.
 
-<figure class="image-container">
-  <img class="image image-vert" src="../../../images/connect-iphone-to-mac/iphone-enable-inspect-element.jpg" alt="Enable inspect element on iPhone" />
+<figure class="image-container image-vert">
+  <img class="image shadow lozad" data-src="/images/connect-iphone-to-mac/iphone-enable-inspect-element.jpg" alt="Enable inspect element on iPhone">
+  <noscript>
+    <img class="shadow" src="/images/connect-iphone-to-mac/iphone-enable-inspect-element.jpg" alt="Enable inspect element on iPhone">
+  </noscript>
+  <figcaption>Enable inspect element on iPhone</figcaption>
 </figure>
 
 ## 2. Setting up a MAC (iPhone/iPad)
@@ -54,7 +48,11 @@ You'll need to enable Develop menu in order to access Dev tools if you haven't a
 Open up Safari browser go to **Preferences** and tick _Show Develop menu in menu bar_ checkbox.
 
 <figure class="image-container">
-  <img class="image" src="../../../images/connect-iphone-to-mac/mac-enable-devtools.png" alt="Enable developer tools on a MAC" />
+  <img class="image shadow lozad" data-src="/images/connect-iphone-to-mac/mac-enable-devtools.png" alt="Enable developer tools on a MAC">
+  <noscript>
+    <img class="shadow" src="/images/connect-iphone-to-mac/mac-enable-devtools.png" alt="Enable developer tools on a MAC">
+  </noscript>
+  <figcaption>Enable inspect element on iPhone</figcaption>
 </figure>
 
 ## 3. Entering Inspector
@@ -66,17 +64,29 @@ Connect your device to a computer via cable.
 Open the Safari browser on your device and go to a webpage. Now open a Safari browser on your computer and click on a Develop in a menu. Hover over _Develop_ in the menu and you'll see your device's name and a web page. Click on it and the inspector will open.
 
 <figure class="image-container">
-  <img class="image" src="../../../images/connect-iphone-to-mac/mac-open-iphone-inspector.png" alt="Open web inspector on a MAC" />
+  <img class="image shadow lozad" data-src="/images/connect-iphone-to-mac/mac-open-iphone-inspector.png" alt="Open web inspector on a MAC">
+  <noscript>
+    <img class="shadow" src="/images/connect-iphone-to-mac/mac-open-iphone-inspector.png" alt="Open web inspector on a MAC">
+  </noscript>
+  <figcaption>Open web inspector on a MAC</figcaption>
 </figure>
 
 At this point, you can use element inspector and other tools just like you do on a computer.
 
-<figure class="image-container">
-  <img class="image image-vert" src="../../../images/connect-iphone-to-mac/iphone-safari-website.jpg" alt="iPhone web page on Safari" />
+<figure class="image-container image-vert">
+  <img class="image shadow lozad" data-src="/images/connect-iphone-to-mac/iphone-safari-website.jpg" alt="iPhone web page on Safari">
+  <noscript>
+    <img class="shadow" src="/images/connect-iphone-to-mac/iphone-safari-website.jpg" alt="iPhone web page on Safari">
+  </noscript>
+  <figcaption>iPhone web page on Safari</figcaption>
 </figure>
 
 <figure class="image-container">
-  <img class="image" src="../../../images/connect-iphone-to-mac/mac-iphone-inspector.png" alt="MAC iPhone web inspector" />
+  <img class="image shadow lozad" data-src="/images/connect-iphone-to-mac/mac-iphone-inspector.png" alt="MAC iPhone web inspector">
+  <noscript>
+    <img class="shadow" src="/images/connect-iphone-to-mac/mac-iphone-inspector.png" alt="MAC iPhone web inspector">
+  </noscript>
+  <figcaption>MAC iPhone web inspector</figcaption>
 </figure>
 
 ## 4. Tips
@@ -87,9 +97,10 @@ A quick tip while debugging you might want to clear browser cache, to do that go
 
 and click **Clear History and Data**.
 
-<figure class="image-container">
-  <img class="image image-vert" src="../../../images/connect-iphone-to-mac/iphone-clear-browser-cache.jpg" alt="iPhone clear browser cache" />
+<figure class="image-container image-vert">
+  <img class="image shadow lozad" data-src="/images/connect-iphone-to-mac/iphone-clear-browser-cache.jpg" alt="iPhone clear browser cache">
+  <noscript>
+    <img class="shadow" src="/images/connect-iphone-to-mac/iphone-clear-browser-cache.jpg" alt="iPhone clear browser cache">
+  </noscript>
+  <figcaption>iPhone clear browser cache</figcaption>
 </figure>
-
-
-

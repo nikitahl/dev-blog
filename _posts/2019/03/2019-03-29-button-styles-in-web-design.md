@@ -76,6 +76,10 @@ Keeping this in mind, if you think about it, there are 6 main style types of but
 	  border-radius: 4em;
 	}
 
+	figure {
+		margin-bottom: 40px;
+	}
+
 	@media screen and (max-width: 600px) {
 		.btn-container {
 		  flex-direction: column;
@@ -85,10 +89,6 @@ Keeping this in mind, if you think about it, there are 6 main style types of but
 		.btn {
 		  margin: 0 0 30px;
 		}
-	}
-
-	img {
-		box-shadow: 0px 4px 5px 1px rgba(0, 0, 0, 0.6);
 	}
 </style>
 
@@ -110,23 +110,53 @@ Of course there are exceptions and you may find some bizarre and fancy buttons o
 
 Below are some of the most famous services and resources putting these principles into practice.
 
-Awwwards
-![Awwwards buttons](../../../images/button-styles/awwwards-buttons.png "Awwwards buttons")
+<figure>
+  <img class="shadow lozad" data-src="/images/button-styles/awwwards-buttons.png" alt="Awwwards buttons">
+  <noscript>
+    <img class="shadow" src="/images/button-styles/awwwards-buttons.png" alt="Awwwards buttons">
+  </noscript>
+  <figcaption>Awwwards buttons</figcaption>
+</figure>
 
-Gmail
-![Gmail buttons](../../../images/button-styles/gmail-buttons.png "Gmail buttons")
+<figure>
+  <img class="shadow lozad" data-src="/images/button-styles/gmail-buttons.png" alt="Gmail buttons">
+  <noscript>
+    <img class="shadow" src="/images/button-styles/gmail-buttons.png" alt="Gmail buttons">
+  </noscript>
+  <figcaption>Gmail buttons</figcaption>
+</figure>
 
-Instagram
-![Instagram buttons](../../../images/button-styles/instagram-buttons.png "Instagram buttons")
+<figure>
+  <img class="shadow lozad" data-src="/images/button-styles/instagram-buttons.png" alt="Instagram buttons">
+  <noscript>
+    <img class="shadow" src="/images/button-styles/instagram-buttons.png" alt="Instagram buttons">
+  </noscript>
+  <figcaption>Instagram buttons</figcaption>
+</figure>
 
-Medium
-![Medium buttons](../../../images/button-styles/medium-buttons.png "Medium buttons")
+<figure>
+  <img class="shadow lozad" data-src="/images/button-styles/medium-buttons.png" alt="Medium buttons">
+  <noscript>
+    <img class="shadow" src="/images/button-styles/medium-buttons.png" alt="Medium buttons">
+  </noscript>
+  <figcaption>Medium buttons</figcaption>
+</figure>
 
-Reddit
-![Reddit buttons](../../../images/button-styles/reddit-buttons.png "Reddit buttons")
+<figure>
+  <img class="shadow lozad" data-src="/images/button-styles/reddit-buttons.png" alt="Reddit buttons">
+  <noscript>
+    <img class="shadow" src="/images/button-styles/reddit-buttons.png" alt="Reddit buttons">
+  </noscript>
+  <figcaption>Reddit buttons</figcaption>
+</figure>
 
-Twitter
-![Twitter buttons](../../../images/button-styles/twitter-buttons.png "Twitter buttons")
+<figure>
+  <img class="shadow lozad" data-src="/images/button-styles/twitter-buttons.png" alt="Twitter buttons">
+  <noscript>
+    <img class="shadow" src="/images/button-styles/twitter-buttons.png" alt="Twitter buttons">
+  </noscript>
+  <figcaption>Twitter buttons</figcaption>
+</figure>
 
 Check out these awesome [buttons on Codepen](https://codepen.io/search/pens?q=buttons&page=1&order=popularity&depth=everything){:target="blank"} and notice that most of them uses the same kind of design princilpes.
 

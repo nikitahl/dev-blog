@@ -41,7 +41,13 @@ Check out MDN full docs on [find() method](https://developer.mozilla.org/en-US/d
 
 **Browser support** for `find()`:
 
-![Array.prototype.find() method browser support](../../../images/find-array-items/array-find-method-browser-compatibility.png "Array.prototype.find() method browser support")
+<figure>
+  <img class="shadow lozad" data-src="/images/find-array-items/array-find-method-browser-compatibility.png" alt="Array.prototype.find() method browser support">
+  <noscript>
+    <img class="shadow" src="/images/find-array-items/array-find-method-browser-compatibility.png" alt="Array.prototype.find() method browser support">
+  </noscript>
+  <figcaption>Array.prototype.find() method browser support</figcaption>
+</figure>
 
 ## findIndex() method
 > The `findIndex()` method returns the index of the first element in the array that satisfies the provided testing function. Otherwise, it returns -1, indicating no element passed the test.
@@ -71,7 +77,13 @@ Check out MDN full docs on [findIndex() method](https://developer.mozilla.org/en
 
 **Browser support** for `findIndex()`:
 
-![Array.prototype.findIndex() method browser support](../../../images/find-array-items/array-findindex-method-browser-compatibility.png "Array.prototype.findIndex() method browser support")
+<figure>
+  <img class="shadow lozad" data-src="/images/find-array-items/array-findindex-method-browser-compatibility.png" alt="Array.prototype.findIndex() method browser support">
+  <noscript>
+    <img class="shadow" src="/images/find-array-items/array-findindex-method-browser-compatibility.png" alt="Array.prototype.findIndex() method browser support">
+  </noscript>
+  <figcaption>Array.prototype.findIndex() method browser support</figcaption>
+</figure>
 
 ## indexOf() method
 > The `indexOf()` method returns the first index at which a given element can be found in the array, or `-1` if it is not present.
@@ -106,7 +118,13 @@ Check out MDN full docs on [indexOf() method](https://developer.mozilla.org/en-U
 
 **Browser support** for `indexOf()`:
 
-![Array.prototype.indexOf() method browser support](../../../images/find-array-items/array-indexof-method-browser-compatibility.png "Array.prototype.indexOf() method browser support")
+<figure>
+  <img class="shadow lozad" data-src="/images/find-array-items/array-indexof-method-browser-compatibility.png" alt="Array.prototype.indexOf() method browser support">
+  <noscript>
+    <img class="shadow" src="/images/find-array-items/array-indexof-method-browser-compatibility.png" alt="Array.prototype.indexOf() method browser support">
+  </noscript>
+  <figcaption>Array.prototype.indexOf() method browser support</figcaption>
+</figure>
 
 ## for loop
 > The `for` statement creates a loop that consists of three optional expressions, enclosed in parentheses and separated by semicolons, followed by a statement (usually a block statement) to be executed in the loop.
@@ -146,7 +164,13 @@ Check out MDN full docs on [for loop](https://developer.mozilla.org/en-US/docs/W
 
 **Browser support** for `for` loop:
 
-![for loop browser support](../../../images/find-array-items/for-loop-browser-compatibility.png "for loop browser support")
+<figure>
+  <img class="shadow lozad" data-src="/images/find-array-items/for-loop-browser-compatibility.png" alt="for loop browser support">
+  <noscript>
+    <img class="shadow" src="/images/find-array-items/for-loop-browser-compatibility.png" alt="for loop browser support">
+  </noscript>
+  <figcaption>for loop browser support</figcaption>
+</figure>
 
 ## jsperf performance test
 
@@ -156,11 +180,23 @@ The test is pretty simple, it creates an array of numbers and then tests each ap
 
 Test results:
 
-![Find array item results](../../../images/find-array-items/find-array-item-results.png "Find array item results")
+<figure>
+  <img class="shadow lozad" data-src="/images/find-array-items/find-array-item-results.png" alt="Find array item results">
+  <noscript>
+    <img class="shadow" src="/images/find-array-items/find-array-item-results.png" alt="Find array item results">
+  </noscript>
+  <figcaption>Find array item results</figcaption>
+</figure>
 
 Test results chart snapshot:
 
-![Find array item results chart snapshot](../../../images/find-array-items/find-array-item-results-snapshot.png "Find array item results chart snapshot")
+<figure>
+  <img class="shadow lozad" data-src="/images/find-array-items/find-array-item-results-snapshot.png" alt="Find array item results chart snapshot">
+  <noscript>
+    <img class="shadow" src="/images/find-array-items/find-array-item-results-snapshot.png" alt="Find array item results chart snapshot">
+  </noscript>
+  <figcaption>Find array item results chart snapshot</figcaption>
+</figure>
 
 As you can see the `for` loop is the fastest way to find an item in an array.
 

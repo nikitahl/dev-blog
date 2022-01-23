@@ -18,8 +18,10 @@
 
     {% include analytics.html %}
     <script type="text/javascript">
-      (function () {
+      (function (w, d) {
         var themeToggle = document.getElementById("theme-toggle");
+        var m = d.querySelector("#main")
+        var i = m.querySelectorAll("img,iframe,video");
 
         function toggleTheme(e) {
           var theme = window.localStorage.theme;
@@ -31,10 +33,28 @@
           }
           document.body.classList.add("theme-" + window.localStorage.theme);
         }
-        
         themeToggle.addEventListener("click", toggleTheme);
         toggleTheme();
-      })();
+
+        if (i.length) {
+          var b = d.body;
+          var s = d.createElement("script"); s.async = true;
+          s.src = "https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js";
+          b.appendChild(s);
+
+          function initLozad () {
+            if (window.lozad) {
+              var observer = lozad();
+              observer.observe();
+            } else {
+              setTimeout(function () {
+                initLozad();
+              }, 90);
+            }
+          }
+          initLozad();
+        }
+      })(window, document);
     </script>
   </body>
 </html>

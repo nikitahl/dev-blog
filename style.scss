@@ -18,13 +18,16 @@
 
 html {
   font-size: $base-font-size;
+  scroll-behavior: smooth;
 }
 
 body {
-  //font-family: $base-font;
   font-family: $helveticaNeue;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   color: $base-color;
   line-height: 1.6;
+  overflow-wrap: break-word;
 }
 
 .container {
@@ -45,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-h1, h2, h3, h5 {
+h1, h2, h3, h4, h5 {
   font-weight: bold;
 }
 
@@ -65,18 +68,12 @@ h3 {
 }
 
 h4 {
-  font-size: 20px;
-  color: $base-lighten-color;
-}
-
-h6 {
-  color: $base-lighten-color;
+  font-size: 18px;
 }
 
 p {
   color: $text-color;
   margin: 15px 0;
-  letter-spacing: .3px;
 }
 
 a {
@@ -496,6 +493,19 @@ img {
       text-decoration: none;
     }
   }
+
+  img {
+    margin: 0 auto;
+  }
+
+  figcaption,
+  .figcaption {
+    display: block;
+    margin: 20px 0 0;
+    color: #555;
+    text-align: center;
+    font-size: 0.75em;
+  }
 }
 
 .pagination {
@@ -537,7 +547,7 @@ img {
   margin: 10px 0;
   font-size: 16px;
   font-style: italic;
-  color: $oc-gray-6;
+  color: $base-lighten-color;
 }
 
 // Archive
@@ -609,7 +619,7 @@ footer {
   text-align: center;
 
   p {
-    font-size: $fine-font-size;
+    font-size: 13px;
   }
 }
 
@@ -645,6 +655,10 @@ footer {
 .yt-iframe {
   width: 100%;
   height: 420px;
+}
+
+.shadow {
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .25);
 }
 
 @media screen and (max-width: 560px) {

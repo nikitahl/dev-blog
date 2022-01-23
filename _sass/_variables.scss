@@ -30,7 +30,7 @@ $fine-font-size: 11px;
 
 // Colors
 $base-color: $oc-gray-8;
-$base-lighten-color: $oc-gray-6;
+$base-lighten-color: #6a7178;
 
 $text-color: $base-color;
 $link-color: $oc-blue-8;
@@ -48,7 +48,7 @@ $footnote-link-background-over-color: $oc-gray-1;
 $selection-color: $oc-black;
 $selection-background-color: $oc-gray-1;
 
-$pagination-color: $oc-gray-6;
+$pagination-color: $base-lighten-color;
 $pagination-over-color: $oc-gray-7;
 
 $tag-index-label-color: $base-color;

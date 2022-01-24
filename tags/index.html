@@ -36,7 +36,7 @@ permalink: /tags/
             {% endif %}
                 {{ post.title }}
               </a>
-              <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%Y-%m-%d" }}</time>
+              <time class="date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time>
           </li>
         {% endif %}
       {% endfor %}

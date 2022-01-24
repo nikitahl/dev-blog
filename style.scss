@@ -499,15 +499,15 @@ img {
   img {
     margin: 0 auto;
   }
+}
 
-  figcaption,
-  .figcaption {
-    display: block;
-    margin: 20px 0 0;
-    color: #555;
-    text-align: center;
-    font-size: 0.75em;
-  }
+figcaption,
+.figcaption {
+  display: block;
+  margin: 20px 0 0;
+  color: #555;
+  text-align: center;
+  font-size: 0.75em;
 }
 
 .pagination {
@@ -610,7 +610,7 @@ img {
 
 // Footer
 .wrapper-footer {
-  margin-top: 50px;
+  margin-top: 20px;
   border-top: 1px solid $footer-border-color;
   background-color: $footer-background-color;
 }
@@ -621,6 +621,14 @@ footer {
 
   p {
     font-size: 13px;
+  }
+
+  a {
+    text-decoration: underline;
+
+    &:hover {
+      text-decoration: none;
+    }
   }
 }
 

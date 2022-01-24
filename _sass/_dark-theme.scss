@@ -96,8 +96,8 @@ $dark-theme-text-color: #eee;
 
 	.post .tag li > a,
 	.tags > .label > li > a {
-		color: #ccc;
-    background-color: #7b7b7b;
+		color: #fbf9f9;
+    background-color: #575656;
 	}
 
 	.tags > .label > li > a span.count {
@@ -120,11 +120,6 @@ $dark-theme-text-color: #eee;
 	}
 
 	.highlight {
-		background: #191919;
-		border-radius: 3px;
-	}
-
-	pre.highlight {
 		background: #191919;
 		border-color: #3b3b3c;
 	}
@@ -150,6 +145,14 @@ $dark-theme-text-color: #eee;
     color: #ffb74d;
   }
 
+	.highlight .na {
+    color: #a8f261;
+  }
+	.highlight .s,
+	.highlight .s2 {
+    color: #ff75bc;
+  }
+
 	th, td {
 		border-color: #6b6b6b;
 	}
@@ -165,6 +168,11 @@ $dark-theme-text-color: #eee;
 
 	.share-button:hover {
 		color: $dark-theme-text-color;
+	}
+
+	figcaption,
+  .figcaption {
+		color: #9c9c9c;
 	}
 }
 

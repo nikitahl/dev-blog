@@ -3,16 +3,33 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
 
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="{{ site.url }}{{ site.avatar }}" />
     {% if page.description %}
     <meta name="description" content="{{ page.description }}">
-    <meta property="og:description" content="{{ page.description }}" />
     {% else %}
     <meta name="description" content="{{ page.excerpt| strip_html }}" />
-    <meta property="og:description" content="{{ page.excerpt| strip_html }}" />
     {% endif %}
-    <meta name="author" content="{{ site.name }}" />
+
+    <!-- Social: Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@{{site.footer-links.twitter}}">
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    {% if page.image %}
+    <meta property="twitter:image:src" content="{{ site.url }}{{ site.baseurl }}{{page.image }}">
+    {% else %}
+    <meta property="twitter:image:src" content="{{ "/images/social-card.png" | prepend: site.baseurl | prepend: site.url }}">
+    {% endif %}
+
+    <!-- Social: Facebook / Open Graph -->
+    <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    {% if page.image %}
+    <meta property="og:image" content="{{ site.url }}{{page.image }}">
+    {% else %}
+    <meta property="og:image" content="{{ "/images/social-card.png" | prepend: site.baseurl | prepend: site.url }}">
+    {% endif %}
+    <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <meta property="og:site_name" content="{{ site.name }}">
 
     {% if site.google_verify %}
     <meta name="google-site-verification" content="{{ site.google_verify }}">

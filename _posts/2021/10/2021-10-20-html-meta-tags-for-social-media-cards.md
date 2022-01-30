@@ -5,8 +5,7 @@ title: HTML meta tags for social media cards
 date: 2021-10-20T10:21:57.066Z
 description: A complete guide to create beautiful cards using HTML meta tags for
   social media
-tags:
-  - html
+tags: [html, seo]
 ---
 Your website can have a social media card so that when you share it online it looks more appealing and provide additional information for people. To do so you’ll need to add HTML meta tags for social media.
 

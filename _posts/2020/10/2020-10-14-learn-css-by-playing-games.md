@@ -1,15 +1,14 @@
 ---
 layout: post
 permalink: learn-css-by-playing-games
-title: List of 11 FREE CSS practice games to improve your skills
+title: List of 12 FREE CSS practice games to improve your skills
 date: 2020-10-20T07:31:03.079Z
 description: One of the best ways to learn CSS is by playing games. In this
-  article I showcase eleven free online games to learn CSS and practice your CSS
+  article I showcase twelve free online games to learn and practice your CSS
   skills.
-tags:
-  - resources
-  - css
+tags: [resources, css]
 ---
+
 One of the best ways to learn something new is by playing. The same principle can be applied when learning CSS.
 
 Playing games is fun and you can constantly re-play them. Also, by playing games you:
@@ -162,7 +161,21 @@ From the creators of Flex Box Adventure, is the Grid Attack game. Demons kidnapp
 
 **Website:** <https://codingfantasy.com/games/css-grid-attack>
 
-## 11. CSS Battle
+## 11. CSS Speedrun
+
+<figure>
+  <img class="shadow lozad" data-src="/images/resources/css-speedrun.png" alt="CSS Speedrun game">
+  <noscript>
+    <img class="shadow" src="/images/resources/css-speedrun.png" alt="CSS Speedrun game">
+  </noscript>
+  <figcaption>CSS Speedrun</figcaption>
+</figure>
+
+A nice little game to practice your CSS selectors knowledge. Game has 10 levels. You have to input a selector to match elements marked on the example. All this while time is ticking.
+
+**Website:** <https://css-speedrun.netlify.app>
+
+## 12. CSS Battle
 
 <figure>
   <img class="shadow lozad" data-src="/images/resources/cssbattle.jpg" alt="CSS Battle game">

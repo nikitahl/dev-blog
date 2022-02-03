@@ -199,7 +199,7 @@ At the top of your document, right after the `head` closing tag you can another 
 
 ## Conclusion
 
-Adding lazy loading to your page is not that hard as it may sound. However, you may want to spend some additional time experimenting and testing the best solution for your case.
+Adding lazy loading to your page is not that hard as it may sound. However, you may want to spend some additional time experimenting and testing the best solution for your case. It's a great way to [optimize images](/optimize-images-for-seo) on your page to boost performance.
 
 Make sure to come back to this article if you forget something or use it for reference in your future work.
 

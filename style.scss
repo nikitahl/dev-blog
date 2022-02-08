@@ -338,14 +338,13 @@ img {
 
 .site-avatar {
   float: left;
-  width: 70px;
-  height: 70px;
-  margin-right: 15px;
+  width: 55px;
+  height: 55px;
+  margin: 7px 15px 0 0;
 
   @include mobile {
     float: none;
     display: inline-block;
-    margin: 0 auto;
   }
 
   img {

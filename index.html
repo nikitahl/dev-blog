@@ -16,8 +16,8 @@ layout: default
       </h2>
 
       <div class="meta">
-        <time class="date" datetime="{{ post.date | date: '%Y-%m-%d' }}">
-          {{ post.date | date: "%Y-%m-%d" }}
+        <time class="date" datetime="{{ post.date | date_to_xmlschema }}">
+          {{ post.date | date_to_string }}
         </time>
 
         <ul class="tag">

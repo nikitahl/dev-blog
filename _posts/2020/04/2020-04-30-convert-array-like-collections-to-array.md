@@ -1,12 +1,16 @@
 ---
 layout: post
-title: 3 ways how to convert NodeList or HTMLCollection to an array with JavaScript
-description: A breakdown of 3 ways how and why to convert a NodeList or HTMLCollection of elements to an Array with Vanilla JavaScript API
+title: Convert a NodeList or HTMLCollection to an Array with JavaScript
+description: A breakdown of 3 ways of how and why to convert a NodeList or HTMLCollection of elements to an Array with Vanilla JavaScript
 tags: [javascript]
 comments: true
 ---
 
-There are 3 native ways in JavaScript API to convert `NodeList` or `HTMLCollection` to an `Array`.
+There are 3 ways to convert `NodeList` or `HTMLCollection` to an `Array` in JavaScript.
+
+1. [Array.from()](#1-arrayfrom)
+2. [Spread syntax](#2-spread-syntax)
+3. [Array.prototype.slice.call()](#3-arrayprototypeslicecall)
 
 ## What are a `NodeList` and `HTMLCollection`?
 
@@ -32,7 +36,7 @@ This property will return all form elements on the page and the result will be a
 
 Both `NodeList` and `HTMLCollection` are collections and they might look like an `Array` and even possess some properties and methods inherent to arrays, they're still not actual arrays.
 
-This means if you're willing to use [`Array` methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) on your `NodeList`s and `HTMLCollection`s then you'll need to convert them into an actual Array.
+This means if you're willing to use [`Array` methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) like `.map()`, `.filter()`, `.sort()` on your `NodeList`s and `HTMLCollection`s then you'll need to convert them into an actual Array.
 
 ## 1. Array.from()
 
@@ -76,13 +80,13 @@ const documentFormsArray = [...documentForms]
 documentFormsArray // Will output an Array
 ```
 
-This approach is useful when joining arrays.
+This approach is useful when [joining arrays](/join-arrays-in-javascript).
 
 **[Browser Support](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax#Browser_compatibility):** All major browsers except IE.
 
 ## 3. Array.prototype.slice.call()
 
-This is the old school method, due to it's fully cross-browser.
+This is the old school method, when modern features like the ones above weren't available.
 
 What this piece of code does is it takes the [`.slice()` method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice) from `Array` prototype and then invokes this method by binding it to the object (in our case `NodeList` or `HTMLCollection`) via [`.call()` method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call).
 

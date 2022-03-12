@@ -338,9 +338,12 @@ img {
 
 .site-avatar {
   float: left;
-  width: 55px;
-  height: 55px;
+  width: 65px;
+  height: 65px;
   margin: 7px 15px 0 0;
+  padding: 5px;
+  border-radius: 5px;
+  background: #3e3e3e;
 
   @include mobile {
     float: none;
@@ -479,9 +482,10 @@ img {
 
   .read-more {
     font-size: 15px;
+    text-decoration: underline;
 
     &:hover {
-      text-decoration: underline;
+      text-decoration: none;
     }
   }
 }
@@ -497,6 +501,10 @@ img {
 
   img {
     margin: 0 auto;
+  }
+
+  figure {
+    margin: 20px 0;
   }
 }
 
@@ -627,6 +635,29 @@ footer {
 
     &:hover {
       text-decoration: none;
+    }
+  }
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+    list-style: none;
+    margin: 0 10px;
+    flex: 0 0 35px;
+
+    &::before {
+      display: none;
+    }
+
+    svg {
+      fill: #222;
     }
   }
 }

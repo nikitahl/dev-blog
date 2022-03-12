@@ -162,7 +162,8 @@ $dark-theme-text-color: #eee;
     background-color: #414142;
 	}
 
-	.about-content-container .svg-icon svg path {
+	.about-content-container .svg-icon svg path,
+	.footer-icons li svg {
 		fill: $dark-theme-text-color;
 	}
 

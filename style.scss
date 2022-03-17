@@ -28,6 +28,7 @@ body {
   color: $base-color;
   line-height: 1.6;
   overflow-wrap: break-word;
+  font-size: 1.1em;
 }
 
 .container {
@@ -54,6 +55,7 @@ h1, h2, h3, h4, h5 {
 
 h1 {
   font-size: 2.3em;
+  line-height: 1.4;
   a {
     color: inherit;
   }
@@ -74,7 +76,6 @@ h4 {
 p {
   color: $text-color;
   margin: 15px 0;
-  font-size: 1.1em;
 }
 
 a {
@@ -406,8 +407,9 @@ img {
     text-align: right;
     letter-spacing: 1px;
 
-    &:hover {
-      color: $gray;
+    &:hover,
+    &.active {
+      color: $link-color;
     }
 
     @include mobile {
@@ -659,6 +661,10 @@ footer {
     svg {
       fill: #222;
     }
+  }
+
+  a:hover svg {
+    fill: $link-color;
   }
 }
 

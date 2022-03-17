@@ -10,14 +10,29 @@
         <p class="site-description">{{ site.description }}</p>
       </div>
 
+      {% for entry in site.navigation %}
+        {% capture fullurl %}{{ site.baseurl }}{{ entry.url }}{% endcapture %}
+        {% if fullurl == page.url %}
+          {% assign current_page = fullurl %}
+          {% break %}
+        {% elsif page.url contains fullurl %}
+          {% assign current_page = fullurl %}
+        {% endif %}
+      {% endfor %}
+
       <div class="nav-controls">
         <nav>
           {% for nav in site.navigation %}
-          {% if nav.url contains 'http://' or nav.url contains 'https://' %}
-          <a href="{{ nav.url }}">{{ nav.name }}</a>
-          {% else %}
-          <a href="{{ site.baseurl }}{{ nav.url }}">{{ nav.name }}</a>
-          {% endif %}
+            {% if nav.url == current_page %}
+              {% assign current = 'class="active"' %}
+            {% else %}
+              {% assign current = null %}
+            {% endif %}
+            {% if nav.url contains 'http://' or nav.url contains 'https://' %}
+              <a href="{{ nav.url }}" {{ current }}>{{ nav.name }}</a>
+            {% else %}
+              <a href="{{ site.baseurl }}{{ nav.url }}" {{ current }}>{{ nav.name }}</a>
+            {% endif %}
           {% endfor %}
         </nav>
         <span class="theme-switch" id="theme-toggle" title="Toggle theme"></span>

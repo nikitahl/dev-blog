@@ -74,7 +74,10 @@ $dark-theme-text-color: #eee;
 	.posts h2 a:hover,
 	.posts h2 a:active,
 	.post h2 a:hover,
-	.post h2 a:active {
+	.post h2 a:active,
+	.nav-controls a:hover,
+	.nav-controls a:active,
+	.nav-controls a.active {
     color: #14baff;
 	}
 
@@ -165,6 +168,11 @@ $dark-theme-text-color: #eee;
 	.about-content-container .svg-icon svg path,
 	.footer-icons li svg {
 		fill: $dark-theme-text-color;
+	}
+
+	.footer-icons a:hover svg,
+	.footer-icons a:active svg {
+		fill: #14baff;
 	}
 
 	.share-button:hover {

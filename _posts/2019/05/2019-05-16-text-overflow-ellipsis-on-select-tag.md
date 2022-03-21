@@ -2,6 +2,7 @@
 layout: post
 title: Text overflow ellipsis on select tag
 description: Applying a CSS text-overflow property on select tag for an ellipsis effect
+updated: 2022-03-21T18:16:21.123Z
 tags: [html, css]
 comments: true
 ---
@@ -38,7 +39,7 @@ The <code>text-overflow</code> CSS property sets how hidden overflow content is 
 
 **NOTE: text-overflow property applies to block container elements**
 
-So we have a unique form element that is hard to style and the question is - how does one apply the `text-overflow` property to a `select` tag? The answer is with a little bit of HTML and a sprinkle of JavaScript.
+So we have a unique form element that is hard to style and the question is - how does one apply the `text-overflow` property to a `select` tag and [handle text overflow](/pure-css-truncate-text)? The answer is with a little bit of HTML and a sprinkle of JavaScript.
 
 The main idea is to get the value of the `select` tag and store it in the `data` attribute of the container element. Then display it with the help of CSS.
 

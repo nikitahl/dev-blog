@@ -3,10 +3,9 @@ layout: post
 permalink: pure-css-truncate-text
 title: How to handle long text overflow with pure CSS (truncate/ellipsis, wrap)
 date: 2021-05-11T20:14:20.122Z
-description: A complete guide explaining how to utilize pure CSS properties to
-  truncate and wrap long overflowing text
-tags:
-  - css
+updated: 2022-03-21T18:16:21.123Z
+description: A complete guide explaining how to utilize pure CSS properties to truncate and wrap long overflowing text
+tags: [css]
 ---
 
 When working on a website or a web app texts are often overlooked, that’s when issues like overflowing text occur. To solve that, you can use some solutions like truncating or *ellipsizing* a text (add three dots) or wrapping the text.
@@ -68,6 +67,8 @@ Another option to wrap text is to use the [`overflow-wrap`](https://developer.mo
 The [`text-overflow`](https://developer.mozilla.org/en-US/docs/Web/CSS/text-overflow) property will add an ellipsis (will add three dots) to a text if it doesn't fit inside the container. This approach is handy if you want to keep text in a single line. However, with some additional modifications, it can be made for multiline text as well.
 
 The `text-overflow` property with a value of `ellipsis` must be set on a parent element, relative to the text. Two additional properties must be specified `overflow` and `white-space`.
+
+**NOTE: Learn how to handle [text overflow for select tag](/text-overflow-ellipsis-on-select-tag).**
 
 #### Single line
 

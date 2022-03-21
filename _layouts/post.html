@@ -10,6 +10,12 @@ layout: default
     <time class="date" datetime="{{ page.date | date_to_xmlschema }}">
       {{ page.date | date_to_string }}
     </time> · 
+    {% if page.updated %}
+      <b class="date">Updated: </b>
+      <time class="date" datetime="{{ page.updated | date_to_xmlschema }}">
+        {{ page.updated | date_to_string }}
+      </time> · 
+    {% endif %}
     <span class="reading-time"><b>Reading time:</b> {% include reading-time.html %}</span>
   </div>
 

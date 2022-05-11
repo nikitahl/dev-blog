@@ -444,7 +444,27 @@ img {
   }
 }
 
+.post-container {
+  display: flex;
+}
+
+.side-banner {
+  flex: 1 0 auto;
+  position: sticky;
+  top: 10px;
+  align-self: flex-start;
+  margin-left: 20px;
+  box-shadow: 0 0 8px 1px rgba(0, 0, 0, .1);
+}
+
+.bottom-banner {
+  display: none;
+  box-shadow: 0 2px 8px 1px rgba(0, 0, 0, .1);
+}
+
 .post {
+  flex: 1 0 auto;
+  max-width: 100%;
   h1 {
     margin: 0 0 10px;
   }
@@ -712,6 +732,23 @@ footer {
 
 .tags-label {
   font-size: 1.3em;
+}
+
+@media screen and (max-width: 1100px) {
+  .side-banner {
+    flex: 1 0 11vw;
+    margin-left: 14px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .side-banner {
+    display: none;
+  }
+
+  .bottom-banner {
+    display: block;
+  }
 }
 
 @media screen and (max-width: 560px) {

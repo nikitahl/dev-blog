@@ -2,61 +2,72 @@
 layout: default
 ---
 
-<article class="post">
-  <h1>{{ page.title }}</h1>
+<div class="post-container">
+  <article class="post">
+    <h1>{{ page.title }}</h1>
 
-  <div class="meta">
-    <b class="date">Published: </b>
-    <time class="date" datetime="{{ page.date | date_to_xmlschema }}">
-      {{ page.date | date_to_string }}
-    </time> · 
-    {% if page.updated %}
-      <b class="date">Updated: </b>
-      <time class="date" datetime="{{ page.updated | date_to_xmlschema }}">
-        {{ page.updated | date_to_string }}
+    <div class="meta">
+      <b class="date">Published: </b>
+      <time class="date" datetime="{{ page.date | date_to_xmlschema }}">
+        {{ page.date | date_to_string }}
       </time> · 
-    {% endif %}
-    <span class="reading-time"><b>Reading time:</b> {% include reading-time.html %}</span>
-  </div>
+      {% if page.updated %}
+        <b class="date">Updated: </b>
+        <time class="date" datetime="{{ page.updated | date_to_xmlschema }}">
+          {{ page.updated | date_to_string }}
+        </time> · 
+      {% endif %}
+      <span class="reading-time"><b>Reading time:</b> {% include reading-time.html %}</span>
+    </div>
 
-  <div class="entry">
-    {{ content }}
-  </div>
-  {% include share-bar.html %}
-  <div class="tags-container">
-    <b class="tags-label">Tags: </b>
-    <ul class="tag">
-      {% for tag in page.tags %}
-      <li>
-        <a href="{{ site.url }}{{ site.baseurl }}/tags#{{ tag }}">
-          {{ tag }}
-        </a>
-      </li>
-      {% endfor %}
-    </ul>
-  </div>
-  <hr />
-
-  <div class="pagination">
-    {% if page.previous.url %}
-      <span class="prev" >
-          <a href="{{ site.url }}{{ site.baseurl }}{{ page.previous.url }}">
-            ⟨ Previous
-            <br />
-            <b>{{ page.previous.title }}</b>
+    <div class="entry">
+      {{ content }}
+    </div>
+    {% include share-bar.html %}
+    <div class="tags-container">
+      <b class="tags-label">Tags: </b>
+      <ul class="tag">
+        {% for tag in page.tags %}
+        <li>
+          <a href="{{ site.url }}{{ site.baseurl }}/tags#{{ tag }}">
+            {{ tag }}
           </a>
-      </span>
-    {% endif %}
-    {% if page.next.url %}
-      <span class="next" >
-          <a href="{{ site.url }}{{ site.baseurl }}{{ page.next.url }}">
-            Next ⟩
-            <br />
-            <b>{{ page.next.title }}</b>
-          </a>
-      </span>
-    {% endif %}
-  </div>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <hr />
 
-  {% include disqus.html %}
-</article>
+    <div class="pagination">
+      {% if page.previous.url %}
+        <span class="prev" >
+            <a href="{{ site.url }}{{ site.baseurl }}{{ page.previous.url }}">
+              ⟨ Previous
+              <br />
+              <b>{{ page.previous.title }}</b>
+            </a>
+        </span>
+      {% endif %}
+      {% if page.next.url %}
+        <span class="next" >
+            <a href="{{ site.url }}{{ site.baseurl }}{{ page.next.url }}">
+              Next ⟩
+              <br />
+              <b>{{ page.next.title }}</b>
+            </a>
+        </span>
+      {% endif %}
+    </div>
+
+    {% include disqus.html %}
+  </article>
+  
+  <a class="side-banner" href="https://click.linksynergy.com/fs-bin/click?id=uO5jDXAeFC8&offerid=1060092.26042&subid=0&type=4" target="_blank" rel="noreferrer noopener">
+    <img alt="icon" loading="lazy" src="https://merchant.linksynergy.com/fs/banners/39197/39197_26042.png">
+    <img alt="icon" width="1" height="1" loading="lazy" src="https://ad.linksynergy.com/fs-bin/show?id=uO5jDXAeFC8&bids=1060092.1&type=10">
+  </a>
+</div>
+<a class="bottom-banner" href="https://click.linksynergy.com/fs-bin/click?id=uO5jDXAeFC8&offerid=1060092.26042&subid=0&type=4">
+  <img alt="icon" loading="lazy" src="https://merchant.linksynergy.com/fs/banners/39197/39197_26045.png">
+  <img alt="icon" width="1" height="1" loading="lazy" src="https://ad.linksynergy.com/fs-bin/show?id=uO5jDXAeFC8&bids=1060092.1&type=10">
+</a>

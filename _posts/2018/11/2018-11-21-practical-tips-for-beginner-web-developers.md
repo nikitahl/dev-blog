@@ -2,6 +2,7 @@
 layout: post
 title: 9 Practical tips for beginner web developers
 description: A list of 9 practical tips and advices for beginner web developers
+updated: 2022-05-15T13:45:15.123Z
 tags: [development, tips]
 comments: true
 ---
@@ -46,7 +47,7 @@ Online courses tend to constantly update study material, so you'll always be up 
 Most of these online courses have online communities where students share experience and ask questions.
 
 ## Resources/study materials
-If you're not taking courses/school of any kind, there are plenty of ways to get information online. Today you can find literally tons of information on almost any topic.
+If you're not taking courses/school of any kind, there are plenty of ways to get information online. Today you can find literally tons of information and [resources on coding and development](/free-code-learning-resources).
 
 From my own experience what I use and can recommend is:
 * [MDN](https://developer.mozilla.org/){:target="blank"} - all time favorite and ultimate resource I refer up to this day (they have tutotials for beginners);
@@ -59,7 +60,7 @@ Resources I don't use on a daily basis, but is worth mentioning:
 * [ECMAScript 6 Features](http://es6-features.org){:target="blank"} - ES6 features and examples;
 * [youmightnotneedjquery](http://youmightnotneedjquery.com/){:target="blank"} - consider using Vanilla JS over jQuery when possible.
 
-And lastly the Youtube. For a quick explanation or a tutorial, Youtube is the perfect spot. Lots of interesting and useful videos out there.
+And lastly the YouTube. For a quick explanation or a tutorial, YouTube is the perfect spot. Lots of interesting and useful videos out there.
 
 ## Code editors
 You'll be writing a lot of code, so a proper code editor is a must. The code editor can make a big difference when you're writing a code. It will ease your life as a developer by helping easily navigate and edit code.
@@ -71,16 +72,18 @@ I've tried quite a few, each one of them has its own pros and cons. But I'm not 
 * [Visual Studio Code](https://code.visualstudio.com/){:target="blank"};
 * [Brackets](http://brackets.io/){:target="blank"}.
 
-There are plenty of articles comparing code editors, and I encourage you to read them, but I suggest try them out as many as you can, and in time you'll find your favorite.
+There are plenty of articles comparing [code editors](/free-code-editors-list), and I encourage you to read them, but I suggest try them out as many as you can, and in time you'll find your favorite.
+
+Also make sure to falimiarize yourself with [online code editors](/free-online-code-editors). They'll allow you to instantly see results, prototype, save and share your code snippets with others.
 
 ## Command line/Terminal
 Along with the web development technologies the command line experience is a must for a modern developer.
 
-A lot of work will be dependant on the command line (e.g. [git](https://git-scm.com/){:target="blank"}), as well as some technologies require you to have a command line knowledge.
+A lot of work will be dependant on the command line (e.g. [git](/basic-git-commands), as well as some technologies require you to have a command line knowledge.
 
 If you're not familiar with the command line just yet, don't be intimidated, it's not that hard. Take your time and just practice, read tutorials and watch a few video explanations, its plenty out there.
 
-There will be roughly only up to 10 commands that you'll have to memorize. For everything else there's Google. ;)
+There will be roughly only up to [10 commands](/basic-terminal-commands) that you'll have to memorize. For everything else there's Google. ;)
 
 ## Online tools/services
 Services like [Github](https://github.com){:target="blank"} and [Codepen](https://codepen.io){:target="blank"} does not only help you on your journey of becoming a web developer but also can serve as your own business card or a portfolio if you wish.
@@ -115,7 +118,7 @@ With Dev Tools you can:
 
 And that's just some of the thing you can do there's much more.
 
-Each browser's Dev Tools has its own traits, but for the most part, they're all the same.
+Each [browser's Dev Tools](/cool-chrome-dev-tools-tricks-you-might-not-know-about/) has its own traits, but for the most part, they're all the same.
 My favorite browser to work with is Chrome. They have an awesome Dev Tools *imho* which they constantly update and maintain, as well as they have a complete documentation on [Dev Tools](https://developers.google.com/web/tools/chrome-devtools/){:target="blank"}.
 
 ## Local server
@@ -134,7 +137,7 @@ A couple of the most popular local servers:
 ## Social Media
 Being a developer also means that you constantly have to learn and improve yourself. That is why the final tip is - get a Twitter account and follow developers, software companies/blogs/groups/communities. It's an easy way to always be up to date with current technologies and trends.
 
-Never stop learning.
+**Never stop learning!**
 
 
 

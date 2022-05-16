@@ -1,12 +1,13 @@
 ---
 layout: post
-title: Why it is important to write Semantic HTML
-description: A short list of reasons of why it is important to write Semantic HTML
-tags: [html]
+title: 5 reasons of why Semantic HTML is important
+description: A short list of reasons of why it is important to write Semantic HTML as a web developer
+updated: 2022-05-16T22:52:17.123Z
+tags: [html, seo]
 comments: true
 ---
 
-I’ll go through a list of reasons of why web developers should pay more attention to semantic HTML.
+I’ll go through a list of 5 reasons of why semantic HTML is important and why web developers should pay more attention to it.
 
 1. [Understandable code](#1-understandable-code)
 2. [Screen readers](#2-screen-readers)
@@ -22,13 +23,13 @@ So the number one reason is:
 
 ## 1. Understandable code
 
-By giving a meaning to your markup, you make it more understandable. From a human perspective semantic code is more readable, understandable and easier to maintain. Imagine looking at the code like this:
+By giving a meaning to your HTML code, you make it more understandable, for yourself and other developers. From a human perspective semantic code is more readable, understandable and easier to maintain. Imagine looking at the code like this:
 
 ```html
 <div id=”brown-fox”>
   <div>A story of quick brown fox</div>
   <div>The quick brown fox jumps over the lazy dog.</div>
-  <div>Properties:</div>
+  <div>Fox properties:</div>
   <div>- quick</div>
   <div>- brown</div>
   <div>- jumpy</div>
@@ -40,7 +41,7 @@ The same structure but with meaningful tags:
 <section id=”brown-fox”>
   <h2>A story of quick brown fox</h2>
   <p>The quick brown fox jumps over the lazy dog.</p>
-  <h3>Properties:</h3>
+  <h3>Fox properties:</h3>
   <ul>
     <li>quick</li>
     <li>brown</li>
@@ -48,17 +49,19 @@ The same structure but with meaningful tags:
   </ul>
 <section>
 ```
-You can immediately spot the difference. Straight off the bat, you can tell what each part of the structure does.
+You can immediately spot the difference. Straight off the bat, you can tell what each line of the code represents and what is its meaning.
 
 ## 2. Screen readers
 Not only humans (programmers) have the need to understand the meaning of the page structure, so do the machines, one of them are screen readers.
 
 <blockquote>
   A screen reader is a form of assistive technology which is essential to people who are blind, as well as useful to people who are visually impaired, illiterate, or have a learning disability.	<br />
-	&mdash;<cite><a href="https://en.wikipedia.org/wiki/Screen_reader" target="_blank">Wikipedia</a></cite>
+	&mdash;<cite><a href="https://en.wikipedia.org/wiki/Screen_reader" target="_blank" rel="noreferrer noopener">Wikipedia</a></cite>
 </blockquote>
 
-A screen reader analyzes the contents of the web page and outputs the results via speech. This means whatever a screen reader sees, it will read. So it’s quite important to structurize your web page with a meaning. However modern screen readers are quite *“smart”* and handle web pages very well.
+A screen reader analyzes the contents of the web page and outputs the results via speech. This means whatever a screen reader sees, it will read.
+
+So it’s quite important to structurize your web page with a meaning. However modern screen readers are quite *“smart”* and handle web pages very well.
 
 Both MAC and Windows have built in screen readers. For MAC it is [VoiceOver](https://www.apple.com/accessibility/mac/vision/){:target="blank"}, for Windows it is [Narrator](https://support.microsoft.com/en-us/help/22798/windows-10-complete-guide-to-narrator){:target="blank"}.
 
@@ -74,13 +77,13 @@ However semantic HTML is not the primary factor that affect the SEO of the page,
 
 ## 4. Usability (UX)
 
-By using semantics not only you are aiding the machines, but you can also help people and make their lives better. The use of proper semantic HTML can boost up your website usability and accessibility. I think you all will agree with me, that you like resources that are intuitive and easy to use.
+By implementing semantic HTML not only you are aiding the machines, but you can also help people and make their lives better. The use of proper semantic HTML can boost up your website usability and accessibility. I think you all will agree with me, that you like resources that are intuitive and easy to use.
 
 Sometimes small adjustments or fine tuning can make a huge difference for users. For instance adding a `label` element next to `input`, or adding a proper attribute to the same `input` element.
 
 ## 5. Default styling
 
-The good thing about semantic HTML, that elements comes with default styling. Even without additional CSS the page that is built with proper semantic HTML will look good, be accessible and is going to provide the meaning and outline the structure.
+The good thing about semantic HTML is that semantic elements comes with default styling. Even without additional CSS the page that is built with proper semantic HTML will look good, be accessible and is going to provide the meaning and outline the structure.
 
 Even though the default styling can vary from browser to browser, the main look of the page will remain.
 

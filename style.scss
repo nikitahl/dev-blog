@@ -62,15 +62,19 @@ h1 {
 }
 
 h2 {
-  font-size: 1.6em;
+  font-size: 1.65em;
 }
 
 h3 {
-  font-size: 1.4em;
+  font-size: 1.3em;
 }
 
 h4 {
-  font-size: 1.3em;
+  font-size: 1.1em;
+}
+
+h5 {
+  font-size: 1.05em;
 }
 
 p {
@@ -390,7 +394,8 @@ img {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
   font-family: $helveticaNeue;
-  font-size: 18px;
+  font-size: 16px;
+  font-weight: bold;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -402,7 +407,7 @@ img {
   }
 
   a {
-    margin-left: 20px;
+    margin-left: 17px;
     color: $darkGray;
     text-align: right;
     letter-spacing: 1px;
@@ -494,6 +499,7 @@ img {
         color: $tag-index-label-color;
         background-color: $tag-index-label-background-color;
         border-radius: 3px;
+        border: 1px solid #ccc;
       }
     }
   }
@@ -555,7 +561,7 @@ figcaption,
     a {
       color: $pagination-color;
       &:hover, &:focus {
-        color: $pagination-over-color;
+        color: $pagination-hover-color;
       }
     }
   }
@@ -567,7 +573,7 @@ figcaption,
     a {
       color: $pagination-color;
       &:hover, &:focus {
-        color: $pagination-over-color;
+        color: $pagination-hover-color;
       }
     }
   }
@@ -611,6 +617,7 @@ figcaption,
       color: $tag-index-label-color;
       background-color: $tag-index-label-background-color;
       border-radius: 3px;
+      border: 1px solid #ccc;
 
       span {
         float: left;

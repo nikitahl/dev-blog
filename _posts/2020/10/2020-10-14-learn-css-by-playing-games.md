@@ -1,8 +1,9 @@
 ---
 layout: post
 permalink: learn-css-by-playing-games
-title: List of 12 FREE CSS practice games to improve your skills
+title: 12 FREE CSS games to practice and improve your CSS skills
 date: 2020-10-20T07:31:03.079Z
+updated: 2022-07-17T17:20:11.123Z
 description: One of the best ways to learn CSS is by playing games. In this
   article I showcase twelve free online games to learn and practice your CSS
   skills.

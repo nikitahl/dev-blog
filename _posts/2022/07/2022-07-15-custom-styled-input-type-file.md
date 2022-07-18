@@ -63,6 +63,10 @@ In this guide I'll show you how to create a stylish and user friendly file uploa
   .file::file-selector-button:hover {
     background: #0d45a5;
   }
+  .image-grid {display: flex;justify-content: space-evenly;flex-wrap: wrap;margin: 0 0 30px;}
+  .image-grid figcaption {font-size: 13px; color: #666; font-style:italic; text-align:center}
+
+  .image-grid figure{margin: 0 10px 10px;flex: 1 0 47%;}
 </style>
 
 
@@ -81,6 +85,28 @@ This markup produces a button with a *Choose file* title followed by a text whic
 **Result:**
 
 <input type="file" accept="image/*">
+
+Input with type file default look differs on different browsers: 
+
+<div class="image-grid">
+  <figure>
+    <img class="shadow" src="/images/html-elements/input-type-file-chrome.png" alt="Input type file on Chrome" loading="lazy">
+    <figcaption>Chrome</figcaption>
+  </figure>
+  <figure>
+    <img class="shadow" src="/images/html-elements/input-type-file-edge.png" alt="Input type file on Edge" loading="lazy">
+    <figcaption>Edge</figcaption>
+  </figure>
+  <figure>
+    <img class="shadow" src="/images/html-elements/input-type-file-firefox.png" alt="Input type file on Firefox" loading="lazy">
+    <figcaption>FireFox</figcaption>
+  </figure>
+  <figure>
+    <img class="shadow" src="/images/html-elements/input-type-file-safari.png" alt="Input type file on Safari" loading="lazy">
+    <figcaption>Safari</figcaption>
+  </figure>
+</div>
+
 
 ## Styling
 

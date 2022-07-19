@@ -1,15 +1,19 @@
 ---
 layout: post
 permalink: rem-vs-em
-title: "What's the difference between Rem vs Em units in CSS? With use cases. "
+title: "The difference between Rem vs Em in CSS explained"
 date: 2021-01-06T07:38:25.506Z
+updated: 2022-07-19T16:22:19.407Z
 description: A complete guide explaining the difference between rem vs em units
   in CSS with examples and use cases
-tags:
-  - css
+tags: [css]
 ---
 
-It can be confusing and frustrating when trying to understand units in CSS. Especially [relative units](https://developer.mozilla.org/en-US/docs/Web/CSS/length#Relative_length_units) like `em` and `rem`. In this guide, I'll try to explain what they are and how are they different.
+It can be confusing and frustrating when trying to understand units in CSS. Especially [relative units](https://developer.mozilla.org/en-US/docs/Web/CSS/length#Relative_length_units) like `em` and `rem`.
+
+In this guide, I'll explain what they are and how are they different. As well as provide additional information like, examples, use cases and pitfalls so you better understand the topic.
+
+**Contents:**
 
 1. [Em units](#em-units)
 2. [Rem units](#rem-units)
@@ -245,11 +249,11 @@ The use of relative units can bring complexity to a codebase and maintenance esp
 
 ## Accessibility
 
-In terms of accessibility relative units `em` and `rem` is more preferable. Relative units can scale which makes UX more pleasant and UI more readable thus more accessible. I highly recommend this definitive guide on [Pixels vs. Relative Units in CSS: why it’s still a big deal](https://www.24a11y.com/2019/pixels-vs-relative-units-in-css-why-its-still-a-big-deal/).
+In terms of accessibility relative units `em` and `rem` are more preferable. Relative units can scale which makes UX more pleasant and UI more readable thus more accessible. I highly recommend this definitive guide on [Pixels vs. Relative Units in CSS: why it’s still a big deal](https://www.24a11y.com/2019/pixels-vs-relative-units-in-css-why-its-still-a-big-deal/) to better understand the implication of relative units and how it affects different groups of users.
 
 ## Tools
 
-It's easy to calculate the value of `em` and `rem` units to pixels if you know the formula (**relative unit × element font size = value**). Also, you can always check the Element Inspector for the computed values.
+It's easy to calculate the value of `em` and `rem` units to pixels if you know the formula (**relative unit × element font size = value**). Also, you can always check the browsers' Element Inspector for the computed values.
 
 But if you feel lazy or want to quickly fiddle around with values here are some nice online tools to convert values.
 

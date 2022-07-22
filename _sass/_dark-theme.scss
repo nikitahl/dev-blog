@@ -56,7 +56,7 @@ $dark-theme-text-color: #eee;
 	p,
 	h1 a,
 	.nav-controls a,
-	.tags>.tag a,
+	.tags a,
 	.archive a,
 	#share-bar h4,
 	.share-button {
@@ -109,7 +109,8 @@ $dark-theme-text-color: #eee;
 
 	.post .date,
 	.tags > .tag time,
-	.post .reading-time {
+	.post .reading-time,
+	.archive time {
 		color: #bfbfbf;
 	}
 

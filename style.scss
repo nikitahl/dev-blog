@@ -406,6 +406,14 @@ img {
     font-size: 16px;
   }
 
+  nav {
+    @include mobile {
+      display: flex;
+      width: 100%;
+      justify-content: space-evenly;
+    }
+  }
+
   a {
     margin-left: 17px;
     color: $darkGray;
@@ -418,7 +426,7 @@ img {
     }
 
     @include mobile {
-      margin: 0 14px;
+      margin: 0;
     }
   }
 }

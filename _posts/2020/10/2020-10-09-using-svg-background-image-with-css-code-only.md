@@ -3,6 +3,7 @@ layout: post
 permalink: using-svg-background-image-with-css-code-only
 title: Using SVG background image with CSS code only
 date: 2020-10-09T11:20:29.058Z
+updated: 2022-08-11T16:37:13.025Z
 description: A detailed guide with use cases to handle encoded SVG background
   image with CSS code only
 tags:
@@ -73,7 +74,7 @@ This technique is quite useful when you don’t have access to markup (HTML) but
 
 ### Lists
 
-Say you have an existing list with bullets. And you need to set a custom symbol for list items. You can use the `list-style-image` property which accepts the `url()` value where you can pass encoded SVG image.
+Say you have an existing list with bullets. And you need to set a custom symbol for [list items](/custom-bullet-points-css). You can use the `list-style-image` property which accepts the `url()` value where you can pass encoded SVG image.
 
 HTML:
 

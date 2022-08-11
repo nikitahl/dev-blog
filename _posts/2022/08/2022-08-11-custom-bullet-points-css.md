@@ -106,7 +106,7 @@ ul li::before {
 
 The best part is that now you can control different properties of the bullet point. Like content, size, color, position.
 
-For content you can use emojies, special characters ([html entities](/special-characters-and-symbols-with-html-entities/)), and fonts.
+For content you can use emojies, special characters ([html entities](/special-characters-and-symbols-with-html-entities/), and fonts.
 
 Since content is interpreted as text, you can set font related rules like `font-size`, `color`, `line-height` and etc.
 
@@ -128,7 +128,7 @@ ul li::before {
   <li>JavaScript</li>
 </ul>
 
-Another way to customize your bullet points is to set images as a background, this works well for SVG type images. You can even set an SVG image as an [encoded]((/using-svg-background-image-with-css-code-only)) piece of code, meaning no file needed.
+Another way to customize your bullet points is to set images as a background, this works well for SVG type images. You can even set an SVG image as an [encoded](/using-svg-background-image-with-css-code-only/) piece of code, meaning no file needed.
 
 The benefit of this approach is that unlike `list-style-image` property you can control image size and position.
 

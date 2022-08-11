@@ -128,7 +128,7 @@ ul li::before {
   <li>JavaScript</li>
 </ul>
 
-Another way to customize your bullet points is to set images as a background, this works well for SVG type images. You can even set an SVG image as an [encoded](/using-svg-background-image-with-css-code-only/) piece of code, meaning no file needed.
+Another way to customize your bullet points is to set images as a background, this works well for SVG type images. You can even set an SVG image as an [encoded](/using-svg-background-image-with-css-code-only) piece of code, meaning no file needed.
 
 The benefit of this approach is that unlike `list-style-image` property you can control image size and position.
 

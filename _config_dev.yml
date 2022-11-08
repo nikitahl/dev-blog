@@ -1,0 +1,4 @@
+# To run in dev environment call jekyll serve with a --config modifier and pass both config files as parameters
+# jekyll serve --config _config.yml,_config_dev.yml
+
+environment: dev

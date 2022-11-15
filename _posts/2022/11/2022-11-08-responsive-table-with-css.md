@@ -2,7 +2,7 @@
 layout: post
 permalink: responsive-table-with-css
 title: Make a good looking responsive table with pure CSS
-description: Responsive table with css
+description: A table is a nice way to display large and complex data in a structured way. But often tables on websites are large and don't look good on smaller screens (mobile, tablet).
 tags: [css]
 ---
 

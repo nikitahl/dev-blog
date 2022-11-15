@@ -145,6 +145,29 @@ $dark-theme-text-color: #eee;
     color: #eee;
 	}
 
+	.language-html .highlight .nt {
+		color: #ffe146;
+	}
+
+	.language-css .highlight .nt {
+		color: #ff763b;
+	}
+
+	.language-javascript .highlight .dl,
+	.language-javascript .highlight .s1,
+	.language-javascript .highlight .s2 {
+		color: #5fa45c;
+	}
+
+	.language-javascript .highlight .kc,
+	.language-javascript .highlight .k {
+		color: #d3721e;
+	}
+
+	.language-javascript .highlight .na {
+    color: #9b85f0;
+  }
+
 	.highlight .nc {
     color: #ffb74d;
   }

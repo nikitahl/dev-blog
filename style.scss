@@ -560,7 +560,8 @@ figcaption,
   display: inline-block;
 
   @include mobile {
-    font-size: $small-font-size;
+    font-size: 15px;
+    padding: 0.5em 0;
   }
 
   > .prev {

@@ -121,7 +121,7 @@ summary::-webkit-details-marker {
 }
 ```
 
-To insert another symbol to replace the arrow you can use [encoded SVG as a background image](/using-svg-background-image-with-css-code-only/).
+To insert another symbol to replace the arrow you can use [encoded SVG as a background image](/using-svg-background-image-with-css-code-only).
 
 > **Note:** Unfortunately, at this time there's no built-in way to animate the transition between open and closed.
 

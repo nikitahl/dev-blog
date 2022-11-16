@@ -120,7 +120,7 @@ select::-ms-expand {
 
 *Source: [StackOverflow.com](https://stackoverflow.com/questions/20163079/remove-select-arrow-on-ie/20163273#20163273)*
 
-Now that we’ve removed the default dropdown arrow, we can add a custom one. It can be achieved via an [encoded background SVG image](/using-svg-background-image-with-css-code-only/). This solution is cross-browser-friendly. And since it’s SVG you can further customize it if needed.
+Now that we’ve removed the default dropdown arrow, we can add a custom one. It can be achieved via an [encoded background SVG image](/using-svg-background-image-with-css-code-only). This solution is cross-browser-friendly. And since it’s SVG you can further customize it if needed.
 
 ```css
 select {

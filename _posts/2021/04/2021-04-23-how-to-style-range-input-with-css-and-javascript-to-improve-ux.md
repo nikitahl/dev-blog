@@ -3,6 +3,7 @@ layout: post
 permalink: style-range-input-css
 title: Styling range input with CSS and JavaScript for better UX
 date: 2021-04-23T07:36:11.678Z
+updated: 2022-11-22T23:24:14.468Z
 description: A complete guide to style range input with CSS and JavaScript to
   make your UI consistent, more usable and visually appealing
 tags: [css, javascript, html]
@@ -158,6 +159,8 @@ That way the user will see the selected value and will have an option to modify 
 To finalize we’ll need some JavaScript code to make it all work. The `oninput` attribute is already updating value based on a target element.
 
 But to update the selected area of the range input we need to calculate the ratio and apply that value to the input `background-size` property.
+
+**💡 NOTE: the `value` property of the range input is a string type, if you want to use is as a [numeric value](/number-value-from-input-javascript) you should use `valueAsNumber` property.**
 
 ```javascript
 const rangeInputs = document.querySelectorAll('input[type="range"]')

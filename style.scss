@@ -833,6 +833,13 @@ footer {
   line-height: 1;
 }
 
+.note {
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 7px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
 @media only screen and (min-width: 320px) and (max-width: 759px) {
   .carbon-text {
     font-size: 14px;

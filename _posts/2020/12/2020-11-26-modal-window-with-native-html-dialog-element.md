@@ -3,16 +3,16 @@ layout: post
 permalink: html-dialog-element
 title: Modal window with native HTML dialog element
 date: 2020-12-09T08:13:58.132Z
-description: Check out how to create pop-ups and modal windows using native HTML
-  dialog element
-tags:
-  - html
+updated: 2022-11-25T09:35:10.124Z
+description: Check out how to create pop-ups and modal windows using native HTML dialog element
+tags: [html]
 ---
+
 HTML 5 provides a native semantic way to markup a pop-up or a modal window. 
 
 So instead of plain old `div`'s now you can use the new HTML5 [`dialog` element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog). There are a few benefits of using a `dialog` tag unlike regular `div`: 
 
-* It is semantic thus making it more accessible;
+* It is [semantic](/why-it-is-important-to-write-semantic-html) thus making it more accessible;
 * It has some [CSS specific styling](https://developer.mozilla.org/en-US/docs/Web/CSS/::backdrop) to it;
 * It has a native [JavaScript API](https://developer.mozilla.org/en-US/docs/Web/API/HTMLDialogElement).
 

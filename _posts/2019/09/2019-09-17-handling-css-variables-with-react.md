@@ -2,6 +2,7 @@
 layout: post
 title: Handling CSS variables (Custom Properties) in React
 description: In this article, I'll explain how to handle (update) CSS variables in React.
+updated: 2022-11-25T09:35:10.124Z
 tags: [css, react]
 comments: true
 ---
@@ -220,6 +221,8 @@ function ButtonHooksComponent () {
 That's it!
 
 So the main concept is to set the desired CSS properties to an object conditionally and then assign this object to a `style` attribute of an element.
+
+You can use that approach not only for style attribute but also to [set other HTML attributes](/how-to-handle-multiple-attributes-in-react) as well. That way your code will be more readable and clear.
 
 You can check the end result and whole code on [CodePen](https://codepen.io/nikitahl/pen/gOYdayy/){:target="blank"}:
 <p class="codepen" data-height="360" data-theme-id="0" data-default-tab="js,result" data-user="nikitahl" data-slug-hash="gOYdayy" style="height: 360px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="gOYdayy">

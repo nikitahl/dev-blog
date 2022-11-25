@@ -2,6 +2,7 @@
 layout: post
 title: How to handle multiple attributes in ReactJS
 description: Handle multiple HTML attributes on an element with ease in ReactJS
+updated: 2022-11-25T09:35:10.124Z
 tags: [react, javascript]
 comments: true
 ---
@@ -9,7 +10,7 @@ comments: true
 Have you ever had a situation when your JSX code is cluttered with multiple attributes?
 If you have, there is a simple solution to handle this situation.
 
-Suppose you have a component that has an input element. The `render` method could look something like this:
+Suppose you have a component that has an input element. The return could look something like this:
 
 ```jsx
 render () {
@@ -60,7 +61,8 @@ render () {
 }
 ```
 
-You can also add multiple inline styles.
+You can also add multiple inline styles. For CSS variables you can use bracket notation (find out more in my article about [handling CSS variables with React](/handling-css-variables-with-react)).
+
 ```jsx
 render () {
   const attributes = {

@@ -3,10 +3,9 @@ layout: post
 permalink: gradient-border-css
 title: Create a gradient border in CSS
 date: 2021-11-18T20:22:13.094Z
-description: Create a beautiful gradient border in CSS using one of three
-  approaches. In this article I'll show you each one in detail.
-tags:
-  - css
+updated: 2022-11-25T09:35:10.124Z
+description: Create a beautiful gradient border in CSS using one of three approaches. In this article I'll show you each one in detail.
+tags: [css]
 ---
 
 To show gradients for a border with CSS you can use the `border-image` property. It allows setting gradient values in the same way as the `background-image` property.
@@ -76,7 +75,7 @@ We can combine these properties into a shorthand syntax `border-width` with `bor
 
 <p class="box gradient-border">Hello World!</p>
 
-Now you have a nice -ooking gradient border. And you can use all types of gradients: `linear-gradient`, `radial-gradient` and `conic-gradient`.
+Now you have a nice looking gradient border. And you can use all types of gradients: `linear-gradient`, `radial-gradient` and `conic-gradient`.
 
 However, there’s a drawback to this approach. You cannot use `border-radius` property, as it is not supported with the `border-image` property. But there are a few workarounds.
 
@@ -189,6 +188,8 @@ Finally we need to specify a transparent border color and `border-radius`, and i
 **Result**:
 
 <p class="box gradient-border-bg">Hello World!</p>
+
+<p class="note">💡 NOTE: To control the inner border-radius while maintaining the gradient you should use a slightly different approach. Check out my article on <a href="/adjust-element-inner-border-radius">inner border-radius</a>.</p>
 
 ## Demo
 

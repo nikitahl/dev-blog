@@ -3,10 +3,9 @@ layout: post
 permalink: native-html-accordion
 title: Pure HTML accordion with details and summary elements
 date: 2021-02-17T14:08:50.492Z
-description: A modern way to create a pure HTML accordion widget on a page using
-  nothing but the semantic elements
-tags:
-  - html
+updated: 2022-11-25T09:35:10.124Z
+description: A modern way to create a pure HTML accordion widget on a page using nothing but the semantic elements
+tags: [html]
 ---
 
 The [accordion](https://en.wikipedia.org/wiki/Accordion_(GUI)) is a UI paradigm that consists of several stacked blocks. Each block consists of a label and a content section, clicking on a label either *expands* or *collapses* the section. 
@@ -15,7 +14,7 @@ For a long time, such behavior was only available with a JavaScript implementati
 
 The [`details`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details) tag serves as a wrapper for an interactive widget that can be open or closed. A user has to click on the label which is represented by the [`summary`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/summary) tag to open or close the widget. 
 
-Now you can create a pure HTML accordion using nothing but these two tags. It's a great way to utilize semantic HTML and make an accessible and easily recognizable widget.
+Now you can create a pure HTML accordion using nothing but these two tags. It's a great way to utilize [semantic HTML](/why-it-is-important-to-write-semantic-html) and make an accessible and easily recognizable widget.
 
 ```html
 <details>

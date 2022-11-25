@@ -3,6 +3,7 @@ layout: post
 title: 5 reasons of why Semantic HTML is important
 description: A short list of reasons of why it is important to write Semantic HTML as a web developer
 updated: 2022-05-16T22:52:17.123Z
+updated: 2022-11-25T09:35:10.124Z
 tags: [html, seo]
 comments: true
 ---
@@ -80,6 +81,11 @@ However semantic HTML is not the primary factor that affect the SEO of the page,
 By implementing semantic HTML not only you are aiding the machines, but you can also help people and make their lives better. The use of proper semantic HTML can boost up your website usability and accessibility. I think you all will agree with me, that you like resources that are intuitive and easy to use.
 
 Sometimes small adjustments or fine tuning can make a huge difference for users. For instance adding a `label` element next to `input`, or adding a proper attribute to the same `input` element.
+
+Some of the widgets you can create with pure semantic HTML:
+- [Accordion](/native-html-accordion)
+- [Autocomplete input](/html-autocomplete)
+- [Modal/dialog window](/html-dialog-element)
 
 ## 5. Default styling
 

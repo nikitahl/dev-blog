@@ -3,9 +3,8 @@ layout: post
 permalink: create-element-with-javascript
 title: How to create a new element with class name in JavaScript
 date: 2021-02-02T14:06:55.871Z
-updated: 2022-09-02T22:17:50.114Z
-description: A complete guide to create a new element with class name in
-  JavaScript. Native solution explained plus a tip on creating a custom function
+updated: 2022-11-25T09:35:10.124Z
+description: A complete guide to create a new element with class name in JavaScript. Native solution explained plus a tip on creating a custom function
 tags: [javascript]
 ---
 
@@ -44,7 +43,7 @@ So when the content is added let's add missing attributes with [`setAttribute()`
 anchorElement.setAttribute('href', 'https://example.com/apply-now')
 ```
 
-To add a class name to your element you can use the `classList` property with the `add` method:
+To [add a class name to your element](/add-multiple-classes-in-javascript) you can use the `classList` property with the `add` method:
 
 ```javascript
 anchorElement.classList.add('apply-now-link')

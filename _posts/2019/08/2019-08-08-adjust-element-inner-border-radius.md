@@ -2,6 +2,7 @@
 layout: post
 title: How to adjust the element's inner border radius
 description: Two simple solutions on how to adjust the element's inner border radius with CSS
+updated: 2022-11-25T09:35:10.124Z
 tags: [css]
 comments: true
 ---
@@ -114,5 +115,26 @@ Result:
 </div>
 
 
+## What about gradient?
 
+If you wish to use a [gradient for your border](/gradient-border-css) then you should set a `background` property for the `.content` with `linear-gradient` as the `border-color` and the `padding` property as the `border-width`.
 
+CSS:
+```css
+.content {
+  border-radius: 10px;
+  background: linear-gradient(45deg, purple, orange);
+  padding: 10px;
+}
+
+.content p {
+  border-radius: calc(13px - 10px);
+  background: #fff;
+  margin: 0;
+}
+```
+
+Result:
+<div style="border-radius: 10px;background: linear-gradient(45deg, purple, orange);padding: 10px;">
+  <p style="border-radius: calc(13px - 10px);background: #fff;margin: 0">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+</div>

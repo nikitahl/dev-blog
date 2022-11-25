@@ -3,10 +3,9 @@ layout: post
 permalink: html-autocomplete
 title: Native HTML autocomplete for input field from list
 date: 2020-12-23T21:37:59.290Z
-description: A definitive guide how to implement a simple native HTML
-  autocomplete field from list using just HTML code
-tags:
-  - html
+updated: 2022-11-25T09:35:10.124Z
+description: A definitive guide how to implement a simple native HTML autocomplete field from list using just HTML code
+tags: [html]
 ---
 
 Did you know that you can create a native HTML autocomplete field? Yes, it is possible with just a few lines of code.
@@ -111,7 +110,7 @@ The `datalist` element has no particular [Web API](https://developer.mozilla.org
 
 ## Browser Compatibility
 
-The `datalist` element is supported in all modern browsers. However some issues may occur if you're willing to support older browsers, please refer to the [`datalist` compatibility table](https://caniuse.com/datalist).
+The `datalist` is a [semantic HTML element](/why-it-is-important-to-write-semantic-html) and is supported in all modern browsers. However some issues may occur if you're willing to support older browsers, please refer to the [`datalist` compatibility table](https://caniuse.com/datalist).
 
 ## Final thoughts
 

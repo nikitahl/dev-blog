@@ -38,7 +38,7 @@ background: url(https://images.unsplash.com/photo-1667937026547-1b7cce7525b7?cro
 background-size: 500px 300px;
 ```
 
-We’ll be animating the `background-position` property. Inside the `@keyframe` rule for animation, we’ll set the single step `to` (or `100%`).
+We’ll be animating the `background-position` property with the [`@keyframe` rule](https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes){:target="blank"}. Inside the `@keyframe` rule for animation, we’ll set the single step `to` (or `100%`).
 
 This means it will animate the background from the initial `background-position` value to  `-500px 0`, hence moving the background 500px to the left.
 
@@ -49,7 +49,7 @@ This means it will animate the background from the initial `background-position`
   }
 }
 ```
-As for the container, we can specify the `animation` shorthand property.
+As for the container, we can specify the `animation` shorthand property. For smooth non-stop animation make sure to set the `timing-function` to `linear` and the `iteration-count` to `infinite`.
 
 ```css
 animation: scroll 4s linear infinite;

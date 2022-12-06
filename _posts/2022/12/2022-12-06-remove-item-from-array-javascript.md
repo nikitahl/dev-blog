@@ -2,7 +2,7 @@
 layout: post
 permalink: remove-item-from-array-javascript
 title: How to remove a specific item from an array in JavaScript
-description: How to remove a specific item from an array in JavaScript
+description: JavaScript doesn’t have a single explicit method to remove a specific item from an array. However, there are a few simple ways you can do that, depending on your needs.
 tags: [javascript]
 ---
 

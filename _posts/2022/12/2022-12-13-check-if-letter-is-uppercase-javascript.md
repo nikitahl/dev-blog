@@ -11,6 +11,8 @@ While working with strings, especially when validating forms, you may want to ch
 
 By applying a few methods you can check almost any character's case.
 
+To [find the letter in a string](/javascript-find-string-in-string) you can use one of the multiple ways, but for the sake of the demonstration, let's specify the string in a variable.
+
 ## String.toUpperCase() and String.toLowerCase() method
 
 The [`String.toUpperCase()` method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase){:target="blank"} will convert a string to uppercase, after that you can compare it to your test letter.

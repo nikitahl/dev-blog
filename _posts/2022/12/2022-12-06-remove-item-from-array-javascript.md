@@ -8,13 +8,13 @@ tags: [javascript]
 
 JavaScript doesn’t have a single explicit method to remove a specific item from an array. However, there are a few simple ways you can do that, depending on your needs.
 
-1. [Remove by fist and last](#remove-by-fist-and-last)
+1. [Remove by first and last](#remove-by-first-and-last)
 2. [Remove by index](#remove-by-index)
 3. [Remove by filtering out](#remove-by-filtering-out)
 4. [Remove using Set object](#remove-using-set-object)
 5. [Notes](#notes)
 
-## Remove by fist and last
+## Remove by first and last
 
 To remove the [first or last](/javascript-array-push-pop-shift-unshift) item from an array, JavaScript offers the `shift()` and `pop()` methods.
 

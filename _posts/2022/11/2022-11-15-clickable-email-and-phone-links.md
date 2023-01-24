@@ -8,11 +8,13 @@ tags: [html]
 
 To make your page more accessible and user-friendly you can create clickable links for specific texts. It can be phone number, email, sms, and more.
 
-In this article, I’d like to show you how you can improve the usability of a page by implementing simple HTML changes.
+In this article, I’d like to show you how you can improve the accessability of a page by implementing simple HTML changes.
 
-To create links with specific actions you should use an anchor tag with a href attribute that contains certain parameters (following the [URI syntax](https://en.wikipedia.org/wiki/Uniform_Resource_Identifier#Syntax){:target="blank"}).
+To create links with specific actions you should use an anchor tag with a `href` attribute that contains certain parameters (following the [URI syntax](https://en.wikipedia.org/wiki/Uniform_Resource_Identifier#Syntax){:target="blank"}).
 
 ## Clickable email link
+
+Inside the `href` attribute specify `mailto` parameter and the email that is separated by a colon
 
 ```html
 <a href="mailto:email@example.com">email@example.com</a>
@@ -46,11 +48,13 @@ The full set of these parameters might look like this:
 
 Having a click action on a phone number is as important as the previous one. Clicking on a phone number will instantly make a phone call.
 
-A click on such a link will trigger a phone call.
+You'll need to specify the `tel` parameter separated by colon from a phone number:
 
 ```html
 <a href="tel:+012345678910">0-123-45678910</a>
 ```
+
+A click on such a link will trigger a phone call.
 
 ## Clickable sms link
 
@@ -77,3 +81,5 @@ Clicking on such a link will open a map application with given coordinates.
 ```html
 <a href='geo:47.26769008051434, 11.407943002524679'>Our location</a>
 ```
+
+<p class="note">💡 TIP: Make sure that these links are easily clickable on mobile devices. To do so, you can increase spacingbetween links by adding margin and increase tappable area by adding padding.</p>

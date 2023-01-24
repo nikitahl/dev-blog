@@ -10,7 +10,7 @@ Working with HTML inputs may require handling proper value types, like numbers. 
 
 ## Default value
 
-Given the input with a `type` of `number` let’s get the value in the number type.
+Given the input with a `type` of `number` let's get its value.
 
 ```html
 <input type="number" value="42">
@@ -19,21 +19,21 @@ Given the input with a `type` of `number` let’s get the value in the number ty
 By default, the `value` property of the input element will always return a `string` type, even if the input `type` is a `number`.
 
 ```javascript
-const numberInput = document.querySelector("input[type=number]”)
+const numberInput = document.querySelector("input[type=number]")
 
 numberInput.value // "42"
 ```
 
-**💡 NOTE: the `type` attribute of input element can have many different values, but its `value` property will always return a string-type value.**
+<p class="note">💡 NOTE: the <code>type</code> attribute of the <code>input</code> element can be equal to a many different values, but its <code>value</code> property will always return a string-type value</p>
 
 ## Number value
 
-To get the `number` type value from input element you can use one of two approaches.
+To get the `number` type value from the input element you can use one of two approaches.
 
 The first one is to convert the string value to a number value with either the [`parseInt`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt){:target="blank"} or [`parseFloat`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseFloat){:target="blank"} method (depending on your needs).
 
 ```javascript
-const numberInput = document.querySelector("input[type=number]”)
+const numberInput = document.querySelector("input[type=number]")
 
 parseInt(numberInput.value) // 42
 ```
@@ -47,7 +47,7 @@ If the input value is not a number the `parseInt` or `parseFloat` will return a 
 The second approach is to use the [`valueAsNumber`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLInputElement#instance_properties){:target="blank"} property instead of the `value` property on an input element.
 
 ```javascript
-const numberInput = document.querySelector("input[type=number]”)
+const numberInput = document.querySelector("input[type=number]")
 
 numberInput.valueAsNumber // 42
 ```

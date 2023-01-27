@@ -16,7 +16,7 @@ However, other elements besides text can be a link (image, button, etc). But in 
 - [Box shadow](#box-shadow)
 
 ## Text decoration
-The first and most obvious way is to use the `text-decoration` property to give your links a distinct style. The [`text-decoration`](https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration){:target="blank"} property is a shorthand that *“sets the appearance of decorative lines on text"*.
+The first and most obvious way is to use the `text-decoration` property to give your links a distinct style. The [`text-decoration`](https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration){:target="_blank"} property is a shorthand that *“sets the appearance of decorative lines on text"*.
 
 This property will set `text-decoration-line`, `text-decoration-color`, `text-decoration-style`. However, it can take from one to three parameters.
 
@@ -45,7 +45,7 @@ Available underline styles are:
 - dashed;
 - wavy.
 
-To specify the space between the underline and text use the [`text-underline-offset`](https://developer.mozilla.org/en-US/docs/Web/CSS/text-underline-offset){:target="blank"} property.
+To specify the space between the underline and text use the [`text-underline-offset`](https://developer.mozilla.org/en-US/docs/Web/CSS/text-underline-offset){:target="_blank"} property.
 
 ```css
 a {
@@ -55,7 +55,7 @@ a {
 **Result:**
 <a href="#" style="text-underline-offset: 5px;">Click here</a>
 
-The `text-decoration` also allows you to set the width/thickness of the underline via the [`text-decoration-thickness`](https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-thickness){:target="blank"}
+The `text-decoration` also allows you to set the width/thickness of the underline via the [`text-decoration-thickness`](https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-thickness){:target="_blank"}
 
 ```css
 a {

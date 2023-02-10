@@ -2,8 +2,7 @@
 layout: post
 title: 5 reasons of why Semantic HTML is important
 description: A short list of reasons of why it is important to write Semantic HTML as a web developer
-updated: 2022-05-16T22:52:17.123Z
-updated: 2022-11-25T09:35:10.124Z
+updated: 2023-02-10T09:45:10.124Z
 tags: [html, seo]
 comments: true
 ---
@@ -86,6 +85,7 @@ Some of the widgets you can create with pure semantic HTML:
 - [Accordion](/native-html-accordion)
 - [Autocomplete input](/html-autocomplete)
 - [Modal/dialog window](/html-dialog-element)
+- [Clickable email and phone links](/clickable-email-and-phone-links)
 
 ## 5. Default styling
 

@@ -3,12 +3,13 @@ layout: post
 permalink: clickable-email-and-phone-links
 title: How to make clickable contact links in HTML (email, phone, etc)
 description: To make your page more accessible and user-friendly you can create clickable links for specific texts.
+updated: 2023-02-10T09:45:10.124Z
 tags: [html]
 ---
 
 To make your page more accessible and user-friendly you can create clickable links for specific texts. It can be phone number, email, sms, and more.
 
-In this article, I’d like to show you how you can improve the accessability of a page by implementing simple HTML changes.
+In this article, I’d like to show you how you can improve the accessability of a page by implementing just [semantic HTML](/why-it-is-important-to-write-semantic-html) changes (additionally to indicate the link purpose you can add a [specific styles](/link-underline-with-css) to it).
 
 To create links with specific actions you should use an anchor tag with a `href` attribute that contains certain parameters (following the [URI syntax](https://en.wikipedia.org/wiki/Uniform_Resource_Identifier#Syntax){:target="blank"}).
 

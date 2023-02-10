@@ -3,10 +3,13 @@ layout: post
 permalink: number-value-from-input-javascript
 title: How to get number value from input in JavaScript
 description: Working with HTML inputs may require handling proper value types, like numbers. However, the value property of an input element will return a string-type value by default.
+updated: 2023-02-10T09:45:10.124Z
 tags: [javascript]
 ---
 
 Working with HTML inputs may require handling proper value types, like numbers. However, the `value` property of an input element will return a string-type value by default.
+
+In this article I'm going to explain how you can get the numeric value from the input field. It is important to work with correct value types when parsing user input, otherwise it can produce bugs and unwanted behaviour.
 
 ## Default value
 

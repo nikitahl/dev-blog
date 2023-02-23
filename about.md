@@ -38,16 +38,15 @@ permalink: /about/
 		<img src="../../../images/me.png" alt="Nikita Hlopov profile picture">
 	</div>
 	<div class="about-content-container">
-		<p>Hello, my name is Nikita!</p>
-		<p>I'm a full time frontend developer at <a href="http://visualcomposer.com" target="_blank" rel="noreferrer noopener">Visual Composer</a>.</p>
-		<p>Once I've started frontend development profession as a job but in a while it became my hobby.</p>
-		<p>In this blog I'll post my observations and share experience related to frontend web development.</p>
-		<p>I do hope that this little blog of mine brings value, knowledge and help to developers out there. It is my contribution to the dev community around the world.</p>
+		<h2>Hello, I'm Nikita! 👋</h2>
+		<p>I'm a full time frontend developer at <a href="http://visualcomposer.com" target="_blank" rel="noreferrer noopener">Visual Composer</a> and <a href="https://indystack.com/" target="_blank" rel="noreferrer noopener">Indystack</a>.</p>
+		<p>In this blog I'll share my experience related to frontend web development.</p>
 		<p>Sometimes I like to make small tools like these:</p>
 		<ul>
 			<li><a href="https://nikitahl.github.io/css-base/">CSS Base</a> - An online tool to prototype and generate a base CSS theme</li>
 			<li><a href="https://nikitahl.github.io/svg-2-code/">SVG to Code</a> - Online tool to convert SVG to code and vice versa</li>
 			<li><a href="https://nikitahl.github.io/bg-image/">Background Image CSS</a> - Prototype, modify and edit a background image position, size, etc. and get a ready to use CSS code for your project</li>
+			<li><a href="https://nikitahl.github.io/disavow-link-manager/">Disavow link manager</a> - Synchronize and manage disavow links for Google Search Console.</li>
 		</ul>
 		<h2>Credits</h2>
 		<p>This site was created using:</p>
@@ -62,7 +61,7 @@ permalink: /about/
 				<a href="https://pages.github.com/" target="_blank" rel=" noopener">GitHub Pages</a> hosting.
 			</li>
 		</ul>
-		<p>Find me on:</p>
+		<h2>Find me on</h2>
 		{% include svg-icons.html %}
 	</div>
 </div>

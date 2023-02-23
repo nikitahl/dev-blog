@@ -22,7 +22,7 @@ html {
 }
 
 body {
-  font-family: $helveticaNeue;
+  font-family: $system;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: $base-color;
@@ -33,7 +33,7 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 740px;
+  max-width: 700px;
   padding: 0 10px;
   width: 100%;
 }
@@ -43,14 +43,11 @@ h1, h2, h3, h4, h5, h6 {
   margin: 1em 0 15px;
   padding: 0;
   letter-spacing: .3px;
+  font-weight: 900;
 
   @include mobile {
     line-height: 1.4;
   }
-}
-
-h1, h2, h3, h4, h5 {
-  font-weight: bold;
 }
 
 h1 {
@@ -78,7 +75,6 @@ h5 {
 }
 
 p {
-  color: $text-color;
   margin: 15px 0;
 }
 
@@ -86,7 +82,7 @@ a {
   color: $link-color;
   text-decoration: none;
   cursor: pointer;
-  &:hover, &:active {
+  &:hover, &:active, &:focus {
     color: $link-color;
   }
 }
@@ -334,7 +330,6 @@ img {
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
 
   @include mobile {
     text-align: center;
@@ -372,10 +367,9 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: $base-color;
   cursor: pointer;
-  font-family: $helveticaNeue;
-  font-weight: 300;
+  font-weight: 200;
   font-size: 28px;
   letter-spacing: 1px;
 }
@@ -393,7 +387,6 @@ img {
 .nav-controls {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
   font-size: 16px;
   font-weight: bold;
   display: flex;
@@ -402,7 +395,7 @@ img {
 
   @include mobile {
     float: none;
-    margin-top: 9px;
+    margin-top: 20px;
     font-size: 16px;
   }
 
@@ -410,13 +403,13 @@ img {
     @include mobile {
       display: flex;
       width: 100%;
-      justify-content: space-evenly;
+      justify-content: space-around;
     }
   }
 
   a {
     margin-left: 17px;
-    color: $darkGray;
+    color: $base-color;
     text-align: right;
     letter-spacing: 1px;
 
@@ -670,7 +663,8 @@ footer {
   text-align: center;
 
   p {
-    font-size: 13px;
+    font-size: 0.75em;
+    line-height: 2;
 
     @include mobile {
       line-height: 2.3;

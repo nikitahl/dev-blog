@@ -18,6 +18,7 @@ $white: #fff;
 $helvetica: Helvetica, Arial, sans-serif;
 $helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $georgia: Georgia, serif;
+$system: system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
 
 // Fonts
 $base-font: 'Spoqa Han Sans', 'Source Sans Pro', 'Apple SD Gothic Neo', 'Nanum Barun Gothic', 'Nanum Gothic', 'Verdana', 'Arial', 'Dotum', sans-serif;
@@ -56,7 +57,7 @@ $tag-index-label-background-color: $oc-gray-1;
 $tag-index-count-background-color: $oc-gray-3;
 
 $footer-border-color: $oc-gray-2;
-$footer-background-color: $oc-gray-1;
+$footer-background-color: #fdfdfd;
 
 // List
 $li-bottom-space: 0.4em;

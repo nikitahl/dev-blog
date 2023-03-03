@@ -30,8 +30,8 @@
             document.body.classList.remove("theme-" + theme);
             window.localStorage.theme = theme === "light" ? "dark" : "light";
             avatar.src = theme === "light" ? "/images/logo-dark.webp" : "/images/logo.webp";
-          } else if (window.localStorage.theme && !e) {
-            avatar.src = theme === "light" ? "/images/logo.webp" : "/images/logo-dark.webp";
+          } else if (window.localStorage.theme && window.localStorage.theme === 'dark' && !e) {
+            avatar.src = "/images/logo-dark.webp";
           } else if (!window.localStorage.theme) {
             window.localStorage.theme = "light";
           }

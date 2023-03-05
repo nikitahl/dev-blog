@@ -2,66 +2,65 @@
 layout: default
 ---
 
-<div class="post-container">
-  <article class="post">
-    <h1>{{ page.title }}</h1>
+<article class="post">
+  <h1>{{ page.title }}</h1>
 
-    <div class="meta">
-      <b class="date">Published: </b>
-      <time class="date" datetime="{{ page.date | date_to_xmlschema }}">
-        {{ page.date | date_to_string }}
+  <div class="meta">
+    <b class="date">Published: </b>
+    <time class="date" datetime="{{ page.date | date_to_xmlschema }}">
+      {{ page.date | date_to_string }}
+    </time> · 
+    {% if page.updated %}
+      <b class="date">Updated: </b>
+      <time class="date" datetime="{{ page.updated | date_to_xmlschema }}">
+        {{ page.updated | date_to_string }}
       </time> · 
-      {% if page.updated %}
-        <b class="date">Updated: </b>
-        <time class="date" datetime="{{ page.updated | date_to_xmlschema }}">
-          {{ page.updated | date_to_string }}
-        </time> · 
-      {% endif %}
-      <span class="reading-time"><b>Reading time:</b> {% include reading-time.html %}</span>
-    </div>
-
-    {% if site.environment == 'prod' %}
-    <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CEAIL53E&placement=nikitahlcom" id="_carbonads_js"></script>
     {% endif %}
+    <span class="reading-time"><b>Reading time:</b> {% include reading-time.html %}</span>
+  </div>
 
-    <div class="entry">
-      {{ content }}
-    </div>
-    {% include share-bar.html %}
-    <div class="tags-container">
-      <b class="tags-label">Tags: </b>
-      <ul class="tag">
-        {% for tag in page.tags %}
-        <li>
-          <a href="{{ site.url }}{{ site.baseurl }}/tags#{{ tag }}">
-            {{ tag }}
+  {% if site.environment == 'prod' %}
+  <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CEAIL53E&placement=nikitahlcom" id="_carbonads_js"></script>
+  {% endif %}
+
+  <div class="entry">
+    {{ content }}
+  </div>
+  {% include share-bar.html %}
+  <div class="tags-container">
+    <b class="tags-label">Tags: </b>
+    <ul class="tag">
+      {% for tag in page.tags %}
+      <li>
+        <a href="{{ site.url }}{{ site.baseurl }}/tags#{{ tag }}">
+          {{ tag }}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  <hr />
+
+  <div class="pagination">
+    {% if page.previous.url %}
+      <span class="prev" >
+          <a href="{{ site.url }}{{ site.baseurl }}{{ page.previous.url }}">
+            ⟨ Previous
+            <br />
+            <b>{{ page.previous.title }}</b>
           </a>
-        </li>
-        {% endfor %}
-      </ul>
-    </div>
-    <hr />
+      </span>
+    {% endif %}
+    {% if page.next.url %}
+      <span class="next" >
+          <a href="{{ site.url }}{{ site.baseurl }}{{ page.next.url }}">
+            Next ⟩
+            <br />
+            <b>{{ page.next.title }}</b>
+          </a>
+      </span>
+    {% endif %}
+  </div>
 
-    <div class="pagination">
-      {% if page.previous.url %}
-        <span class="prev" >
-            <a href="{{ site.url }}{{ site.baseurl }}{{ page.previous.url }}">
-              ⟨ Previous
-              <br />
-              <b>{{ page.previous.title }}</b>
-            </a>
-        </span>
-      {% endif %}
-      {% if page.next.url %}
-        <span class="next" >
-            <a href="{{ site.url }}{{ site.baseurl }}{{ page.next.url }}">
-              Next ⟩
-              <br />
-              <b>{{ page.next.title }}</b>
-            </a>
-        </span>
-      {% endif %}
-    </div>
-
-    {% include disqus.html %}
-  </article>
+  {% include disqus.html %}
+</article>

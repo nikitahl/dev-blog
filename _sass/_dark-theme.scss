@@ -90,10 +90,9 @@ $dark-theme-text-color: #eee;
 	}
 
 	hr,
-	.masthead,
 	.posts > .post,
-	.wrapper-footer {
-		border-color: #565656; 
+	.footer {
+		border-color: #2c333f; 
 	}
 
 	.post .tag li > a,
@@ -113,7 +112,7 @@ $dark-theme-text-color: #eee;
 		color: #bfbfbf;
 	}
 
-	.wrapper-footer {
+	.footer {
 		background: $dark-theme-background-color;
 	}
 
@@ -123,8 +122,8 @@ $dark-theme-text-color: #eee;
 	}
 
 	.highlight {
-		background: #191919;
-		border-color: #3b3b3c;
+		background: #2a2d39;
+		border-color: $oc-gray-9;
 	}
 
 	.highlight .s1 {

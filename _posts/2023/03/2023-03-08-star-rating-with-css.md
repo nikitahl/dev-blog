@@ -3,7 +3,7 @@ layout: post
 permalink: star-rating-with-css
 title: Simple star rating with pure CSS
 date: 2023-03-08T20:00:24.232Z
-description: You can create beautiful carousels with a fancy and smooth snap effect by implementing a CSS-only solution.
+description: You can implement a simple star rating using only CSS, without additional assets like images, fonts, or SVGs.
 tags: [css]
 ---
 
@@ -117,7 +117,7 @@ As the spec suggests:
 So in our case to make it more [semantic](/why-it-is-important-to-write-semantic-html) and user-friendly we’ll include a short label:
 
 ```html
-Product rating: <meter class="average-rating" min="0" max="5" value="4.3">4.3 out of 5</meter>
+Product rating: <meter class="average-rating" min="0" max="5" value="4.3" title="4.3 out of 5 stars">4.3 out of 5</meter>
 ``` 
 
 Now that we’re done with HTML, let’s apply some styling to make the `meter` tag look like stars.

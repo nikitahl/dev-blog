@@ -1,12 +1,11 @@
 ---
 layout: post
 permalink: online-coding-challenges
-title: 10 Online coding challenges for front-end developers to boost skills
+title: 11 Online coding challenges for front-end developers to boost skills
 date: 2021-11-25T21:11:59.747Z
-description: A list of 10 online coding challenges for front-end developers to
-  boost their skills and confidence in a set of different languages
-tags:
-  - resources
+updated: 2023-03-08T14:11:59.747Z
+description: A list of 11 online coding challenges for front-end developers to boost their skills and confidence in a set of different languages
+tags: [resources]
 ---
 
 You can boost your coding and problem-solving skills as well as gain more confidence by participating in coding challenges.
@@ -21,6 +20,7 @@ You can boost your coding and problem-solving skills as well as gain more confid
 8. [CodinGame](#codingame)
 9. [LeetCode](#leetcode)
 10. [Hackerrank](#hackerrank)
+11. [FrontendPro](#frontendpro)
 
 It is a great way for both beginner and seasoned developers to learn and hone programming skills, try different approaches and algorithms and overall become a better developers.
 
@@ -207,3 +207,23 @@ You can practice coding skills, learn new concepts, get a certification, compete
 **Practice skills**: JavaScript
 
 **Website**: <https://www.hackerrank.com/>
+
+## FrontendPro
+
+<figure>
+  <img class="shadow lozad" data-src="/images/resources/frontendpro.webp" alt="FrontendPro">
+  <noscript>
+    <img class="shadow" src="/images/resources/frontendpro.webp" alt="FrontendPro">
+  </noscript>
+  <figcaption>FrontendPro</figcaption>
+</figure>
+
+FrontendPro is an open-source project for aspiring web developers to practice skills.
+
+It features dozens of challenges that will prompt you to create real-world projects like landing pages, components, and widgets.
+
+Challenges have various difficulty levels beginner to hard. You can later include these projects in your portfolio.
+
+**Practice skills**: HTML, CSS, JavaScript
+
+**Website**: <https://www.frontendpro.dev/>

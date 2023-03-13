@@ -101,7 +101,7 @@ Finally, let’s add some fancy effects so that the user can see the total numbe
 
 ## Displaying average rating
 
-To display the total average rating we’ll use the `meter` tag. As the [HTML Specs](https://html.spec.whatwg.org/multipage/form-elements.html#the-meter-element){:target=”_blank”} says:
+To display the total average rating we’ll use the `meter` tag. As the [HTML Specs](https://html.spec.whatwg.org/multipage/form-elements.html#the-meter-element){:target="_blank"} says:
 
 > The meter element represents a scalar measurement within a known range, or a fractional value
 

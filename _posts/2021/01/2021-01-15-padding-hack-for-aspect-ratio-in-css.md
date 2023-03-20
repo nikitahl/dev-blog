@@ -3,26 +3,53 @@ layout: post
 permalink: css-aspect-ratio
 title: Aspect ratio with CSS aka the padding hack
 date: 2021-01-22T09:41:17.020Z
-description: Aspect ratio is a great way to give a consistent and appealing look
-  to your media content. This guide explains how to implement an aspect ratio
-  with CSS.
-tags:
-  - css
+updated: 2023-03-20T21:50:10.126Z
+description: Aspect ratio is a great way to give a consistent and appealing look to your media content. This guide explains how to implement an aspect ratio with CSS.
+tags: [css]
 ---
 
 When working with media whether it's an image or a video, sometimes you have to preserve its initial proportions (aspect ratio). In this guide, I'll try to explain how exactly you can achieve such a result with CSS.
 
 ## What is the aspect ratio?
 
-Usually, when talking about an [aspect ratio](https://en.wikipedia.org/wiki/Aspect_ratio_(image)) it implies a display or a screen. It's a ratio of width to height. Most popular are *16:9* (standard for HDTV) and *4:3* (standard TV). So for the *16:9* aspect ratio, it means that the ratio is 16 units of width to 9 units of height.
+Usually, when talking about an [aspect ratio](https://en.wikipedia.org/wiki/Aspect_ratio_(image)) it implies a display or a screen. It's a ratio of width to height.
 
-In order to implement aspect ratio in CSS, the so-called *"padding hack"* must be used. This means that a `padding-top` or `padding-bottom` property must be set on an element with the calculated percentage value that represents the aspect ratio.
+Most popular are *16:9* (standard for HDTV) and *4:3* (standard TV). So for the *16:9* aspect ratio, it means that the ratio is 16 units of width to 9 units of height.
 
-## Calculation
+In order to implement aspect ratio in CSS, you can go either with
+1. [`aspect-ratio` property](#the-css-aspect-ratio-property)
+2. the so-called [*"padding hack"*](#padding-hack)
+
+## The CSS aspect-ratio property
+
+CSS has an [`aspect-ratio`](https://developer.mozilla.org/en-US/docs/Web/CSS/aspect-ratio) property that can be used natively to avoid the *"padding hack"*.
+
+This property does essentialy what you'd expect it to do, apply aspect ratio to an element.
+
+So instead of the `padding-top` property you can use the `aspect-ratio`.
+
+Example:
+
+```css
+.aspect-ratio-container {
+  aspect-ratio: 16 / 9;
+}
+```
+
+The `aspect-ratio` property is supported by all modern browsers:
+<figure>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/aspect-ratio#browser_compatibility" target="_blank" rel="noreferrer noopener">
+    <img class="shadow" src="/images/browser-support/css-aspect-ratio-browser-support.webp" alt="CSS aspect-ratio property browser support" loading="lazy">
+  </a>
+</figure>
+
+## Padding hack
+
+This means that a `padding-top` or `padding-bottom` property must be set on an element with the calculated percentage value that represents the aspect ratio.
 
 In order to calculate the value for the padding property, you'll need to make a division of the ratio values and multiply it by 100%.
 
-E.g.: 
+E.g.:
 
 * *16:9* aspect ratio will result in `9 / 16 * 100% = 56.25%`;
 * *4:3* aspect ratio will result in `3 / 4 * 100% = 75%`;
@@ -65,10 +92,7 @@ The resulted element below will now always maintain the *16:9* aspect ratio no m
 Images comes with a fixed size thus fixed aspect ratio. Consider following image, its size is 1920x1585.
 
 <figure>
-  <img class="shadow lozad" data-src="/images/misc/city-skyline.jpg" alt="City Skyline">
-  <noscript>
-    <img class="shadow" src="/images/misc/city-skyline.jpg" alt="City Skyline">
-  </noscript>
+  <img class="shadow" src="/images/misc/city-skyline.jpg" alt="City Skyline" loading="lazy">
   <figcaption>
     <span>Photo by <a href="https://unsplash.com/@karlkoehler?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Karl Köhler</a> on <a href="https://unsplash.com/s/photos/skyline?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
   </figcaption>
@@ -89,7 +113,7 @@ However, you can set the image as a background for a `div` container, and provid
 
 The image will lose its initial size but will take up the remaining space evenly and maintain the aspect ratio.
 
-**NOTE: Setting an image as a background is not a good practice to display an image as it is not friendly to assistive technologies. The background image should be set only for [decorative purposes](https://www.w3.org/WAI/GL/2016/WD-WCAG20-TECHS-20160105/F39).**
+<p class="note">💡 NOTE: Setting an image as a background is not a good practice to display an image as it is not friendly to assistive technologies. The background image should be set only for <a href="https://www.w3.org/WAI/GL/2016/WD-WCAG20-TECHS-20160105/F39" target="_blank" rel="noreferrer noopener">decorative purposes</a>.</p>
 
 **Result**:
 
@@ -97,7 +121,11 @@ The image will lose its initial size but will take up the remaining space evenly
 
 ### Videos
 
-Videos are another media format that requires proper styling on a page in order to have a more appealing display. Today the standard video aspect ratio is *16:9* (recommended by [YouTube](https://support.google.com/youtube/answer/6375112?co=GENIE.Platform%3DDesktop&hl=en) and [Vimeo](https://vimeo.com/blog/post/aspect-ratios-explained/)).
+Videos are another media format that requires proper styling on a page in order to have a more appealing display.
+
+Today the standard video aspect ratio is *16:9* (recommended by [YouTube](https://support.google.com/youtube/answer/6375112?co=GENIE.Platform%3DDesktop&hl=en) and [Vimeo](https://vimeo.com/blog/post/aspect-ratios-explained/)).
+
+You can use aspect ratio to create container of any size, and then [scale the video to full-size](/full-size-background-video) of it.
 
 To give your video an aspect ratio we'll use the *"padding hack"* along with some other properties.
 
@@ -179,24 +207,10 @@ CSS will be the same as for video:
   <a href="https://vimeo.com/82931517">Light Goes On</a> from <a href="https://vimeo.com/dariustwin">Darren Pearson</a> on <a href="https://vimeo.com">Vimeo</a>.
 </p>
 
-## The CSS aspect-ratio property
-
-CSS has an [`aspect-ratio`](https://developer.mozilla.org/en-US/docs/Web/CSS/aspect-ratio) property that can be used natively to avoid the *"padding hack"*. This property does essentialy what you'd expect it to do, apply aspect ratio to an element.
-
-The `aspect-ratio` property was officially released in [Chrome 88](https://twitter.com/smashingmag/status/1351902173307744256) while for [other browsers](https://caniuse.com/mdn-css_properties_aspect-ratio) it is unavailable or available only under a flag (you'll have to manually enable it via browser settings).
-
-So instead of the `padding-top` property you can use the `aspect-ratio`.
-
-Example:
-
-```css
-.aspect-ratio-container {
-  aspect-ratio: 16 / 9;
-}
-```
-
 ## Conclusion
 
-Use the *"padding-hack"* approach to showcase your content in an appealing way. It will always scale along with the user's viewport and maintain a consistent aspect ratio. It works across all browsers.
+A modern way to apply aspect ratio to an element is to use the `aspect-ratio` CSS property.
 
-On the other hand, keep an eye on the `aspect-ratio` CSS property as it will be the future way to go. You can already experiment with it.
+It's good to know about the *"padding-hack"* approach as well. You may still encounter it somewhere, as it was heavily used, prior to `aspect-ratio` property.
+
+*"Padding hack"* works across all browsers, even old ones. So if you're working on a project and you need to maintain older browsers, the *"padding-hack"* is your go to way.

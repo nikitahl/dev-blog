@@ -160,6 +160,9 @@ Full CSS for the YouTube background video:
   left: 0;
   width: 100%;
   height: 100%;
+  /* cover image, if video is failed to load */
+  background: url(url/to/a/cover-image.webp) no-repeat center; 
+  background-size: cover;
 }
 ```
 
@@ -243,6 +246,9 @@ The CSS code does similar thing, it positions containers relative to one another
   left: 0;
   width: 100%;
   height: 100%;
+  /* cover image, if video is failed to load */
+  background: url(url/to/a/cover-image.webp) no-repeat center; 
+  background-size: cover;
 }
 ```
 

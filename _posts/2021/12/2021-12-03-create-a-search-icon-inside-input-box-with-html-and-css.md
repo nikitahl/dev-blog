@@ -3,11 +3,9 @@ layout: post
 permalink: search-icon-inside-input
 title: Create a search icon inside input box with HTML and CSS
 date: 2021-12-03T07:22:16.317Z
-description: "You can display a search icon inside input box in different ways
-  with simple HTML and CSS code "
-tags:
-  - css
-  - html
+updated: 2021-04-10T12:00:12.133Z
+description: You can display a search icon inside input box in different ways with simple HTML and CSS code
+tags: [css, html]
 ---
 
 Displaying a search icon inside an input box is a nice way to indicate to the user that it is indeed a search input.
@@ -20,45 +18,27 @@ Displaying a search icon inside an input box is a nice way to indicate to the us
 
 <div class="image-grid">
   <figure>
-    <img class="shadow lozad" data-src="/images/html-elements/google-search-input.png" alt="Google search input">
-    <noscript>
-      <img class="shadow" src="/images/resources/google-search-input.png" alt="Google search input">
-    </noscript>
+    <img class="shadow" loading="lazy" src="/images/html-elements/google-search-input.png" alt="Google search input">
     <figcaption>Google search input</figcaption>
   </figure>
   <figure>
-    <img class="shadow lozad" data-src="/images/html-elements/duckduckgo-search-input.png" alt="Duckduckgo search input">
-    <noscript>
-      <img class="shadow" src="/images/resources/duckduckgo-search-input.png" alt="Duckduckgo search input">
-    </noscript>
+    <img class="shadow" loading="lazy" src="/images/html-elements/duckduckgo-search-input.png" alt="Duckduckgo search input">
     <figcaption>Duckduckgo search input</figcaption>
   </figure>
   <figure>
-    <img class="shadow lozad" data-src="/images/html-elements/twitter-search-input.png" alt="Twitter search input">
-    <noscript>
-      <img class="shadow" src="/images/resources/twitter-search-input.png" alt="Twitter search input">
-    </noscript>
+    <img class="shadow" loading="lazy" src="/images/html-elements/twitter-search-input.png" alt="Twitter search input">
     <figcaption>Twitter search input</figcaption>
   </figure>
   <figure>
-    <img class="shadow lozad" data-src="/images/html-elements/codepen-search-input.png" alt="CodePen search input">
-    <noscript>
-      <img class="shadow" src="/images/resources/codepen-search-input.png" alt="CodePen search input">
-    </noscript>
+    <img class="shadow" loading="lazy" src="/images/html-elements/codepen-search-input.png" alt="CodePen search input">
     <figcaption>CodePen search input</figcaption>
   </figure>
   <figure>
-    <img class="shadow lozad" data-src="/images/html-elements/gmail-search-input.png" alt="Gmail search input">
-    <noscript>
-      <img class="shadow" src="/images/resources/gmail-search-input.png" alt="Gmail search input">
-    </noscript>
+    <img class="shadow" loading="lazy" src="/images/html-elements/gmail-search-input.png" alt="Gmail search input">
     <figcaption>Gmail search input</figcaption>
   </figure>
   <figure>
-    <img class="shadow lozad" data-src="/images/html-elements/vimeo-search-input.png" alt="Vimeo search input">
-    <noscript>
-      <img class="shadow" src="/images/resources/vimeo-search-input.png" alt="Vimeo search input">
-    </noscript>
+    <img class="shadow" loading="lazy" src="/images/html-elements/vimeo-search-input.png" alt="Vimeo search input">
     <figcaption>Vimeo search input</figcaption>
   </figure>
 </div>
@@ -78,7 +58,9 @@ The `form` will act as a wrapper, as well as will react to the `submit` event.
 
 The `input` element should have a `type` attribute equal to the `search` value. It will ensure a [better usability](https://css-tricks.com/better-form-inputs-for-better-mobile-user-experiences/#using-the-correct-input-type) on mobile devices. The keyboard with a layout suited for [search](https://better-mobile-inputs.netlify.app/?android=false&autocomplete=on&inputmode=search&type=search) will be shown.
 
-**NOTE: To improve UX you can also specify an input placeholder e.g. “Search…”. This will give a user an additional hint that this is indeed a search input.**
+<p class="note">
+💡 NOTE: To improve UX you can also specify an input placeholder e.g. "Search…". This will give a user an additional hint that this is indeed a search input.
+</p>
 
 Finally, the `button` `type` attribute should have a `submit` value. The [proper button type](/html-button-types) will ensure the `form` can be submitted via button click without additional events for this button. The button will also act as an icon.
 
@@ -151,6 +133,10 @@ input[type="search"]:focus {
 }
 ```
 
+<p class="note">
+💡 NOTE: Since it's a search input, you might want to display a <a href="/input-clear-button">clear button</a> as well.
+</p>
+
 ## No button example
 
 If you're willing to show an icon inside an input without it being a button, just remove the submit button from the form.
@@ -180,7 +166,9 @@ input.nosubmit {
 
 ## Demo
 
-<p class="codepen" data-height="300" data-default-tab="result" data-slug-hash="WNZbWGe" data-user="tippingpointdev" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+You can find a full demo with a complete code examples on my CodePen:
+
+<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="WNZbWGe" data-user="tippingpointdev" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 <span>See the Pen <a href="https://codepen.io/tippingpointdev/pen/WNZbWGe">
 Untitled</a> by Tippingpoint Dev (<a href="https://codepen.io/tippingpointdev">@tippingpointdev</a>)
 on <a href="https://codepen.io">CodePen</a>.</span>

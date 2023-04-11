@@ -178,6 +178,7 @@ const clearButton = document.querySelector(".clear-input-button")
 
 const handleButtonClick = (e) => {
   input.value = ''
+  input.focus()
   input.classList.remove("clear-input--touched")
 }
 
@@ -185,6 +186,8 @@ clearButton.addEventListener("click", handleButtonClick)
 ```
 
 As you can see from the code above, on button click, we set the input value to an empty string.
+
+Additionally, we leave input focused and remove the `clear-input--touched` class to hide the clear button.
 
 ## Demo
 

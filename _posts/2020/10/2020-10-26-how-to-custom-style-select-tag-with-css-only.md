@@ -3,10 +3,9 @@ layout: post
 permalink: how-to-custom-style-select-tag-with-css-only
 title: Select tag custom styles with CSS only
 date: 2020-10-27T14:08:12.231Z
-description: A simple and cross-browser consistent solution to give a to custom
-  style to a select tag with CSS only
-tags:
-  - css
+updated: 2023-04-14T11:16:21.123Z
+description: A simple and cross-browser consistent solution to give a to custom style to a select tag with CSS only
+tags: [css]
 ---
 The `select` tag is one of the most confusing and hard to style form elements in HTML. Luckily there is a simple and cross-browser consistent solution to give custom styles for `select` tag using only CSS.
 
@@ -65,7 +64,9 @@ That’s the main reason why developers applying custom styles for `select` tag.
 
 ## The CSS solution
 
-To apply custom style for a `select` tag, you’ll need the CSS only approach, no additional HTML, or JavaScript. That means that native behavior and accessibility are preserved and less code is used which is good.
+To apply custom style for a `select` tag, you’ll need the CSS only approach, no additional HTML, or JavaScript. 
+
+That means that native behavior and accessibility are preserved and less code is used which is good.
 
 Let’s take the basic `select` tag markup.
 
@@ -108,7 +109,9 @@ select {
 }
 ```
 
-**NOTE: the** `appearance` **rule will remove the dropdown arrow. However, it is not [supported](https://caniuse.com/#search=appearance) by the IE browser.**
+<p class="note">
+💡 NOTE: The <code>appearance</code> rule will remove the dropdown arrow. However, it is not <a href="https://caniuse.com/#search=appearance" target="_blank" rel="noreferrer noopener">supported</a> by the IE browser.
+</p>
 
 If you need to reset default styling for the IE browser, add the following rule:
 
@@ -120,7 +123,9 @@ select::-ms-expand {
 
 *Source: [StackOverflow.com](https://stackoverflow.com/questions/20163079/remove-select-arrow-on-ie/20163273#20163273)*
 
-Now that we’ve removed the default dropdown arrow, we can add a custom one. It can be achieved via an [encoded background SVG image](/using-svg-background-image-with-css-code-only). This solution is cross-browser-friendly. And since it’s SVG you can further customize it if needed.
+Now that we’ve removed the default dropdown arrow, we can add a custom one. It can be achieved via an [encoded background SVG image](/using-svg-background-image-with-css-code-only).
+
+This solution is cross-browser-friendly. And since it’s SVG you can further customize it if needed.
 
 ```css
 select {
@@ -198,6 +203,8 @@ With custom styles applied for the `select` tag it will look consistent and more
     <figcaption>Edge</figcaption>
   </figure>
 </div>
+
+If you wish to handle long text overflowing your select tag, check out my [article](/text-overflow-ellipsis-on-select-tag) where I explain how to handle such case.
 
 The final result with all the code is available on CodePen:
 

@@ -2,12 +2,42 @@
 layout: post
 title: Text overflow ellipsis on select tag
 description: Applying a CSS text-overflow property on select tag for an ellipsis effect
-updated: 2022-03-21T18:16:21.123Z
+updated: 2023-04-14T11:16:21.123Z
 tags: [html, css]
 comments: true
 ---
 
 For a better UI and appeal a CSS `text-overflow` property is used on a long piece of text. I'm going to show how to apply that to a `select` tag.
+
+By default `select` tag will handle overflowing text pretty decently, depending on the browser. 
+
+<style>
+.image-grid {display: flex;justify-content: space-evenly;flex-wrap: wrap;margin: 0 0 30px;}
+.image-grid figcaption {font-size: 13px; color: #666; font-style:italic; text-align:center}
+.image-grid figure{margin: 0 10px 10px;flex: 1 0 47%;}
+</style>
+
+<div class="image-grid">
+  <figure>
+    <img class="shadow" loading="lazy" src="/images/html-elements/select-tag-long-text-chrome.webp" alt="Select tag on Chrome">
+    <figcaption>Chrome</figcaption>
+  </figure>
+  <figure>
+    <img class="shadow" loading="lazy" src="/images/html-elements/select-tag-long-text-firefox.webp" alt="Select tag on Firefox">
+    <figcaption>Firefox</figcaption>
+  </figure>
+  <figure>
+    <img class="shadow" loading="lazy" src="/images/html-elements/select-tag-long-text-safari.webp" alt="Select tag on Safari">
+    <figcaption>Safari</figcaption>
+  </figure>
+  <figure>
+    <img class="shadow" loading="lazy" src="/images/html-elements/select-tag-long-text-edge.webp" alt="Select tag on Edge">
+    <figcaption>Edge</figcaption>
+  </figure>
+</div>
+
+
+However, instead of just cutting out a text in the middle and have some consistency across browsers, lets give it custom styling by truncating the text.
 
 ## Definitions
 
@@ -37,7 +67,9 @@ The <code>text-overflow</code> CSS property sets how hidden overflow content is 
 &mdash;<cite><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/text-overflow" target="_blank">MDN</a></cite>
 </blockquote>
 
-**NOTE: text-overflow property applies to block container elements**
+<p class="note">
+💡 NOTE: The <code>text-overflow</code> property applies to block container elements.
+</p>
 
 So we have a unique form element that is hard to style and the question is - how does one apply the `text-overflow` property to a `select` tag and [handle text overflow](/pure-css-truncate-text)? The answer is with a little bit of HTML and a sprinkle of JavaScript.
 
@@ -106,6 +138,8 @@ Since the pseudo element is going to store and display the value, we're going to
   }
 ```
 
+To give your select tag a unique and consistent look across all browsers check out my article where I explain in detail [how to style select tag](/how-to-custom-style-select-tag-with-css-only) with pure css. 
+
 ## Script
 
 Finally, we'll need a few lines of JavaScript to respond to `select` element value change and setting the value to a container element `data` attribute.
@@ -126,6 +160,8 @@ function handleChange(e) {
 
 select.addEventListener("change", handleChange);
 ```
+
+## Demo
 
 You can find the end result I've made on [Codepen](https://codepen.io/nikitahl/pen/vyZbwR
 ){:target="blank"}:

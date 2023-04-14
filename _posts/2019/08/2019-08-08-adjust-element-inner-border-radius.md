@@ -2,12 +2,17 @@
 layout: post
 title: How to adjust the element's inner border radius
 description: Two simple solutions on how to adjust the element's inner border radius with CSS
-updated: 2022-11-25T09:35:10.124Z
+updated: 2023-04-14T09:35:10.124Z
 tags: [css]
 comments: true
 ---
 
 An element's inner border-radius is the value a developer cannot directly affect. However, some tricks can be implemented in order to achieve the same smooth border curve result.
+
+<figure class="figure-centered">
+  <img class="shadow" loading="lazy" src="/images/misc/border-radius.webp" alt="Element's border radiuses">
+  <figcaption>Element's border radiuses</figcaption>
+</figure>
 
 The element's inner border-radius is formed via formula:
 
@@ -26,6 +31,30 @@ IBR = OBR - BW
 " target="_blank">Corner Shaping</a></cite>
 
 </blockquote>
+
+<style>
+.image-grid {display: flex;justify-content: space-evenly;flex-wrap: wrap;margin: 0 0 30px;}
+.image-grid figcaption {font-size: 13px; color: #666; font-style:italic; text-align:center}
+.image-grid figure{margin: 0 10px 10px;flex: 1 0 30%;}
+@media screen and (max-width: 640px) {
+  .image-grid figure{flex: 0 0 50%;}
+}
+</style>
+
+<div class="image-grid">
+  <figure>
+    <img class="shadow" loading="lazy" src="/images/misc/no-inner-radius.webp" alt="Zero inner radius">
+    <figcaption>Zero inner radius</figcaption>
+  </figure>
+  <figure>
+    <img class="shadow" loading="lazy" src="/images/misc/slight-inner-radius.webp" alt="Slight inner radius">
+    <figcaption>Slight inner radius</figcaption>
+  </figure>
+  <figure>
+    <img class="shadow" loading="lazy" src="/images/misc/exact-inner-radius.webp" alt="Exact inner radius">
+    <figcaption>Exact inner radius</figcaption>
+  </figure>
+</div>
 
 Therefore there might be cases when the inner border-radius will differ from the outer one. Usually, this will happen when the `border-width` is greater than the `border-radius`, this will result in a right angle.
 

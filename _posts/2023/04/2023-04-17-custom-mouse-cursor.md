@@ -24,7 +24,7 @@ For example, if a user has to wait for some action to complete you can use the `
 ```
 
 **Result:**
-<style>button{padding: 6px 20px}</style>
+<style>.entry button{padding: 6px 20px}</style>
 
 <button style="cursor: progress;">Loading</button>
 

@@ -367,6 +367,9 @@ img {
     &:hover,
     &.active {
       color: $link-color;
+      text-decoration: underline;
+      text-underline-offset: 5px;
+      text-decoration-thickness: 2px;
     }
 
     @include mobile {
@@ -520,9 +523,6 @@ figcaption,
 
 // Archive
 .archive {
-  a {
-    color: $base-color;
-  }
   time {
     color: $base-lighten-color;
     font-size: $small-font-size;
@@ -565,9 +565,6 @@ figcaption,
 }
 
 .tags {
-  a {
-    color: $base-color;
-  }
   time {
     color: $base-lighten-color;
     font-size: $small-font-size;
@@ -626,35 +623,6 @@ figcaption,
 
   a:hover svg {
     fill: $link-color;
-  }
-}
-
-.about-content-container .svg-icon {
-  display: block;
-  font-size: 0;
-  list-style: none;
-  margin: 0;
-
-  li {
-    display: inline-block;
-    margin: 10px;
-  }
-
-  svg {
-    height: 30px;
-    width: 30px;
-  }
-
-  em {
-    font-size: 18px;
-    line-height: 1.5;
-    margin-top: -.75em;
-    position: absolute;
-    text-align: center;
-    top: 50%;
-    right: 0;
-    bottom: 0;
-    left: 0;
   }
 }
 

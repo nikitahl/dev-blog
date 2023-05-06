@@ -38,31 +38,19 @@ The default browser styling for this element is very basic and doesn’t provide
 
 <div class="image-grid">
   <figure>
-    <img class="shadow lozad" data-src="/images/html-elements/range-chrome.png" alt="Range Input on Chrome">
-    <noscript>
-      <img class="shadow" src="/images/html-elements/range-chrome.png" alt="Range Input on Chrome">
-    </noscript>
+    <img class="shadow" src="/images/html-elements/range-chrome.png" alt="Range Input on Chrome" loading="lazy">
     <figcaption>Chrome</figcaption>
   </figure>
   <figure>
-    <img class="shadow lozad" data-src="/images/html-elements/range-edge.png" alt="Range Input on Edge">
-    <noscript>
-      <img class="shadow" src="/images/html-elements/range-edge.png" alt="Range Input on Edge">
-    </noscript>
+    <img class="shadow" src="/images/html-elements/range-edge.png" alt="Range Input on Edge" loading="lazy">
     <figcaption>Edge</figcaption>
   </figure>
   <figure>
-    <img class="shadow lozad" data-src="/images/html-elements/range-firefox.png" alt="Range Input on Firefox">
-    <noscript>
-      <img class="shadow" src="/images/html-elements/range-firefox.png" alt="Range Input on Firefox">
-    </noscript>
+    <img class="shadow" src="/images/html-elements/range-firefox.png" alt="Range Input on Firefox" loading="lazy">
     <figcaption>Firefox</figcaption>
   </figure>
   <figure>
-    <img class="shadow lozad" data-src="/images/html-elements/range-safari.png" alt="Range Input on Safari">
-    <noscript>
-      <img class="shadow" src="/images/html-elements/range-safari.png" alt="Range Input on Safari">
-    </noscript>
+    <img class="shadow" src="/images/html-elements/range-safari.png" alt="Range Input on Safari" loading="lazy">
     <figcaption>Safari</figcaption>
   </figure>
 </div>

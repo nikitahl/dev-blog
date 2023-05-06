@@ -38,10 +38,7 @@ The mobile-first approach means that you design/develop styling for your app sta
 The mobile-first approach is considered a good practice, as [mobile user count](https://www.thinkwithgoogle.com/consumer-insights/consumer-trends/internet-device-use-statistics/) takes more than 50% of the market.
 
 <figure>
-  <img class="shadow lozad" data-src="/images/misc/min-width.png" alt="Min width property">
-  <noscript>
-    <img class="shadow" src="/images/misc/min-width.png" alt="Min width property">
-  </noscript>
+  <img class="shadow" src="/images/misc/min-width.png" alt="Min width property" loading="lazy">
   <figcaption>Mobile-first approach with min-width property</figcaption>
 </figure>
 
@@ -67,10 +64,7 @@ In the following example, the container width will be 100% on viewports from 0 u
 Unlike the mobile-first approach, the desktop-first means that you apply styles to the large viewports first (like the desktop computers), and then specify rules to target smaller viewports.
 
 <figure>
-  <img class="shadow lozad" data-src="/images/misc/max-width.png" alt="Max width property">
-  <noscript>
-    <img class="shadow" src="/images/misc/max-width.png" alt="Max width property">
-  </noscript>
+  <img class="shadow" src="/images/misc/max-width.png" alt="Max width property" loading="lazy">
   <figcaption>Desktop-first approach with max-width property</figcaption>
 </figure>
 

@@ -201,7 +201,7 @@ CSS will be the same as for video:
 **Result**:
 
 <div class="embed-container demo-box">
-  <iframe class="embed-vimeo lozad" data-src="https://player.vimeo.com/video/82931517" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+  <iframe class="embed-vimeo" src="https://player.vimeo.com/video/82931517" loading="lazy" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 </div>
 <p class="figcaption">
   <a href="https://vimeo.com/82931517">Light Goes On</a> from <a href="https://vimeo.com/dariustwin">Darren Pearson</a> on <a href="https://vimeo.com">Vimeo</a>.

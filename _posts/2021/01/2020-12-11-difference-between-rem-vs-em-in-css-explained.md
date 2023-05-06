@@ -39,17 +39,11 @@ In this guide, I'll explain what they are and how are they different. As well as
 
 <div class="image-grid">
   <figure>
-    <img class="shadow lozad" data-src="/images/misc/em-unit-relation.png" alt="Em unit relation">
-    <noscript>
-      <img class="shadow" src="/images/misc/em-unit-relation.png" alt="Em unit relation">
-    </noscript>
+    <img class="shadow" src="/images/misc/em-unit-relation.png" alt="Em unit relation" loading="lazy">
     <figcaption>Em unit relation</figcaption>
   </figure>
   <figure>
-    <img class="shadow lozad" data-src="/images/misc/rem-unit-relation.png" alt="Rem unit relation">
-    <noscript>
-      <img class="shadow" src="/images/misc/rem-unit-relation.png" alt="Rem unit relation">
-    </noscript>
+    <img class="shadow" src="/images/misc/rem-unit-relation.png" alt="Rem unit relation" loading="lazy">
     <figcaption>Rem unit relation</figcaption>
   </figure>
 </div>
@@ -90,10 +84,7 @@ p span {
 To check the resulted size in pixels you can use the **Computed** tab under **Element Inspector** in DevTools (same in all browsers DevTools).
 
 <figure>
-  <img class="shadow lozad" data-src="/images/dev-tools/computed-styles-tab.png" alt="Element Inspector Computed Tab">
-  <noscript>
-    <img class="shadow" src="/images/dev-tools/computed-styles-tab.png" alt="Element Inspector Computed Tab">
-  </noscript>
+  <img class="shadow" src="/images/dev-tools/computed-styles-tab.png" alt="Element Inspector Computed Tab" loading="lazy">
   <figcaption>Element Inspector Computed Tab</figcaption>
 </figure>
 
@@ -236,10 +227,7 @@ Setting `em` units for the same child elements that can be nested multiple level
 A user can define font size inside the browser settings. This means that elements that don't have an explicit `font-size` property set will scale to the user-selected font size. Elements that have an absolute `font-size` value set like `px` will remain the same size. Elements with relative units like `em` or `rem` will scale accordingly.
 
 <figure>
-  <img class="shadow lozad" data-src="/images/tools/chrome-font-size.png" alt="Chrome browser font size settings">
-  <noscript>
-    <img class="shadow" src="/images/tools/chrome-font-size.png" alt="Chrome browser font size settings">
-  </noscript>
+  <img class="shadow" src="/images/tools/chrome-font-size.png" alt="Chrome browser font size settings" loading="lazy">
   <figcaption>Chrome browser font size settings</figcaption>
 </figure>
 

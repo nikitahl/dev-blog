@@ -31,31 +31,19 @@ Both approaches will render a button to a page that will look the same by defaul
 
 <div class="image-grid">
   <figure>
-    <img class="shadow lozad" data-src="/images/button-styles/buttons-chrome.png" alt="Buttons on Chrome">
-    <noscript>
-      <img class="shadow" src="/images/button-styles/buttons-chrome.png" alt="Buttons on Chrome">
-    </noscript>
+    <img class="shadow" src="/images/button-styles/buttons-chrome.png" alt="Buttons on Chrome" loading="lazy">
     <figcaption>Chrome</figcaption>
   </figure>
   <figure>
-    <img class="shadow lozad" data-src="/images/button-styles/buttons-edge.png" alt="Buttons on Edge">
-    <noscript>
-      <img class="shadow" src="/images/button-styles/buttons-edge.png" alt="Buttons on Edge">
-    </noscript>
+    <img class="shadow" src="/images/button-styles/buttons-edge.png" alt="Buttons on Edge" loading="lazy">
     <figcaption>Edge</figcaption>
   </figure>
   <figure>
-    <img class="shadow lozad" data-src="/images/button-styles/buttons-firefox.png" alt="Buttons on Firefox">
-    <noscript>
-      <img class="shadow" src="/images/button-styles/buttons-firefox.png" alt="Buttons on Firefox">
-    </noscript>
+    <img class="shadow" src="/images/button-styles/buttons-firefox.png" alt="Buttons on Firefox" loading="lazy">
     <figcaption>Firefox</figcaption>
   </figure>
   <figure>
-    <img class="shadow lozad" data-src="/images/button-styles/buttons-safari.png" alt="Buttons on Safari">
-    <noscript>
-      <img class="shadow" src="/images/button-styles/buttons-safari.png" alt="Buttons on Safari">
-    </noscript>
+    <img class="shadow" src="/images/button-styles/buttons-safari.png" alt="Buttons on Safari" loading="lazy">
     <figcaption>Safari</figcaption>
   </figure>
 </div>

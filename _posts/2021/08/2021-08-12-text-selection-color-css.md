@@ -30,10 +30,7 @@ To support the older versions of **Firefox** browser (version 61 and below) use 
 ```
 
 <figure>
-  <img class="shadow lozad" data-src="/images/misc/document-text-selection-color.png" alt="Document text selection color">
-  <noscript>
-    <img class="shadow" src="/images/misc/document-text-selection-color.png" alt="Document text selection color">
-  </noscript>
+  <img class="shadow" src="/images/misc/document-text-selection-color.png" alt="Document text selection color" loading="lazy">
   <figcaption>Whole document text selection color</figcaption>
 </figure>
 
@@ -50,10 +47,7 @@ h2::selection {
 ```
 
 <figure>
-  <img class="shadow lozad" data-src="/images/misc/heading-text-selection-color.png" alt="Heading text selection color">
-  <noscript>
-    <img class="shadow" src="/images/misc/heading-text-selection-color.png" alt="Heading text selection color">
-  </noscript>
+  <img class="shadow" src="/images/misc/heading-text-selection-color.png" alt="Heading text selection color" loading="lazy">
   <figcaption>Heading text selection color</figcaption>
 </figure>
 

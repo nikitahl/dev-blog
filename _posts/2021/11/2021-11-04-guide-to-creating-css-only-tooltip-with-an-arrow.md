@@ -21,31 +21,19 @@ Usually, tooltips are shown on hover state. Below you can see tooltip examples f
 
 <div class="image-grid">
   <figure class="head-figure">
-    <img class="shadow lozad" data-src="/images/html-elements/wikipedia-tooltip.png" alt="Wikipedia tooltip">
-    <noscript>
-      <img class="shadow" src="/images/html-elements/wikipedia-tooltip.png" alt="Wikipedia tooltip">
-    </noscript>
+    <img class="shadow" src="/images/html-elements/wikipedia-tooltip.png" alt="Wikipedia tooltip" loading="lazy">
     <figcaption>Wikipedia tooltip</figcaption>
   </figure>
   <figure>
-    <img class="shadow lozad" data-src="/images/html-elements/youtube-tooltip.png" alt="YouTube tooltip">
-    <noscript>
-      <img class="shadow" src="/images/html-elements/youtube-tooltip.png" alt="YouTube tooltip">
-    </noscript>
+    <img class="shadow" src="/images/html-elements/youtube-tooltip.png" alt="YouTube tooltip" loading="lazy">
     <figcaption>YouTube tooltip</figcaption>
   </figure>
   <figure>
-    <img class="shadow lozad" data-src="/images/html-elements/jira-tooltip.png" alt="Jira tooltip">
-    <noscript>
-      <img class="shadow" src="/images/html-elements/jira-tooltip.png" alt="Jira tooltip">
-    </noscript>
+    <img class="shadow" src="/images/html-elements/jira-tooltip.png" alt="Jira tooltip" loading="lazy">
     <figcaption>Jira tooltip</figcaption>
   </figure>
   <figure>
-    <img class="shadow lozad" data-src="/images/html-elements/gmail-tooltip.png" alt="Gmail tooltip">
-    <noscript>
-      <img class="shadow" src="/images/html-elements/gmail-tooltip.png" alt="Gmail tooltip">
-    </noscript>
+    <img class="shadow" src="/images/html-elements/gmail-tooltip.png" alt="Gmail tooltip" loading="lazy">
     <figcaption>Gmail tooltip</figcaption>
   </figure>
 </div>
@@ -53,10 +41,7 @@ Usually, tooltips are shown on hover state. Below you can see tooltip examples f
 **NOTE: By default, HTML provides a way to show native tooltip using the title attribute. The tooltip will appear with a slight delay when the user hovers over an element with the title attribute.**
 
 <figure>
-  <img class="shadow lozad" data-src="/images/html-elements/youtube-title-attribute.png" alt="YouTube title attribute">
-  <noscript>
-    <img class="shadow" src="/images/html-elements/youtube-title-attribute.png" alt="YouTube title attribute">
-  </noscript>
+  <img class="shadow" src="/images/html-elements/youtube-title-attribute.png" alt="YouTube title attribute" loading="lazy">
   <figcaption>YouTube title attribute</figcaption>
 </figure>
 

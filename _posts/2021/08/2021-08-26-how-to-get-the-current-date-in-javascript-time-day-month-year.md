@@ -28,10 +28,7 @@ const currentDate = new Date()
 ```
 
 <figure>
-  <img class="shadow lozad" data-src="/images/dev-tools/current-date-object.png" alt="Current Date object output">
-  <noscript>
-    <img class="shadow" src="/images/dev-tools/current-date-object.png" alt="Current Date object output">
-  </noscript>
+  <img class="shadow" src="/images/dev-tools/current-date-object.png" alt="Current Date object output" loading="lazy">
   <figcaption>Current Date object output</figcaption>
 </figure>
 
@@ -47,10 +44,7 @@ currentDate.getDay()
 ```
 
 <figure>
-  <img class="shadow lozad" data-src="/images/dev-tools/get-current-week-day.png" alt="Current week day output">
-  <noscript>
-    <img class="shadow" src="/images/dev-tools/get-current-week-day.png" alt="Current week day output">
-  </noscript>
+  <img class="shadow" src="/images/dev-tools/get-current-week-day.png" alt="Current week day output" loading="lazy">
   <figcaption>Current week day output</figcaption>
 </figure>
 
@@ -66,10 +60,7 @@ currentDate.toLocaleString('en-US', { weekday: 'long' })
 ```
 
 <figure>
-  <img class="shadow lozad" data-src="/images/dev-tools/get-current-week-day-name.png" alt="Current week day name output">
-  <noscript>
-    <img class="shadow" src="/images/dev-tools/get-current-week-day-name.png" alt="Current week day name output">
-  </noscript>
+  <img class="shadow" src="/images/dev-tools/get-current-week-day-name.png" alt="Current week day name output" loading="lazy">
   <figcaption>Current week day name output</figcaption>
 </figure>
 
@@ -85,10 +76,7 @@ currentDate.getDate()
 ```
 
 <figure>
-  <img class="shadow lozad" data-src="/images/dev-tools/get-current-day-of-the-month.png" alt="Current day of the month output">
-  <noscript>
-    <img class="shadow" src="/images/dev-tools/get-current-day-of-the-month.png" alt="Current day of the month output">
-  </noscript>
+  <img class="shadow" src="/images/dev-tools/get-current-day-of-the-month.png" alt="Current day of the month output" loading="lazy">
   <figcaption>Current day of the month output</figcaption>
 </figure>
 
@@ -106,10 +94,7 @@ currentDate.getMonth()
 ```
 
 <figure>
-  <img class="shadow lozad" data-src="/images/dev-tools/get-current-month.png" alt="Current month output">
-  <noscript>
-    <img class="shadow" src="/images/dev-tools/get-current-month.png" alt="Current month output">
-  </noscript>
+  <img class="shadow" src="/images/dev-tools/get-current-month.png" alt="Current month output" loading="lazy">
   <figcaption>Current month output</figcaption>
 </figure>
 
@@ -123,10 +108,7 @@ currentDate.toLocaleString('en-US', { month: 'long' })
 ```
 
 <figure>
-  <img class="shadow lozad" data-src="/images/dev-tools/get-current-month-name.png" alt="Current month name output">
-  <noscript>
-    <img class="shadow" src="/images/dev-tools/get-current-month-name.png" alt="Current month name output">
-  </noscript>
+  <img class="shadow" src="/images/dev-tools/get-current-month-name.png" alt="Current month name output" loading="lazy">
   <figcaption>Current month name output</figcaption>
 </figure>
 
@@ -142,10 +124,7 @@ currentDate.getFullYear()
 ```
 
 <figure>
-  <img class="shadow lozad" data-src="/images/dev-tools/get-current-year.png" alt="Current year output">
-  <noscript>
-    <img class="shadow" src="/images/dev-tools/get-current-year.png" alt="Current year output">
-  </noscript>
+  <img class="shadow" src="/images/dev-tools/get-current-year.png" alt="Current year output" loading="lazy">
   <figcaption>Current year output</figcaption>
 </figure>
 
@@ -163,10 +142,7 @@ currentDate.getHours()
 ```
 
 <figure>
-  <img class="shadow lozad" data-src="/images/dev-tools/get-current-hours.png" alt="Current hours output">
-  <noscript>
-    <img class="shadow" src="/images/dev-tools/get-current-hours.png" alt="Current hours output">
-  </noscript>
+  <img class="shadow" src="/images/dev-tools/get-current-hours.png" alt="Current hours output" loading="lazy">
   <figcaption>Current hours output</figcaption>
 </figure>
 
@@ -180,10 +156,7 @@ currentDate.getMinutes()
 ```
 
 <figure>
-  <img class="shadow lozad" data-src="/images/dev-tools/get-current-minutes.png" alt="Current minutes output">
-  <noscript>
-    <img class="shadow" src="/images/dev-tools/get-current-minutes.png" alt="Current minutes output">
-  </noscript>
+  <img class="shadow" src="/images/dev-tools/get-current-minutes.png" alt="Current minutes output" loading="lazy">
   <figcaption>Current minutes output</figcaption>
 </figure>
 
@@ -197,10 +170,7 @@ currentDate.getSeconds()
 ```
 
 <figure>
-  <img class="shadow lozad" data-src="/images/dev-tools/get-current-seconds.png" alt="Current seconds output">
-  <noscript>
-    <img class="shadow" src="/images/dev-tools/get-current-seconds.png" alt="Current seconds output">
-  </noscript>
+  <img class="shadow" src="/images/dev-tools/get-current-seconds.png" alt="Current seconds output" loading="lazy">
   <figcaption>Current seconds output</figcaption>
 </figure>
 
@@ -214,10 +184,7 @@ currentDate.toLocaleTimeString('en-US', { hour12: false })
 ```
 
 <figure>
-  <img class="shadow lozad" data-src="/images/dev-tools/get-current-time-format.png" alt="Current time in format output">
-  <noscript>
-    <img class="shadow" src="/images/dev-tools/get-current-time-format.png" alt="Current time in format output">
-  </noscript>
+  <img class="shadow" src="/images/dev-tools/get-current-time-format.png" alt="Current time in format output" loading="lazy">
   <figcaption>Current time in format output</figcaption>
 </figure>
 
@@ -234,9 +201,6 @@ currentDate.toLocaleString('en-US', options)
 ```
 
 <figure>
-  <img class="shadow lozad" data-src="/images/dev-tools/get-current-date-string.png" alt="Current date in string format output">
-  <noscript>
-    <img class="shadow" src="/images/dev-tools/get-current-date-string.png" alt="Current date in string format output">
-  </noscript>
+  <img class="shadow" src="/images/dev-tools/get-current-date-string.png" alt="Current date in string format output" loading="lazy">
   <figcaption>Current date in string format output</figcaption>
 </figure>

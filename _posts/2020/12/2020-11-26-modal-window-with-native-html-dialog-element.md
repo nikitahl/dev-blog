@@ -47,10 +47,7 @@ But it won't be visible when this code is added. In order for it to appear the `
 The default styling on the `dialog` tag with the above HTML inside:
 
 <figure>
-  <img class="shadow lozad" data-src="/images/html-elements/dialog-plain.png" alt="Default dialog tag styling">
-  <noscript>
-    <img class="shadow" src="/images/html-elements/dialog-plain.png" alt="Default dialog tag styling">
-  </noscript>
+  <img class="shadow" src="/images/html-elements/dialog-plain.png" alt="Default dialog tag styling" loading="lazy">
   <figcaption>Default dialog tag styling</figcaption>
 </figure>
 

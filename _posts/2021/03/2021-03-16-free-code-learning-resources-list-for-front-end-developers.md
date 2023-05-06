@@ -51,10 +51,7 @@ The resources listed below are well structured with examples and visualizations 
 ### MDN Web Docs
 
 <figure>
-  <img class="shadow lozad" data-src="/images/resources/mdn-web-docs.png" alt="MDN Web Docs">
-  <noscript>
-    <img class="shadow" src="/images/resources/mdn-web-docs.png" alt="MDN Web Docs">
-  </noscript>
+  <img class="shadow" src="/images/resources/mdn-web-docs.png" alt="MDN Web Docs" loading="lazy">
   <figcaption>MDN Web Docs</figcaption>
 </figure>
 
@@ -65,10 +62,7 @@ Probably the most popular reference source for any web developer. MDN Web Docs c
 ### The Odin Project
 
 <figure>
-  <img class="shadow lozad" data-src="/images/resources/the-odin-project.png" alt="The Odin Project">
-  <noscript>
-    <img class="shadow" src="/images/resources/the-odin-project.png" alt="The Odin Project">
-  </noscript>
+  <img class="shadow" src="/images/resources/the-odin-project.png" alt="The Odin Project" loading="lazy">
   <figcaption>The Odin Project</figcaption>
 </figure>
 
@@ -83,10 +77,7 @@ The curriculum has also been designed in a modular fashion, making skimming thro
 ### JavaScript.info
 
 <figure>
-  <img class="shadow lozad" data-src="/images/resources/javascript-info.png" alt="JavaScript Info">
-  <noscript>
-    <img class="shadow" src="/images/resources/javascript-info.png" alt="JavaScript Info">
-  </noscript>
+  <img class="shadow" src="/images/resources/javascript-info.png" alt="JavaScript Info" loading="lazy">
   <figcaption>JavaScript Info</figcaption>
 </figure>
 
@@ -99,10 +90,7 @@ JavaScript.info features two parts which cover JavaScript as a programming langu
 ### web.dev
 
 <figure>
-  <img class="shadow lozad" data-src="/images/resources/web-dev.png" alt="web.dev">
-  <noscript>
-    <img class="shadow" src="/images/resources/web-dev.png" alt="web.dev">
-  </noscript>
+  <img class="shadow" src="/images/resources/web-dev.png" alt="web.dev" loading="lazy">
   <figcaption>web.dev</figcaption>
 </figure>
 
@@ -119,10 +107,7 @@ Following code learning resources are interactive, which means that instead of j
 ### Codecademy
 
 <figure>
-  <img class="shadow lozad" data-src="/images/resources/codecademy.png" alt="Codecademy">
-  <noscript>
-    <img class="shadow" src="/images/resources/codecademy.png" alt="Codecademy">
-  </noscript>
+  <img class="shadow" src="/images/resources/codecademy.png" alt="Codecademy" loading="lazy">
   <figcaption>Codecademy</figcaption>
 </figure>
 
@@ -135,10 +120,7 @@ During the lesson, you learn new skills, inside a project you implement what you
 ### freeCodeCamp
 
 <figure>
-  <img class="shadow lozad" data-src="/images/resources/freecodecamp.png" alt="freeCodeCamp">
-  <noscript>
-    <img class="shadow" src="/images/resources/freecodecamp.png" alt="freeCodeCamp">
-  </noscript>
+  <img class="shadow" src="/images/resources/freecodecamp.png" alt="freeCodeCamp" loading="lazy">
   <figcaption>freeCodeCamp</figcaption>
 </figure>
 
@@ -149,10 +131,7 @@ freeCodeCamp is a nonprofit community that helps you learn to code by building p
 ### Udemy
 
 <figure>
-  <img class="shadow lozad" data-src="/images/resources/udemy.png" alt="Udemy">
-  <noscript>
-    <img class="shadow" src="/images/resources/udemy.png" alt="Udemy">
-  </noscript>
+  <img class="shadow" src="/images/resources/udemy.png" alt="Udemy" loading="lazy">
   <figcaption>Udemy</figcaption>
 </figure>
 
@@ -165,10 +144,7 @@ Premium content provides additional possibilities like Instructor Q&A and Instru
 ### Treehouse
 
 <figure>
-  <img class="shadow lozad" data-src="/images/resources/treehouse.png" alt="Treehouse">
-  <noscript>
-    <img class="shadow" src="/images/resources/treehouse.png" alt="Treehouse">
-  </noscript>
+  <img class="shadow" src="/images/resources/treehouse.png" alt="Treehouse" loading="lazy">
   <figcaption>Treehouse</figcaption>
 </figure>
 
@@ -181,10 +157,7 @@ Each course consists of educational videos, code challenges, and quizzes. They a
 ### Coursera
 
 <figure>
-  <img class="shadow lozad" data-src="/images/resources/coursera.png" alt="Coursera">
-  <noscript>
-    <img class="shadow" src="/images/resources/coursera.png" alt="Coursera">
-  </noscript>
+  <img class="shadow" src="/images/resources/coursera.png" alt="Coursera" loading="lazy">
   <figcaption>Coursera</figcaption>
 </figure>
 
@@ -197,10 +170,7 @@ Coursera has a section of free courses on web development and computer science. 
 ### JavaScript30
 
 <figure>
-  <img class="shadow lozad" data-src="/images/resources/javascript30.png" alt="JavaScript30">
-  <noscript>
-    <img class="shadow" src="/images/resources/javascript30.png" alt="JavaScript30">
-  </noscript>
+  <img class="shadow" src="/images/resources/javascript30.png" alt="JavaScript30" loading="lazy">
   <figcaption>JavaScript30</figcaption>
 </figure>
 
@@ -213,10 +183,7 @@ The best way to get better at something is by doing it. Take a challenge and cre
 ### Khan Academy
 
 <figure>
-  <img class="shadow lozad" data-src="/images/resources/khan-academy.png" alt="Khan Academy">
-  <noscript>
-    <img class="shadow" src="/images/resources/khan-academy.png" alt="Khan Academy">
-  </noscript>
+  <img class="shadow" src="/images/resources/khan-academy.png" alt="Khan Academy" loading="lazy">
   <figcaption>Khan Academy</figcaption>
 </figure>
 
@@ -229,10 +196,7 @@ While Khan Academy is not only about programming or web development, it features
 ### Upskill
 
 <figure>
-  <img class="shadow lozad" data-src="/images/resources/upskill.png" alt="Upskill">
-  <noscript>
-    <img class="shadow" src="/images/resources/upskill.png" alt="Upskill">
-  </noscript>
+  <img class="shadow" src="/images/resources/upskill.png" alt="Upskill" loading="lazy">
   <figcaption>Upskill</figcaption>
 </figure>
 
@@ -243,10 +207,7 @@ Upskill offers an extensive free course on web development. Their videos are str
 ### edX
 
 <figure>
-  <img class="shadow lozad" data-src="/images/resources/edx.png" alt="edX">
-  <noscript>
-    <img class="shadow" src="/images/resources/edx.png" alt="edX">
-  </noscript>
+  <img class="shadow" src="/images/resources/edx.png" alt="edX" loading="lazy">
   <figcaption>edX</figcaption>
 </figure>
 
@@ -260,7 +221,7 @@ YouTube is a great place to learn web development for free. There are literally 
 
 ### freeCodeCamp
 
-<iframe width="560" height="315" class="lozad" data-src="https://www.youtube.com/embed/1Rs2ND1ryYc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/1Rs2ND1ryYc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 A YouTube channel of a well-known free code learning resource. They have everything starting from fundamentals all the way up to advanced stuff. 
 
@@ -268,7 +229,7 @@ A YouTube channel of a well-known free code learning resource. They have everyth
 
 ### Treehouse
 
-<iframe width="560" height="315" class="lozad" data-src="https://www.youtube.com/embed/Xd7huBu39qk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/Xd7huBu39qk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Treehouse has its own channel where they list educational videos for free.
 
@@ -276,7 +237,7 @@ Treehouse has its own channel where they list educational videos for free.
 
 ### Traversy Media
 
-<iframe width="560" height="315" class="lozad" data-src="https://www.youtube.com/embed/0pThnRneDjw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/0pThnRneDjw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Probably one of the most known YouTube channels for web developers. Traversy Media features the best online web development and programming tutorials for all of the latest web technologies including Node.js, Angular 2, React.js, PHP, Rails, HTML, CSS, and much more.
 
@@ -284,7 +245,7 @@ Probably one of the most known YouTube channels for web developers. Traversy Med
 
 ### Google Chrome Developers
 
-<iframe width="560" height="315" class="lozad" data-src="https://www.youtube.com/embed/k60bVCtf17A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/k60bVCtf17A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 YouTube channel from the creators of the most popular browser for web development. They post useful guides and tips on web performance, Dev Tools, and new technologies.
 
@@ -292,7 +253,7 @@ YouTube channel from the creators of the most popular browser for web developmen
 
 ### Coding Tech
 
-<iframe width="560" height="315" class="lozad" data-src="https://www.youtube.com/embed/24tQRwIRP_w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/24tQRwIRP_w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 If you want to learn from other developers like best practices or new technologies this is the channel for you. They mainly focus on posting videos from conferences and meetups.
 
@@ -300,7 +261,7 @@ If you want to learn from other developers like best practices or new technologi
 
 ### edureka!
 
-<iframe width="560" height="315" class="lozad" data-src="https://www.youtube.com/embed/Q33KBiDriJY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/Q33KBiDriJY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 edureka! is a live and interactive learning platform, they have a huge YouTube channel with a wide range of topics on programming including web development.
 

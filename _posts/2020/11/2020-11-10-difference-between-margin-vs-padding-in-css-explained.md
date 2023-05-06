@@ -17,10 +17,7 @@ The difference explained in short:
 **The margin is the space outside the element, that separates it from other elements.**
 
 <figure>
-  <img class="shadow lozad" data-src="/images/misc/margin-vs-padding.gif" alt="Margin and Padding">
-  <noscript>
-    <img class="shadow" src="/images/misc/margin-vs-padding.gif" alt="Margin and Padding">
-  </noscript>
+  <img class="shadow" src="/images/misc/margin-vs-padding.gif" alt="Margin and Padding" loading="lazy">
   <figcaption>Margin and Padding side by side</figcaption>
 </figure>
 
@@ -119,10 +116,7 @@ Each part is bound by the respective edge:
 4. *margin edge*.
 
 <figure>
-  <img class="shadow lozad" data-src="/images/dev-tools/box-model.png" alt="CSS Box Model">
-  <noscript>
-    <img class="shadow" src="/images/dev-tools/box-model.png" alt="CSS Box Model">
-  </noscript>
+  <img class="shadow" src="/images/dev-tools/box-model.png" alt="CSS Box Model" loading="lazy">
   <figcaption>CSS Box Model</figcaption>
 </figure>
 
@@ -158,10 +152,7 @@ p {
 **Result**:
 
 <figure>
-  <img class="shadow lozad" data-src="/images/misc/margin-auto.png" alt="Margin auto">
-  <noscript>
-    <img class="shadow" src="/images/misc/margin-auto.png" alt="Margin auto">
-  </noscript>
+  <img class="shadow" src="/images/misc/margin-auto.png" alt="Margin auto" loading="lazy">
   <figcaption>Margin auto</figcaption>
 </figure>
 
@@ -193,10 +184,7 @@ p {
 **Result**:
 
 <figure>
-  <img class="shadow lozad" data-src="/images/misc/h1-p-margins.gif" alt="Margin collapse">
-  <noscript>
-    <img class="shadow" src="/images/misc/h1-p-margins.gif" alt="Margin collapse">
-  </noscript>
+  <img class="shadow" src="/images/misc/h1-p-margins.gif" alt="Margin collapse" loading="lazy">
   <figcaption>Margin collapse</figcaption>
 </figure>
 
@@ -215,10 +203,7 @@ p {
 **Result**:
 
 <figure>
-  <img class="shadow lozad" data-src="/images/misc/negative-margin.png" alt="Negative margin">
-  <noscript>
-    <img class="shadow" src="/images/misc/negative-margin.png" alt="Negative margin">
-  </noscript>
+  <img class="shadow" src="/images/misc/negative-margin.png" alt="Negative margin" loading="lazy">
   <figcaption>Negative margin</figcaption>
 </figure>
 

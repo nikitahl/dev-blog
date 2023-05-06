@@ -28,31 +28,19 @@ The `select` tag is one of the most confusing and hard to style form elements in
 
 <div class="image-grid">
   <figure>
-    <img class="shadow lozad" data-src="/images/html-elements/select-tag-chrome.png" alt="Select tag on Chrome">
-    <noscript>
-      <img class="shadow" src="/images/resources/select-tag-chrome.png" alt="Select tag on Chrome">
-    </noscript>
+    <img class="shadow" src="/images/html-elements/select-tag-chrome.png" alt="Select tag on Chrome" loading="lazy">
     <figcaption>Chrome</figcaption>
   </figure>
   <figure>
-    <img class="shadow lozad" data-src="/images/html-elements/select-tag-firefox.png" alt="Select tag on Firefox">
-    <noscript>
-      <img class="shadow" src="/images/resources/select-tag-firefox.png" alt="Select tag on Firefox">
-    </noscript>
+    <img class="shadow" src="/images/html-elements/select-tag-firefox.png" alt="Select tag on Firefox" loading="lazy">
     <figcaption>Firefox</figcaption>
   </figure>
   <figure>
-    <img class="shadow lozad" data-src="/images/html-elements/select-tag-safari.png" alt="Select tag on Safari">
-    <noscript>
-      <img class="shadow" src="/images/resources/select-tag-safari.png" alt="Select tag on Safari">
-    </noscript>
+    <img class="shadow" src="/images/html-elements/select-tag-safari.png" alt="Select tag on Safari" loading="lazy">
     <figcaption>Safari</figcaption>
   </figure>
   <figure>
-    <img class="shadow lozad" data-src="/images/html-elements/select-tag-edge.png" alt="Select tag on Edge">
-    <noscript>
-      <img class="shadow" src="/images/resources/select-tag-edge.png" alt="Select tag on Edge">
-    </noscript>
+    <img class="shadow" src="/images/html-elements/select-tag-edge.png" alt="Select tag on Edge" loading="lazy">
     <figcaption>Edge</figcaption>
   </figure>
 </div>
@@ -175,31 +163,19 @@ With custom styles applied for the `select` tag it will look consistent and more
 
 <div class="image-grid">
   <figure>
-    <img class="shadow lozad" data-src="/images/html-elements/custom-select-tag-chrome.png" alt="Custom styled select tag on Chrome">
-    <noscript>
-      <img class="shadow" src="/images/resources/custom-select-tag-chrome.png" alt="Custom styled select tag on Chrome">
-    </noscript>
+    <img class="shadow" src="/images/html-elements/custom-select-tag-chrome.png" alt="Custom styled select tag on Chrome" loading="lazy">
     <figcaption>Chrome</figcaption>
   </figure>
   <figure>
-    <img class="shadow lozad" data-src="/images/html-elements/custom-select-tag-firefox.png" alt="Custom styled select tag on Firefox">
-    <noscript>
-      <img class="shadow" src="/images/resources/custom-select-tag-firefox.png" alt="Custom styled select tag on Firefox">
-    </noscript>
+    <img class="shadow" src="/images/html-elements/custom-select-tag-firefox.png" alt="Custom styled select tag on Firefox" loading="lazy">
     <figcaption>Firefox</figcaption>
   </figure>
   <figure>
-    <img class="shadow lozad" data-src="/images/html-elements/custom-select-tag-safari.png" alt="Custom styled select tag on Safari">
-    <noscript>
-      <img class="shadow" src="/images/resources/custom-select-tag-safari.png" alt="Custom styled select tag on Safari">
-    </noscript>
+    <img class="shadow" src="/images/html-elements/custom-select-tag-safari.png" alt="Custom styled select tag on Safari" loading="lazy">
     <figcaption>Safari</figcaption>
   </figure>
   <figure>
-    <img class="shadow lozad" data-src="/images/html-elements/custom-select-tag-edge.png" alt="Custom styled select tag on Edge">
-    <noscript>
-      <img class="shadow" src="/images/resources/custom-select-tag-edge.png" alt="Custom styled select tag on Edge">
-    </noscript>
+    <img class="shadow" src="/images/html-elements/custom-select-tag-edge.png" alt="Custom styled select tag on Edge" loading="lazy">
     <figcaption>Edge</figcaption>
   </figure>
 </div>

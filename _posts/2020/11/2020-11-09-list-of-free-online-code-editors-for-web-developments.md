@@ -51,10 +51,7 @@ These days there are a lot of online code editors that are free and each has its
 ## CodeSandbox
 
 <figure>
-  <img class="shadow lozad" data-src="/images/code-editors/codesandbox.png" alt="CodeSandbox">
-  <noscript>
-    <img class="shadow" src="/images/code-editors/codesandbox.png" alt="CodeSandbox">
-  </noscript>
+  <img class="shadow" src="/images/code-editors/codesandbox.png" alt="CodeSandbox" loading="lazy">
   <figcaption>CodeSandbox</figcaption>
 </figure>
 
@@ -75,10 +72,7 @@ Has Free and Paid versions.
 ## CodePen
 
 <figure>
-  <img class="shadow lozad" data-src="/images/code-editors/codepen.png" alt="CodePen">
-  <noscript>
-    <img class="shadow" src="/images/code-editors/codepen.png" alt="CodePen">
-  </noscript>
+  <img class="shadow" src="/images/code-editors/codepen.png" alt="CodePen" loading="lazy">
   <figcaption>CodePen</figcaption>
 </figure>
 
@@ -102,10 +96,7 @@ Has Free and Paid versions.
 ## JS Fiddle
 
 <figure>
-  <img class="shadow lozad" data-src="/images/code-editors/jsfiddle.png" alt="JS Fiddle">
-  <noscript>
-    <img class="shadow" src="/images/code-editors/jsfiddle.png" alt="JS Fiddle">
-  </noscript>
+  <img class="shadow" src="/images/code-editors/jsfiddle.png" alt="JS Fiddle" loading="lazy">
   <figcaption>JS Fiddle</figcaption>
 </figure>
 
@@ -127,10 +118,7 @@ Has Free and Paid versions.
 ## Liveweave
 
 <figure>
-  <img class="shadow lozad" data-src="/images/code-editors/liveweave.png" alt="Liveweave">
-  <noscript>
-    <img class="shadow" src="/images/code-editors/liveweave.png" alt="Liveweave">
-  </noscript>
+  <img class="shadow" src="/images/code-editors/liveweave.png" alt="Liveweave" loading="lazy">
   <figcaption>Liveweave</figcaption>
 </figure>
 
@@ -152,10 +140,7 @@ Has a Free version.
 ## PlayCode
 
 <figure>
-  <img class="shadow lozad" data-src="/images/code-editors/playcode.png" alt="PlayCode">
-  <noscript>
-    <img class="shadow" src="/images/code-editors/playcode.png" alt="PlayCode">
-  </noscript>
+  <img class="shadow" src="/images/code-editors/playcode.png" alt="PlayCode" loading="lazy">
   <figcaption>PlayCode</figcaption>
 </figure>
 
@@ -178,10 +163,7 @@ Has Free and Paid versions.
 ## Plunker
 
 <figure>
-  <img class="shadow lozad" data-src="/images/code-editors/plnkr.png" alt="Plunker">
-  <noscript>
-    <img class="shadow" src="/images/code-editors/plnkr.png" alt="Plunker">
-  </noscript>
+  <img class="shadow" src="/images/code-editors/plnkr.png" alt="Plunker" loading="lazy">
   <figcaption>Plunker</figcaption>
 </figure>
 
@@ -203,10 +185,7 @@ Has a Free version.
 ## JS Bin
 
 <figure>
-  <img class="shadow lozad" data-src="/images/code-editors/jsbin.png" alt="JS Bin">
-  <noscript>
-    <img class="shadow" src="/images/code-editors/jsbin.png" alt="JS Bin">
-  </noscript>
+  <img class="shadow" src="/images/code-editors/jsbin.png" alt="JS Bin" loading="lazy">
   <figcaption>JS Bin</figcaption>
 </figure>
 
@@ -230,10 +209,7 @@ Has Free and Paid versions.
 ## CSS Deck
 
 <figure>
-  <img class="shadow lozad" data-src="/images/code-editors/cssdeck.png" alt="CSS Deck">
-  <noscript>
-    <img class="shadow" src="/images/code-editors/cssdeck.png" alt="CSS Deck">
-  </noscript>
+  <img class="shadow" src="/images/code-editors/cssdeck.png" alt="CSS Deck" loading="lazy">
   <figcaption>CSS Deck</figcaption>
 </figure>
 
@@ -256,10 +232,7 @@ Has a Free version.
 ## Visual Studio Codespaces
 
 <figure>
-  <img class="shadow lozad" data-src="/images/code-editors/codespaces.png" alt="Visual Studio Codespaces">
-  <noscript>
-    <img class="shadow" src="/images/code-editors/codespaces.png" alt="Visual Studio Codespaces">
-  </noscript>
+  <img class="shadow" src="/images/code-editors/codespaces.png" alt="Visual Studio Codespaces" loading="lazy">
   <figcaption>Visual Studio Codespaces</figcaption>
 </figure>
 
@@ -281,10 +254,7 @@ Has Free and Paid versions.
 ## Codeanywhere
 
 <figure>
-  <img class="shadow lozad" data-src="/images/code-editors/codeanywhere.png" alt="Codeanywhere">
-  <noscript>
-    <img class="shadow" src="/images/code-editors/codeanywhere.png" alt="Codeanywhere">
-  </noscript>
+  <img class="shadow" src="/images/code-editors/codeanywhere.png" alt="Codeanywhere" loading="lazy">
   <figcaption>Codeanywhere</figcaption>
 </figure>
 
@@ -305,10 +275,7 @@ Has Free and Paid versions.
 ## StackBlitz
 
 <figure>
-  <img class="shadow lozad" data-src="/images/code-editors/stackblitz.png" alt="StackBlitz">
-  <noscript>
-    <img class="shadow" src="/images/code-editors/stackblitz.png" alt="StackBlitz">
-  </noscript>
+  <img class="shadow" src="/images/code-editors/stackblitz.png" alt="StackBlitz" loading="lazy">
   <figcaption>StackBlitz</figcaption>
 </figure>
 
@@ -330,10 +297,7 @@ Has Free and Paid versions.
 ## Gitpod
 
 <figure>
-  <img class="shadow lozad" data-src="/images/code-editors/gitpod.png" alt="Gitpod">
-  <noscript>
-    <img class="shadow" src="/images/code-editors/gitpod.png" alt="Gitpod">
-  </noscript>
+  <img class="shadow" src="/images/code-editors/gitpod.png" alt="Gitpod" loading="lazy">
   <figcaption>Gitpod</figcaption>
 </figure>
 
@@ -354,10 +318,7 @@ Has Free and Paid versions.
 ## Theia IDE
 
 <figure>
-  <img class="shadow lozad" data-src="/images/code-editors/theia.png" alt="Theia IDE">
-  <noscript>
-    <img class="shadow" src="/images/code-editors/theia.png" alt="Theia IDE">
-  </noscript>
+  <img class="shadow" src="/images/code-editors/theia.png" alt="Theia IDE" loading="lazy">
   <figcaption>Theia IDE</figcaption>
 </figure>
 
@@ -378,10 +339,7 @@ Has a Free version.
 ## Codeshare
 
 <figure>
-  <img class="shadow lozad" data-src="/images/code-editors/codeshare.png" alt="Codeshare">
-  <noscript>
-    <img class="shadow" src="/images/code-editors/codeshare.png" alt="Codeshare">
-  </noscript>
+  <img class="shadow" src="/images/code-editors/codeshare.png" alt="Codeshare" loading="lazy">
   <figcaption>Codeshare</figcaption>
 </figure>
 

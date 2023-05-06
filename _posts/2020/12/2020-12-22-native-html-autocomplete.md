@@ -54,31 +54,19 @@ The appearance of the autocomplete `input` field and the suggestion box will dif
 
 <div class="image-grid">
   <figure>
-    <img class="shadow lozad" data-src="/images/html-elements/datalist-chrome.png" alt="Datalist on Chrome">
-    <noscript>
-      <img class="shadow" src="/images/html-elements/datalist-chrome.png" alt="Datalist on Chrome">
-    </noscript>
+    <img class="shadow" src="/images/html-elements/datalist-chrome.png" alt="Datalist on Chrome" loading="lazy">
     <figcaption>Chrome</figcaption>
   </figure>
   <figure>
-    <img class="shadow lozad" data-src="/images/html-elements/datalist-edge.png" alt="Datalist on Edge">
-    <noscript>
-      <img class="shadow" src="/images/html-elements/datalist-edge.png" alt="Datalist on Edge">
-    </noscript>
+    <img class="shadow" src="/images/html-elements/datalist-edge.png" alt="Datalist on Edge" loading="lazy">
     <figcaption>Edge</figcaption>
   </figure>
   <figure>
-    <img class="shadow lozad" data-src="/images/html-elements/datalist-firefox.png" alt="Datalist on Firefox">
-    <noscript>
-      <img class="shadow" src="/images/html-elements/datalist-firefox.png" alt="Datalist on Firefox">
-    </noscript>
+    <img class="shadow" src="/images/html-elements/datalist-firefox.png" alt="Datalist on Firefox" loading="lazy">
     <figcaption>Firefox</figcaption>
   </figure>
   <figure>
-    <img class="shadow lozad" data-src="/images/html-elements/datalist-safari.png" alt="Datalist on Safari">
-    <noscript>
-      <img class="shadow" src="/images/html-elements/datalist-safari.png" alt="Datalist on Safari">
-    </noscript>
+    <img class="shadow" src="/images/html-elements/datalist-safari.png" alt="Datalist on Safari" loading="lazy">
     <figcaption>Safari</figcaption>
   </figure>
 </div>

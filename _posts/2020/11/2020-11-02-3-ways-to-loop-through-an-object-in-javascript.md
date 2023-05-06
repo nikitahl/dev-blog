@@ -208,9 +208,6 @@ A benchmark test takes an object with a hundred entries and runs it for each cas
 The fastest approach is the `forEach` method. Performance test results can be viewed and tested at [jsbench.me](https://jsbench.me/a3kh4jp5ot).
 
 <figure>
-  <img class="shadow lozad" data-src="/images/misc/object-iterate-performance.png" alt="Object Iterate Performance Test Results">
-  <noscript>
-    <img class="shadow" src="/images/misc/object-iterate-performance.png" alt="Object Iterate Performance Test Results">
-  </noscript>
+  <img class="shadow" src="/images/misc/object-iterate-performance.png" alt="Object Iterate Performance Test Results" loading="lazy">
   <figcaption>Object Iterate Performance Test Results</figcaption>
 </figure>

@@ -40,31 +40,19 @@ main hr{margin:30px auto 50px}
 
 <div class="image-grid">
   <figure>
-    <img class="shadow lozad" data-src="/images/html-elements/hr-chrome.png" alt="Horizontal rule on Chrome">
-    <noscript>
-      <img class="shadow" src="/images/html-elements/hr-chrome.png" alt="Horizontal rule on Chrome">
-    </noscript>
+    <img class="shadow" src="/images/html-elements/hr-chrome.png" alt="Horizontal rule on Chrome" loading="lazy">
     <figcaption>Chrome</figcaption>
   </figure>
   <figure>
-    <img class="shadow lozad" data-src="/images/html-elements/hr-edge.png" alt="Horizontal rule on Edge">
-    <noscript>
-      <img class="shadow" src="/images/html-elements/hr-edge.png" alt="Horizontal rule on Edge">
-    </noscript>
+    <img class="shadow" src="/images/html-elements/hr-edge.png" alt="Horizontal rule on Edge" loading="lazy">
     <figcaption>Edge</figcaption>
   </figure>
   <figure>
-    <img class="shadow lozad" data-src="/images/html-elements/hr-firefox.png" alt="Horizontal rule on Firefox">
-    <noscript>
-      <img class="shadow" src="/images/html-elements/hr-firefox.png" alt="Horizontal rule on Firefox">
-    </noscript>
+    <img class="shadow" src="/images/html-elements/hr-firefox.png" alt="Horizontal rule on Firefox" loading="lazy">
     <figcaption>Firefox</figcaption>
   </figure>
   <figure>
-    <img class="shadow lozad" data-src="/images/html-elements/hr-safari.png" alt="Horizontal rule on Safari">
-    <noscript>
-      <img class="shadow" src="/images/html-elements/hr-safari.png" alt="Horizontal rule on Safari">
-    </noscript>
+    <img class="shadow" src="/images/html-elements/hr-safari.png" alt="Horizontal rule on Safari" loading="lazy">
     <figcaption>Safari</figcaption>
   </figure>
 </div>

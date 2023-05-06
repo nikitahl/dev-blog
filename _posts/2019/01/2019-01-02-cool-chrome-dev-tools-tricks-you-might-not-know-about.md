@@ -31,10 +31,7 @@ Below you will find a list of cool tricks and tips I've found in Chrome Dev Tool
 There's a way to toggle between Light and Dark theme for Dev Tools. Inside *Settings* under *Appearance* choose between Light and Dark themes.
 
 <figure>
-  <img class="shadow lozad" data-src="/images/dev-tools/dev-tools-theme.png" alt="Dev Tools theme">
-  <noscript>
-    <img class="shadow" src="/images/dev-tools/dev-tools-theme.png" alt="Dev Tools theme">
-  </noscript>
+  <img class="shadow" src="/images/dev-tools/dev-tools-theme.png" alt="Dev Tools theme" loading="lazy">
   <figcaption>Dev Tools theme</figcaption>
 </figure>
 
@@ -48,10 +45,7 @@ You can select between three possible layouts:
 It can be set inside *Settings* under *Appearance*.
 
 <figure>
-  <img class="shadow lozad" data-src="/images/dev-tools/dev-tools-layout.png" alt="Dev Tools panel layout">
-  <noscript>
-    <img class="shadow" src="/images/dev-tools/dev-tools-layout.png" alt="Dev Tools panel layout">
-  </noscript>
+  <img class="shadow" src="/images/dev-tools/dev-tools-layout.png" alt="Dev Tools panel layout" loading="lazy">
   <figcaption>Dev Tools panel layout</figcaption>
 </figure>
 
@@ -61,10 +55,7 @@ There's an easy way to switch between Dev Tools panels via keyboard.
 * <kbd>ctrl</kbd> + <kbd>1-9</kbd> for Windows and Linux.
 
 <figure>
-  <img class="shadow lozad" data-src="/images/dev-tools/dev-tools-panels.gif" alt="Dev Tools panel switch">
-  <noscript>
-    <img class="shadow" src="/images/dev-tools/dev-tools-panels.gif" alt="Dev Tools panel switch">
-  </noscript>
+  <img class="shadow" src="/images/dev-tools/dev-tools-panels.gif" alt="Dev Tools panel switch" loading="lazy">
   <figcaption>Dev Tools panel switch</figcaption>
 </figure>
 
@@ -74,10 +65,7 @@ While in the *Styles* panel click on the CSS property and press:
 * <kbd>tab</kbd> + <kbd>shift</kbd> to jump to the previous property.
 
 <figure>
-  <img class="shadow lozad" data-src="/images/dev-tools/switch-css-props.gif" alt="Switching between CSS properties">
-  <noscript>
-    <img class="shadow" src="/images/dev-tools/switch-css-props.gif" alt="Switching between CSS properties">
-  </noscript>
+  <img class="shadow" src="/images/dev-tools/switch-css-props.gif" alt="Switching between CSS properties" loading="lazy">
   <figcaption>Switching between CSS properties</figcaption>
 </figure>
 
@@ -85,10 +73,7 @@ While in the *Styles* panel click on the CSS property and press:
 You can easily toggle element visibility inside element DOM tree by pressing <kbd>h</kbd> key on selected element.
 
 <figure>
-  <img class="shadow lozad" data-src="/images/dev-tools/hide-element.gif" alt="Toggle element visibility">
-  <noscript>
-    <img class="shadow" src="/images/dev-tools/hide-element.gif" alt="Toggle element visibility">
-  </noscript>
+  <img class="shadow" src="/images/dev-tools/hide-element.gif" alt="Toggle element visibility" loading="lazy">
   <figcaption>Toggle element visibility</figcaption>
 </figure>
 
@@ -96,10 +81,7 @@ You can easily toggle element visibility inside element DOM tree by pressing <kb
 Inside element DOM tree press <kbd>enter</kbd> key on the selected element to edit attribute. Press <kbd>tab</kbd> to edit next attribute, press <kbd>tab</kbd> + <kbd>shift</kbd> edit previous attribute.
 
 <figure>
-  <img class="shadow lozad" data-src="/images/dev-tools/edit-element-attrs.gif" alt="Edit element attributes">
-  <noscript>
-    <img class="shadow" src="/images/dev-tools/edit-element-attrs.gif" alt="Edit element attributes">
-  </noscript>
+  <img class="shadow" src="/images/dev-tools/edit-element-attrs.gif" alt="Edit element attributes" loading="lazy">
   <figcaption>Edit element attributes</figcaption>
 </figure>
 
@@ -109,10 +91,7 @@ To find any attribute, element, content or any other string inside DOM tree just
 * <kbd>ctrl</kbd> + <kbd>f</kbd> for Windows and Linux.
 
 <figure>
-  <img class="shadow lozad" data-src="/images/dev-tools/dom-tree-search.png" alt="Search DOM tree">
-  <noscript>
-    <img class="shadow" src="/images/dev-tools/dom-tree-search.png" alt="Search DOM tree">
-  </noscript>
+  <img class="shadow" src="/images/dev-tools/dom-tree-search.png" alt="Search DOM tree" loading="lazy">
   <figcaption>Search DOM tree</figcaption>
 </figure>
 
@@ -121,10 +100,7 @@ You can enable/disable existing devices or add a custom device inside *Device to
 Inside *Settings* click on the *Devices* tab. You will see a list of existing devices where you can enable/disable devices. Or you can add a new one by clicking on the *Add custom device...* button.
 
 <figure>
-  <img class="shadow lozad" data-src="/images/dev-tools/add-custom-device.png" alt="Add devices">
-  <noscript>
-    <img class="shadow" src="/images/dev-tools/add-custom-device.png" alt="Add devices">
-  </noscript>
+  <img class="shadow" src="/images/dev-tools/add-custom-device.png" alt="Add devices" loading="lazy">
   <figcaption>Add devices</figcaption>
 </figure>
 
@@ -139,10 +115,7 @@ Hover over a small icon ( **&vellip;** ) in the bottom left corner and the above
 To insert a new style rule below click on the **+** icon.
 
 <figure>
-  <img class="shadow lozad" data-src="/images/dev-tools/add-styles-shortcut.gif" alt="Add new styles shortcut">
-  <noscript>
-    <img class="shadow" src="/images/dev-tools/add-styles-shortcut.gif" alt="Add new styles shortcut">
-  </noscript>
+  <img class="shadow" src="/images/dev-tools/add-styles-shortcut.gif" alt="Add new styles shortcut" loading="lazy">
   <figcaption>Add new styles shortcut</figcaption>
 </figure>
 
@@ -150,10 +123,7 @@ To insert a new style rule below click on the **+** icon.
 In the console write `document.designMode = "on"` and you will be able to edit any text content on the page instantly.
 
 <figure>
-  <img class="shadow lozad" data-src="/images/dev-tools/document-design-mode.png" alt="Document Design Mode">
-  <noscript>
-    <img class="shadow" src="/images/dev-tools/document-design-mode.png" alt="Document Design Mode">
-  </noscript>
+  <img class="shadow" src="/images/dev-tools/document-design-mode.png" alt="Document Design Mode" loading="lazy">
   <figcaption>Document Design Mode</figcaption>
 </figure>
 
@@ -163,10 +133,7 @@ Any returned data of *object* or *function* type can be stored as a global varia
 **Note:** These variables are temporary and are only available during the current session, meaning after page refresh they will be gone.
 
 <figure>
-  <img class="shadow lozad" data-src="/images/dev-tools/store-as-a-global-variable.gif" alt="Store value as a global variable">
-  <noscript>
-    <img class="shadow" src="/images/dev-tools/store-as-a-global-variable.gif" alt="Store value as a global variable">
-  </noscript>
+  <img class="shadow" src="/images/dev-tools/store-as-a-global-variable.gif" alt="Store value as a global variable" loading="lazy">
   <figcaption>Store value as a global variable</figcaption>
 </figure>
 
@@ -183,10 +150,7 @@ Numeric CSS values can easily be incremented and decremented by using certain ke
 * Dcrement value by 100 <kbd>cmd</kbd> + <kbd>&darr;</kbd> (MAC),  <kbd>ctrl</kbd> + <kbd>&darr;</kbd> (Windows and Linux).
 
 <figure>
-  <img class="shadow lozad" data-src="/images/dev-tools/increment-value.gif" alt="Increment CSS values">
-  <noscript>
-    <img class="shadow" src="/images/dev-tools/increment-value.gif" alt="Increment CSS values">
-  </noscript>
+  <img class="shadow" src="/images/dev-tools/increment-value.gif" alt="Increment CSS values" loading="lazy">
   <figcaption>Increment CSS values</figcaption>
 </figure>
 
@@ -196,10 +160,7 @@ A DOM element can be stored and accessed as a global variable in the console. In
 **Note:** These variables are temporary and are only available during the current session, meaning after page refresh they will be gone.
 
 <figure>
-  <img class="shadow lozad" data-src="/images/dev-tools/store-element-as-global-variable.png" alt="DOM elements as global variables">
-  <noscript>
-    <img class="shadow" src="/images/dev-tools/store-element-as-global-variable.png" alt="DOM elements as global variables">
-  </noscript>
+  <img class="shadow" src="/images/dev-tools/store-element-as-global-variable.png" alt="DOM elements as global variables" loading="lazy">
   <figcaption>DOM elements as global variables</figcaption>
 </figure>
 
@@ -207,10 +168,7 @@ A DOM element can be stored and accessed as a global variable in the console. In
 You can easily change the color format by holding <kbd>shift</kbd> key and click on the **Color Preview** box next to the value.
 
 <figure>
-  <img class="shadow lozad" data-src="/images/dev-tools/switch-color-formats.gif" alt="Switch between color formats">
-  <noscript>
-    <img class="shadow" src="/images/dev-tools/switch-color-formats.gif" alt="Switch between color formats">
-  </noscript>
+  <img class="shadow" src="/images/dev-tools/switch-color-formats.gif" alt="Switch between color formats" loading="lazy">
   <figcaption>Switch between color formats</figcaption>
 </figure>
 
@@ -218,10 +176,7 @@ You can easily change the color format by holding <kbd>shift</kbd> key and click
 `$_` in the Console returns the value of the last expression evaluated.
 
 <figure>
-  <img class="shadow lozad" data-src="/images/dev-tools/last-evaluated-expression.png" alt="Return last evaluated expression">
-  <noscript>
-    <img class="shadow" src="/images/dev-tools/last-evaluated-expression.png" alt="Return last evaluated expression">
-  </noscript>
+  <img class="shadow" src="/images/dev-tools/last-evaluated-expression.png" alt="Return last evaluated expression" loading="lazy">
   <figcaption>Return last evaluated expression</figcaption>
 </figure>
 
@@ -229,10 +184,7 @@ You can easily change the color format by holding <kbd>shift</kbd> key and click
 Once the object is logged, hold <kbd>alt</kbd> key and click expand **&#x025B8;** icon.
 
 <figure>
-  <img class="shadow lozad" data-src="/images/dev-tools/expand-props.gif" alt="Expand all sub-properties">
-  <noscript>
-    <img class="shadow" src="/images/dev-tools/expand-props.gif" alt="Expand all sub-properties">
-  </noscript>
+  <img class="shadow" src="/images/dev-tools/expand-props.gif" alt="Expand all sub-properties" loading="lazy">
   <figcaption>Expand all sub-properties</figcaption>
 </figure>
 

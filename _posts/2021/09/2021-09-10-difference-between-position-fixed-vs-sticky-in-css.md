@@ -7,8 +7,7 @@ description: The difference between position fixed vs sticky is that fixed
   always positions an element relative to the viewport, while sticky behaves
   like a regular element until it reaches the defined offset and then becomes
   fixed.
-tags:
-  - css
+tags: [css]
 ---
 
 It sometimes can be confusing to both beginners and even seasoned developers to understand the difference between position `fixed` vs `sticky`. Due to the fact that they behave similarly, yet each of those [properties](https://developer.mozilla.org/en-US/docs/Web/CSS/position#values) has its own purpose.
@@ -16,10 +15,7 @@ It sometimes can be confusing to both beginners and even seasoned developers to 
 The difference between position `fixed` vs `sticky` is that `fixed` always positions an element relative to the viewport, while `sticky` behaves like a regular element until it reaches the defined offset and then becomes fixed.
 
 <figure>
-  <img class="shadow lozad" data-src="/images/misc/fixed-vs-sticky.gif" alt="Fixed vs Sticky">
-  <noscript>
-    <img class="shadow" src="/images/misc/fixed-vs-sticky.gif" alt="Fixed vs Sticky">
-  </noscript>
+  <img class="shadow" src="/images/misc/fixed-vs-sticky.gif" alt="Fixed vs Sticky" loading="lazy">
   <figcaption>Fixed vs Sticky side by side</figcaption>
 </figure>
 

@@ -33,10 +33,7 @@ Following resources aimed to challenge your skills in:
 ## Codewars
 
 <figure>
-  <img class="shadow lozad" data-src="/images/resources/codewars.png" alt="Codewars">
-  <noscript>
-    <img class="shadow" src="/images/resources/codewars.png" alt="Codewars">
-  </noscript>
+  <img class="shadow" src="/images/resources/codewars.png" alt="Codewars" loading="lazy">
   <figcaption>Codewars</figcaption>
 </figure>
 
@@ -51,10 +48,7 @@ Codewars is a community-driven resource, everyone can create and solve exercises
 ## CSSBattle
 
 <figure>
-  <img class="shadow lozad" data-src="/images/resources/cssbattle1.png" alt="CSSBattle">
-  <noscript>
-    <img class="shadow" src="/images/resources/cssbattle1.png" alt="CSSBattle">
-  </noscript>
+  <img class="shadow" src="/images/resources/cssbattle1.png" alt="CSSBattle" loading="lazy">
   <figcaption>CSSBattle</figcaption>
 </figure>
 
@@ -69,10 +63,7 @@ There are dozens of available battles (challenges) each containing several targe
 ## CodePen
 
 <figure>
-  <img class="shadow lozad" data-src="/images/resources/codepen1.png" alt="CodePen">
-  <noscript>
-    <img class="shadow" src="/images/resources/codepen1.png" alt="CodePen">
-  </noscript>
+  <img class="shadow" src="/images/resources/codepen1.png" alt="CodePen" loading="lazy">
   <figcaption>CodePen</figcaption>
 </figure>
 
@@ -87,10 +78,7 @@ You can boost your creativity, learn new skills and technologies and showcase yo
 ## CSS Challenges
 
 <figure>
-  <img class="shadow lozad" data-src="/images/resources/csschallenges.png" alt="CSS Challenges">
-  <noscript>
-    <img class="shadow" src="/images/resources/csschallenges.png" alt="CSS Challenges">
-  </noscript>
+  <img class="shadow" src="/images/resources/csschallenges.png" alt="CSS Challenges" loading="lazy">
   <figcaption>CSS Challenges</figcaption>
 </figure>
 
@@ -103,10 +91,7 @@ CSS Challenges is a resource that offers fun and playful ways to practice your C
 ## 100DaysOfCode
 
 <figure>
-  <img class="shadow lozad" data-src="/images/resources/100daysofcode.png" alt="100DaysOfCode">
-  <noscript>
-    <img class="shadow" src="/images/resources/100daysofcode.png" alt="100DaysOfCode">
-  </noscript>
+  <img class="shadow" src="/images/resources/100daysofcode.png" alt="100DaysOfCode" loading="lazy">
   <figcaption>100DaysOfCode</figcaption>
 </figure>
 
@@ -121,10 +106,7 @@ There are certain [rules](https://www.100daysofcode.com/rules/) you have to foll
 ## JavaScript30
 
 <figure>
-  <img class="shadow lozad" data-src="/images/resources/javascript30-1.png" alt="JavaScript30">
-  <noscript>
-    <img class="shadow" src="/images/resources/javascript30-1.png" alt="JavaScript30">
-  </noscript>
+  <img class="shadow" src="/images/resources/javascript30-1.png" alt="JavaScript30" loading="lazy">
   <figcaption>JavaScript30</figcaption>
 </figure>
 
@@ -139,10 +121,7 @@ This challenge is aimed mostly at beginners and intermediate developers who are 
 ## Coderbyte
 
 <figure>
-  <img class="shadow lozad" data-src="/images/resources/coderbyte.png" alt="Coderbyte">
-  <noscript>
-    <img class="shadow" src="/images/resources/coderbyte.png" alt="Coderbyte">
-  </noscript>
+  <img class="shadow" src="/images/resources/coderbyte.png" alt="Coderbyte" loading="lazy">
   <figcaption>Coderbyte</figcaption>
 </figure>
 
@@ -157,10 +136,7 @@ Besides the coding challenges, Coderbyte offers starter courses, interview kits,
 ## CodinGame
 
 <figure>
-  <img class="shadow lozad" data-src="/images/resources/codingame.png" alt="CodinGame">
-  <noscript>
-    <img class="shadow" src="/images/resources/codingame.png" alt="CodinGame">
-  </noscript>
+  <img class="shadow" src="/images/resources/codingame.png" alt="CodinGame" loading="lazy">
   <figcaption>CodinGame</figcaption>
 </figure>
 
@@ -175,10 +151,7 @@ This is a great option to diversify your programming practice, as you can see ho
 ## LeetCode
 
 <figure>
-  <img class="shadow lozad" data-src="/images/resources/leetcode.png" alt="LeetCode">
-  <noscript>
-    <img class="shadow" src="/images/resources/leetcode.png" alt="LeetCode">
-  </noscript>
+  <img class="shadow" src="/images/resources/leetcode.png" alt="LeetCode" loading="lazy">
   <figcaption>LeetCode</figcaption>
 </figure>
 
@@ -193,10 +166,7 @@ All in all, it is a great resource to learn and practice programming skills.
 ## Hackerrank
 
 <figure>
-  <img class="shadow lozad" data-src="/images/resources/hackerrank.png" alt="Hackerrank">
-  <noscript>
-    <img class="shadow" src="/images/resources/hackerrank.png" alt="Hackerrank">
-  </noscript>
+  <img class="shadow" src="/images/resources/hackerrank.png" alt="Hackerrank" loading="lazy">
   <figcaption>Hackerrank</figcaption>
 </figure>
 
@@ -211,10 +181,7 @@ You can practice coding skills, learn new concepts, get a certification, compete
 ## FrontendPro
 
 <figure>
-  <img class="shadow lozad" data-src="/images/resources/frontendpro.webp" alt="FrontendPro">
-  <noscript>
-    <img class="shadow" src="/images/resources/frontendpro.webp" alt="FrontendPro">
-  </noscript>
+  <img class="shadow" src="/images/resources/frontendpro.webp" alt="FrontendPro" loading="lazy">
   <figcaption>FrontendPro</figcaption>
 </figure>
 

@@ -111,50 +111,32 @@ Of course there are exceptions and you may find some bizarre and fancy buttons o
 Below are some of the most famous services and resources putting these principles into practice.
 
 <figure>
-  <img class="shadow lozad" data-src="/images/button-styles/awwwards-buttons.png" alt="Awwwards buttons">
-  <noscript>
-    <img class="shadow" src="/images/button-styles/awwwards-buttons.png" alt="Awwwards buttons">
-  </noscript>
+  <img class="shadow" src="/images/button-styles/awwwards-buttons.png" alt="Awwwards buttons" loading="lazy">
   <figcaption>Awwwards buttons</figcaption>
 </figure>
 
 <figure>
-  <img class="shadow lozad" data-src="/images/button-styles/gmail-buttons.png" alt="Gmail buttons">
-  <noscript>
-    <img class="shadow" src="/images/button-styles/gmail-buttons.png" alt="Gmail buttons">
-  </noscript>
+  <img class="shadow" src="/images/button-styles/gmail-buttons.png" alt="Gmail buttons" loading="lazy">
   <figcaption>Gmail buttons</figcaption>
 </figure>
 
 <figure>
-  <img class="shadow lozad" data-src="/images/button-styles/instagram-buttons.png" alt="Instagram buttons">
-  <noscript>
-    <img class="shadow" src="/images/button-styles/instagram-buttons.png" alt="Instagram buttons">
-  </noscript>
+  <img class="shadow" src="/images/button-styles/instagram-buttons.png" alt="Instagram buttons" loading="lazy">
   <figcaption>Instagram buttons</figcaption>
 </figure>
 
 <figure>
-  <img class="shadow lozad" data-src="/images/button-styles/medium-buttons.png" alt="Medium buttons">
-  <noscript>
-    <img class="shadow" src="/images/button-styles/medium-buttons.png" alt="Medium buttons">
-  </noscript>
+  <img class="shadow" src="/images/button-styles/medium-buttons.png" alt="Medium buttons" loading="lazy">
   <figcaption>Medium buttons</figcaption>
 </figure>
 
 <figure>
-  <img class="shadow lozad" data-src="/images/button-styles/reddit-buttons.png" alt="Reddit buttons">
-  <noscript>
-    <img class="shadow" src="/images/button-styles/reddit-buttons.png" alt="Reddit buttons">
-  </noscript>
+  <img class="shadow" src="/images/button-styles/reddit-buttons.png" alt="Reddit buttons" loading="lazy">
   <figcaption>Reddit buttons</figcaption>
 </figure>
 
 <figure>
-  <img class="shadow lozad" data-src="/images/button-styles/twitter-buttons.png" alt="Twitter buttons">
-  <noscript>
-    <img class="shadow" src="/images/button-styles/twitter-buttons.png" alt="Twitter buttons">
-  </noscript>
+  <img class="shadow" src="/images/button-styles/twitter-buttons.png" alt="Twitter buttons" loading="lazy">
   <figcaption>Twitter buttons</figcaption>
 </figure>
 

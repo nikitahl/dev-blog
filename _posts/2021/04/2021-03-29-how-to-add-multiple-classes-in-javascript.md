@@ -104,9 +104,6 @@ This approach is quite useful when [creating a new element](/create-element-with
 You can easily add or remove multiple classes in your browser's DevTools. This works in Chrome and Firefox:
 
 <figure>
-  <img class="shadow lozad" data-src="/images/misc/toggle-classes.gif" alt="Toggle classes in Dev Tools">
-  <noscript>
-    <img class="shadow" src="/images/misc/toggle-classes.gif" alt="Toggle classes in Dev Tools">
-  </noscript>
+  <img class="shadow" src="/images/misc/toggle-classes.gif" alt="Toggle classes in Dev Tools" loading="lazy">
   <figcaption>Toggle classes in Dev Tools</figcaption>
 </figure>

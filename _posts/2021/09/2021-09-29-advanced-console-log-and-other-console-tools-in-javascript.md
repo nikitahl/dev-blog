@@ -91,10 +91,7 @@ console.log('%c console.log is awesome', 'color: green; font-size: 16px');
 ```
 
 <figure>
-  <img class="shadow lozad" data-src="/images/misc/styled-console-log.png" alt="Styled console log">
-  <noscript>
-    <img class="shadow" src="/images/misc/styled-console-log.png" alt="Styled console log">
-  </noscript>
+  <img class="shadow" src="/images/misc/styled-console-log.png" alt="Styled console log" loading="lazy">
   <figcaption>Styled console log</figcaption>
 </figure>
 
@@ -114,10 +111,7 @@ console.table(fruits)
 ```
 
 <figure>
-  <img class="shadow lozad" data-src="/images/dev-tools/console-table.png" alt="Console table">
-  <noscript>
-    <img class="shadow" src="/images/dev-tools/console-table.png" alt="Console table">
-  </noscript>
+  <img class="shadow" src="/images/dev-tools/console-table.png" alt="Console table" loading="lazy">
   <figcaption>Console table</figcaption>
 </figure>
 
@@ -141,10 +135,7 @@ heading.addEventListener('click', handleClick)
 ```
 
 <figure>
-  <img class="shadow lozad" data-src="/images/dev-tools/console-trace.png" alt="Console trace">
-  <noscript>
-    <img class="shadow" src="/images/dev-tools/console-trace.png" alt="Console trace">
-  </noscript>
+  <img class="shadow" src="/images/dev-tools/console-trace.png" alt="Console trace" loading="lazy">
   <figcaption>Console trace</figcaption>
 </figure>
 
@@ -165,10 +156,7 @@ heading.addEventListener('click', handleClick)
 ```
 
 <figure>
-  <img class="shadow lozad" data-src="/images/dev-tools/console-count.png" alt="Console count">
-  <noscript>
-    <img class="shadow" src="/images/dev-tools/console-count.png" alt="Console count">
-  </noscript>
+  <img class="shadow" src="/images/dev-tools/console-count.png" alt="Console count" loading="lazy">
   <figcaption>Console count</figcaption>
 </figure>
 

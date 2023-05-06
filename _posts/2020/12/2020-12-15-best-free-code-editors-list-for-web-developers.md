@@ -114,10 +114,7 @@ At the end of this article I also have a [bonus code editors](#bonus-free-trials
 ## Atom
 
 <figure>
-  <img class="shadow lozad" data-src="/images/code-editors/atom.png" alt="Atom code editor">
-  <noscript>
-    <img class="shadow" src="/images/code-editors/atom.png" alt="Atom code editor">
-  </noscript>
+  <img class="shadow" src="/images/code-editors/atom.png" alt="Atom code editor" loading="lazy">
   <figcaption>Atom code editor</figcaption>
 </figure>
 
@@ -146,10 +143,7 @@ Atom is a hackable text editor for the 21st century, built on [Electron](https:/
 ## Sublime Text
 
 <figure>
-  <img class="shadow lozad" data-src="/images/code-editors/sublime.png" alt="Sublime Text code editor">
-  <noscript>
-    <img class="shadow" src="/images/code-editors/sublime.png" alt="Sublime Text code editor">
-  </noscript>
+  <img class="shadow" src="/images/code-editors/sublime.png" alt="Sublime Text code editor" loading="lazy">
   <figcaption>Sublime Text code editor</figcaption>
 </figure>
 
@@ -181,10 +175,7 @@ As the company says Sublime is a sophisticated text editor for code, markup, and
 ## Visual Studio Code
 
 <figure>
-  <img class="shadow lozad" data-src="/images/code-editors/vscode.png" alt="Visual Studio Code code editor">
-  <noscript>
-    <img class="shadow" src="/images/code-editors/vscode.png" alt="Visual Studio Code code editor">
-  </noscript>
+  <img class="shadow" src="/images/code-editors/vscode.png" alt="Visual Studio Code code editor" loading="lazy">
   <figcaption>Visual Studio Code code editor</figcaption>
 </figure>
 
@@ -211,10 +202,7 @@ Visual Studio Code is a lightweight but powerful source code editor that runs on
 ## Brackets
 
 <figure>
-  <img class="shadow lozad" data-src="/images/code-editors/brackets.png" alt="Brackets code editor">
-  <noscript>
-    <img class="shadow" src="/images/code-editors/brackets.png" alt="Brackets code editor">
-  </noscript>
+  <img class="shadow" src="/images/code-editors/brackets.png" alt="Brackets code editor" loading="lazy">
   <figcaption>Brackets code editor</figcaption>
 </figure>
 
@@ -239,10 +227,7 @@ With focused visual tools and preprocessor support, Brackets is a modern text ed
 ## Light Table
 
 <figure>
-  <img class="shadow lozad" data-src="/images/code-editors/lighttable.png" alt="Light Table code editor">
-  <noscript>
-    <img class="shadow" src="/images/code-editors/lighttable.png" alt="Light Table code editor">
-  </noscript>
+  <img class="shadow" src="/images/code-editors/lighttable.png" alt="Light Table code editor" loading="lazy">
   <figcaption>Light Table code editor</figcaption>
 </figure>
 
@@ -270,10 +255,7 @@ Light Table is a next-generation code editor that connects you to your creation 
 ## Notepad++
 
 <figure>
-  <img class="shadow lozad" data-src="/images/code-editors/nodepadplusplus.png" alt="Notepad++ code editor">
-  <noscript>
-    <img class="shadow" src="/images/code-editors/nodepadplusplus.png" alt="Notepad++ code editor">
-  </noscript>
+  <img class="shadow" src="/images/code-editors/nodepadplusplus.png" alt="Notepad++ code editor" loading="lazy">
   <figcaption>Notepad++ code editor</figcaption>
 </figure>
 
@@ -306,10 +288,7 @@ Based on the powerful editing component [Scintilla](https://www.scintilla.org/),
 ## Bluefish
 
 <figure>
-  <img class="shadow lozad" data-src="/images/code-editors/bluefish.png" alt="Bluefish code editor">
-  <noscript>
-    <img class="shadow" src="/images/code-editors/bluefish.png" alt="Bluefish code editor">
-  </noscript>
+  <img class="shadow" src="/images/code-editors/bluefish.png" alt="Bluefish code editor" loading="lazy">
   <figcaption>Bluefish code editor</figcaption>
 </figure>
 
@@ -340,10 +319,7 @@ Bluefish is a multi-platform application that runs on most desktop operating sys
 ## NetBeans
 
 <figure>
-  <img class="shadow lozad" data-src="/images/code-editors/netbeans.png" alt="NetBeans code editor">
-  <noscript>
-    <img class="shadow" src="/images/code-editors/netbeans.png" alt="NetBeans code editor">
-  </noscript>
+  <img class="shadow" src="/images/code-editors/netbeans.png" alt="NetBeans code editor" loading="lazy">
   <figcaption>NetBeans code editor</figcaption>
 </figure>
 
@@ -374,10 +350,7 @@ Apache NetBeans is free and open source and is governed by the Apache Software F
 ## Geany
 
 <figure>
-  <img class="shadow lozad" data-src="/images/code-editors/geany.png" alt="Geany code editor">
-  <noscript>
-    <img class="shadow" src="/images/code-editors/geany.png" alt="Geany code editor">
-  </noscript>
+  <img class="shadow" src="/images/code-editors/geany.png" alt="Geany code editor" loading="lazy">
   <figcaption>Geany code editor</figcaption>
 </figure>
 
@@ -405,10 +378,7 @@ Geany is a small and lightweight integrated development environment. It was deve
 ## lite
 
 <figure>
-  <img class="shadow lozad" data-src="/images/code-editors/lite-code-editor.png" alt="lite code editor">
-  <noscript>
-    <img class="shadow" src="/images/code-editors/lite-code-editor.png" alt="lite code editor">
-  </noscript>
+  <img class="shadow" src="/images/code-editors/lite-code-editor.png" alt="lite code editor" loading="lazy">
   <figcaption>lite code editor</figcaption>
 </figure>
 
@@ -438,10 +408,7 @@ If you've read the article up to this point, I have a bonus for you. The followi
 ### Nova
 
 <figure>
-  <img class="shadow lozad" data-src="/images/code-editors/nova-code-editor.png" alt="Nova code editor">
-  <noscript>
-    <img class="shadow" src="/images/code-editors/nova-code-editor.png" alt="Nova code editor">
-  </noscript>
+  <img class="shadow" src="/images/code-editors/nova-code-editor.png" alt="Nova code editor" loading="lazy">
   <figcaption>Nova code editor</figcaption>
 </figure>
 
@@ -471,10 +438,7 @@ It's new, hyper-fast, and flexible, with all the features you want: smart autoco
 ### JetBrains
 
 <figure>
-  <img class="shadow lozad" data-src="/images/code-editors/phstorm.png" alt="PHP Storm code editor">
-  <noscript>
-    <img class="shadow" src="/images/code-editors/phstorm.png" alt="PHP Storm code editor">
-  </noscript>
+  <img class="shadow" src="/images/code-editors/phstorm.png" alt="PHP Storm code editor" loading="lazy">
   <figcaption>PHP Storm code editor</figcaption>
 </figure>
 
@@ -505,10 +469,7 @@ JetBrains has a wide variety of different IDEs, each designed for a specific pur
 ### Ultra Edit
 
 <figure>
-  <img class="shadow lozad" data-src="/images/code-editors/ultraedit.png" alt="Ultra Edit code editor">
-  <noscript>
-    <img class="shadow" src="/images/code-editors/ultraedit.png" alt="Ultra Edit code editor">
-  </noscript>
+  <img class="shadow" src="/images/code-editors/ultraedit.png" alt="Ultra Edit code editor" loading="lazy">
   <figcaption>Ultra Edit code editor</figcaption>
 </figure>
 

@@ -42,10 +42,7 @@ Check out MDN full docs on [find() method](https://developer.mozilla.org/en-US/d
 **Browser support** for `find()`:
 
 <figure>
-  <img class="shadow lozad" data-src="/images/find-array-items/array-find-method-browser-compatibility.png" alt="Array.prototype.find() method browser support">
-  <noscript>
-    <img class="shadow" src="/images/find-array-items/array-find-method-browser-compatibility.png" alt="Array.prototype.find() method browser support">
-  </noscript>
+  <img class="shadow" src="/images/find-array-items/array-find-method-browser-compatibility.png" alt="Array.prototype.find() method browser support" loading="lazy">
   <figcaption>Array.prototype.find() method browser support</figcaption>
 </figure>
 
@@ -78,10 +75,7 @@ Check out MDN full docs on [findIndex() method](https://developer.mozilla.org/en
 **Browser support** for `findIndex()`:
 
 <figure>
-  <img class="shadow lozad" data-src="/images/find-array-items/array-findindex-method-browser-compatibility.png" alt="Array.prototype.findIndex() method browser support">
-  <noscript>
-    <img class="shadow" src="/images/find-array-items/array-findindex-method-browser-compatibility.png" alt="Array.prototype.findIndex() method browser support">
-  </noscript>
+  <img class="shadow" src="/images/find-array-items/array-findindex-method-browser-compatibility.png" alt="Array.prototype.findIndex() method browser support" loading="lazy">
   <figcaption>Array.prototype.findIndex() method browser support</figcaption>
 </figure>
 
@@ -119,10 +113,7 @@ Check out MDN full docs on [indexOf() method](https://developer.mozilla.org/en-U
 **Browser support** for `indexOf()`:
 
 <figure>
-  <img class="shadow lozad" data-src="/images/find-array-items/array-indexof-method-browser-compatibility.png" alt="Array.prototype.indexOf() method browser support">
-  <noscript>
-    <img class="shadow" src="/images/find-array-items/array-indexof-method-browser-compatibility.png" alt="Array.prototype.indexOf() method browser support">
-  </noscript>
+  <img class="shadow" src="/images/find-array-items/array-indexof-method-browser-compatibility.png" alt="Array.prototype.indexOf() method browser support" loading="lazy">
   <figcaption>Array.prototype.indexOf() method browser support</figcaption>
 </figure>
 
@@ -165,10 +156,7 @@ Check out MDN full docs on [for loop](https://developer.mozilla.org/en-US/docs/W
 **Browser support** for `for` loop:
 
 <figure>
-  <img class="shadow lozad" data-src="/images/find-array-items/for-loop-browser-compatibility.png" alt="for loop browser support">
-  <noscript>
-    <img class="shadow" src="/images/find-array-items/for-loop-browser-compatibility.png" alt="for loop browser support">
-  </noscript>
+  <img class="shadow" src="/images/find-array-items/for-loop-browser-compatibility.png" alt="for loop browser support" loading="lazy">
   <figcaption>for loop browser support</figcaption>
 </figure>
 
@@ -181,20 +169,14 @@ The test is pretty simple, it creates an array of numbers and then tests each ap
 Test results:
 
 <figure>
-  <img class="shadow lozad" data-src="/images/find-array-items/find-array-item-results.png" alt="Find array item results">
-  <noscript>
-    <img class="shadow" src="/images/find-array-items/find-array-item-results.png" alt="Find array item results">
-  </noscript>
+  <img class="shadow" src="/images/find-array-items/find-array-item-results.png" alt="Find array item results" loading="lazy">
   <figcaption>Find array item results</figcaption>
 </figure>
 
 Test results chart snapshot:
 
 <figure>
-  <img class="shadow lozad" data-src="/images/find-array-items/find-array-item-results-snapshot.png" alt="Find array item results chart snapshot">
-  <noscript>
-    <img class="shadow" src="/images/find-array-items/find-array-item-results-snapshot.png" alt="Find array item results chart snapshot">
-  </noscript>
+  <img class="shadow" src="/images/find-array-items/find-array-item-results-snapshot.png" alt="Find array item results chart snapshot" loading="lazy">
   <figcaption>Find array item results chart snapshot</figcaption>
 </figure>
 

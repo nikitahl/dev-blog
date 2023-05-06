@@ -65,31 +65,19 @@ Default styling looks pretty similar across the browsers. One particular feature
 
 <div class="image-grid">
   <figure>
-    <img class="shadow lozad" data-src="/images/html-elements/details-chrome.png" alt="Details element on Chrome">
-    <noscript>
-      <img class="shadow" src="/images/html-elements/details-chrome.png" alt="Details element on Chrome">
-    </noscript>
+    <img class="shadow" src="/images/html-elements/details-chrome.png" alt="Details element on Chrome" loading="lazy">
     <figcaption>Crome</figcaption>
   </figure>
   <figure>
-    <img class="shadow lozad" data-src="/images/html-elements/details-edge.png" alt="Details element on Edge">
-    <noscript>
-      <img class="shadow" src="/images/html-elements/details-edge.png" alt="Details element on Edge">
-    </noscript>
+    <img class="shadow" src="/images/html-elements/details-edge.png" alt="Details element on Edge" loading="lazy">
     <figcaption>Edge</figcaption>
   </figure>
   <figure>
-    <img class="shadow lozad" data-src="/images/html-elements/details-firefox.png" alt="Details element on Firefox">
-    <noscript>
-      <img class="shadow" src="/images/html-elements/details-firefox.png" alt="Details element on Firefox">
-    </noscript>
+    <img class="shadow" src="/images/html-elements/details-firefox.png" alt="Details element on Firefox" loading="lazy">
     <figcaption>Firefox</figcaption>
   </figure>
   <figure>
-    <img class="shadow lozad" data-src="/images/html-elements/details-safari.png" alt="Details element on Safari">
-    <noscript>
-      <img class="shadow" src="/images/html-elements/details-safari.png" alt="Details element on Safari">
-    </noscript>
+    <img class="shadow" src="/images/html-elements/details-safari.png" alt="Details element on Safari" loading="lazy">
     <figcaption>Safari</figcaption>
   </figure>
 </div>

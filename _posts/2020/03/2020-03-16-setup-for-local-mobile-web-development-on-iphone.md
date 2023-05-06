@@ -34,10 +34,7 @@ On a mobile device go to:
 and enable the Web Inspector switch.
 
 <figure class="image-container image-vert">
-  <img class="image shadow lozad" data-src="/images/connect-iphone-to-mac/iphone-enable-inspect-element.jpg" alt="Enable inspect element on iPhone">
-  <noscript>
-    <img class="shadow" src="/images/connect-iphone-to-mac/iphone-enable-inspect-element.jpg" alt="Enable inspect element on iPhone">
-  </noscript>
+  <img class="image shadow" src="/images/connect-iphone-to-mac/iphone-enable-inspect-element.jpg" alt="Enable inspect element on iPhone" loading="lazy">
   <figcaption>Enable inspect element on iPhone</figcaption>
 </figure>
 
@@ -48,10 +45,7 @@ You'll need to enable Develop menu in order to access Dev tools if you haven't a
 Open up Safari browser go to **Preferences** and tick _Show Develop menu in menu bar_ checkbox.
 
 <figure class="image-container">
-  <img class="image shadow lozad" data-src="/images/connect-iphone-to-mac/mac-enable-devtools.png" alt="Enable developer tools on a MAC">
-  <noscript>
-    <img class="shadow" src="/images/connect-iphone-to-mac/mac-enable-devtools.png" alt="Enable developer tools on a MAC">
-  </noscript>
+  <img class="image shadow" src="/images/connect-iphone-to-mac/mac-enable-devtools.png" alt="Enable developer tools on a MAC" loading="lazy">
   <figcaption>Enable inspect element on iPhone</figcaption>
 </figure>
 
@@ -64,28 +58,19 @@ Connect your device to a computer via cable.
 Open the Safari browser on your device and go to a webpage. Now open a Safari browser on your computer and click on a Develop in a menu. Hover over _Develop_ in the menu and you'll see your device's name and a web page. Click on it and the inspector will open.
 
 <figure class="image-container">
-  <img class="image shadow lozad" data-src="/images/connect-iphone-to-mac/mac-open-iphone-inspector.png" alt="Open web inspector on a MAC">
-  <noscript>
-    <img class="shadow" src="/images/connect-iphone-to-mac/mac-open-iphone-inspector.png" alt="Open web inspector on a MAC">
-  </noscript>
+  <img class="image shadow" src="/images/connect-iphone-to-mac/mac-open-iphone-inspector.png" alt="Open web inspector on a MAC" loading="lazy">
   <figcaption>Open web inspector on a MAC</figcaption>
 </figure>
 
 At this point, you can use element inspector and other tools just like you do on a computer.
 
 <figure class="image-container image-vert">
-  <img class="image shadow lozad" data-src="/images/connect-iphone-to-mac/iphone-safari-website.jpg" alt="iPhone web page on Safari">
-  <noscript>
-    <img class="shadow" src="/images/connect-iphone-to-mac/iphone-safari-website.jpg" alt="iPhone web page on Safari">
-  </noscript>
+  <img class="image shadow" src="/images/connect-iphone-to-mac/iphone-safari-website.jpg" alt="iPhone web page on Safari" loading="lazy">
   <figcaption>iPhone web page on Safari</figcaption>
 </figure>
 
 <figure class="image-container">
-  <img class="image shadow lozad" data-src="/images/connect-iphone-to-mac/mac-iphone-inspector.png" alt="MAC iPhone web inspector">
-  <noscript>
-    <img class="shadow" src="/images/connect-iphone-to-mac/mac-iphone-inspector.png" alt="MAC iPhone web inspector">
-  </noscript>
+  <img class="image shadow" src="/images/connect-iphone-to-mac/mac-iphone-inspector.png" alt="MAC iPhone web inspector" loading="lazy">
   <figcaption>MAC iPhone web inspector</figcaption>
 </figure>
 
@@ -98,9 +83,6 @@ A quick tip while debugging you might want to clear browser cache, to do that go
 and click **Clear History and Data**.
 
 <figure class="image-container image-vert">
-  <img class="image shadow lozad" data-src="/images/connect-iphone-to-mac/iphone-clear-browser-cache.jpg" alt="iPhone clear browser cache">
-  <noscript>
-    <img class="shadow" src="/images/connect-iphone-to-mac/iphone-clear-browser-cache.jpg" alt="iPhone clear browser cache">
-  </noscript>
+  <img class="image shadow" src="/images/connect-iphone-to-mac/iphone-clear-browser-cache.jpg" alt="iPhone clear browser cache" loading="lazy">
   <figcaption>iPhone clear browser cache</figcaption>
 </figure>

@@ -30,20 +30,14 @@ To do that you can use the `<link>` element with the `href` attribute that is eq
 Google Fonts will offer you a ready code snippet that you can insert into your HTML code.
 
 <figure>
-  <img class="shadow lozad" data-src="/images/tools/google-fonts-link-code-snippet.png" alt="Google Fonts link code snippet">
-  <noscript>
-    <img class="shadow" src="/images/tools/google-fonts-link-code-snippet.png" alt="Google Fonts link code snippet">
-  </noscript>
+  <img class="shadow" src="/images/tools/google-fonts-link-code-snippet.png" alt="Google Fonts link code snippet" loading="lazy">
   <figcaption>Google Fonts link code snippet</figcaption>
 </figure>
 
 That way you can add multiple fonts to your page. For each font, you can specify a `<link>` element with a unique URL. However, Google Fonts allows you to select multiple fonts and it will generate a single `<link>` element with all the fonts included as a URL query.
 
 <figure>
-  <img class="shadow lozad" data-src="/images/tools/google-fonts-multiple-link-code-snippet.png" alt="Google Fonts multiple link code snippet">
-  <noscript>
-    <img class="shadow" src="/images/tools/google-fonts-multiple-link-code-snippet.png" alt="Google Fonts multiple link code snippet">
-  </noscript>
+  <img class="shadow" src="/images/tools/google-fonts-multiple-link-code-snippet.png" alt="Google Fonts multiple link code snippet" loading="lazy">
   <figcaption>Google Fonts multiple link code snippet</figcaption>
 </figure>
 
@@ -80,10 +74,7 @@ The first way to include a font is to use the [`@import` rule](https://developer
 If you’re importing Google Fonts, then like in the example above they provide you with code snippet for the `@import`.
 
 <figure>
-  <img class="shadow lozad" data-src="/images/tools/google-fonts-multiple-import-code-snippet.png" alt="Google Fonts multiple import code snippet">
-  <noscript>
-    <img class="shadow" src="/images/tools/google-fonts-multiple-import-code-snippet.png" alt="Google Fonts multiple import code snippet">
-  </noscript>
+  <img class="shadow" src="/images/tools/google-fonts-multiple-import-code-snippet.png" alt="Google Fonts multiple import code snippet" loading="lazy">
   <figcaption>Google Fonts multiple import code snippet</figcaption>
 </figure>
 
@@ -104,10 +95,7 @@ If you’re concerned about the page load time or the [GDPR related issues](http
 In this case, you’ll need to have the font files stored in a separate folder of your project.
 
 <figure>
-  <img class="shadow lozad" data-src="/images/tools/font-folder-structure.png" alt="Font folder structure">
-  <noscript>
-    <img class="shadow" src="/images/tools/font-folder-structure.png" alt="Font folder structure">
-  </noscript>
+  <img class="shadow" src="/images/tools/font-folder-structure.png" alt="Font folder structure" loading="lazy">
   <figcaption>Font folder structure</figcaption>
 </figure>
 

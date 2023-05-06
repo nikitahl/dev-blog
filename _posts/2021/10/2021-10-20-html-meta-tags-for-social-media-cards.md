@@ -14,26 +14,17 @@ Your website can have a social media card so that when you share it online it lo
 A social media card is a visual representation of the content of a specific web page on a social media platform that it is being shared on. You most probably have already seen these on Twitter, Facebook, and LinkedIn.
 
 <figure>
-  <img class="shadow lozad" data-src="/images/misc/facebook-card.png" alt="Facebook social media card">
-  <noscript>
-    <img class="shadow" src="/images/misc/facebook-card.png" alt="Facebook social media card">
-  </noscript>
+  <img class="shadow" src="/images/misc/facebook-card.png" alt="Facebook social media card" loading="lazy">
   <figcaption>Facebook social media card</figcaption>
 </figure>
 
 <figure>
-  <img class="shadow lozad" data-src="/images/misc/twitter-card.png" alt="Twitter social media card">
-  <noscript>
-    <img class="shadow" src="/images/misc/twitter-card.png" alt="Twitter social media card">
-  </noscript>
+  <img class="shadow" src="/images/misc/twitter-card.png" alt="Twitter social media card" loading="lazy">
   <figcaption>Twitter social media card</figcaption>
 </figure>
 
 <figure>
-  <img class="shadow lozad" data-src="/images/misc/linkedin-card.png" alt="LinkedIn social media card">
-  <noscript>
-    <img class="shadow" src="/images/misc/linkedin-card.png" alt="LinkedIn social media card">
-  </noscript>
+  <img class="shadow" src="/images/misc/linkedin-card.png" alt="LinkedIn social media card" loading="lazy">
   <figcaption>LinkedIn social media card</figcaption>
 </figure>
 

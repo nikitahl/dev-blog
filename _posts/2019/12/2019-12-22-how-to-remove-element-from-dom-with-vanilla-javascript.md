@@ -124,25 +124,16 @@ figure {
 </style>
 
 <figure>
-  <img class="shadow lozad" data-src="/images/remove-elements-from-dom/remove-elements-from-dom-chrome-test.png" alt="Remove elements from DOM Chrome browser test results">
-  <noscript>
-    <img class="shadow" src="/images/remove-elements-from-dom/remove-elements-from-dom-chrome-test.png" alt="Remove elements from DOM Chrome browser test results">
-  </noscript>
+  <img class="shadow" src="/images/remove-elements-from-dom/remove-elements-from-dom-chrome-test.png" alt="Remove elements from DOM Chrome browser test results" loading="lazy">
   <figcaption>Results for Chrome</figcaption>
 </figure>
 
 <figure>
-  <img class="shadow lozad" data-src="/images/remove-elements-from-dom/remove-elements-from-dom-firefox-test.png" alt="Remove elements from DOM Firefox browser test results">
-  <noscript>
-    <img class="shadow" src="/images/remove-elements-from-dom/remove-elements-from-dom-firefox-test.png" alt="Remove elements from DOM Firefox browser test results">
-  </noscript>
+  <img class="shadow" src="/images/remove-elements-from-dom/remove-elements-from-dom-firefox-test.png" alt="Remove elements from DOM Firefox browser test results" loading="lazy">
   <figcaption>Results for Firefox</figcaption>
 </figure>
 
 <figure>
-  <img class="shadow lozad" data-src="/images/remove-elements-from-dom/remove-elements-from-dom-safari-test.png" alt="Remove elements from DOM Safari browser test results">
-  <noscript>
-    <img class="shadow" src="/images/remove-elements-from-dom/remove-elements-from-dom-safari-test.png" alt="Remove elements from DOM Safari browser test results">
-  </noscript>
+  <img class="shadow" src="/images/remove-elements-from-dom/remove-elements-from-dom-safari-test.png" alt="Remove elements from DOM Safari browser test results" loading="lazy">
   <figcaption>Results for Safari</figcaption>
 </figure>

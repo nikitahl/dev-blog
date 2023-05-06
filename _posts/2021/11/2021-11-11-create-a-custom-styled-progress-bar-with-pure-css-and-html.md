@@ -96,31 +96,19 @@ Default progress bar appearance across different browsers:
 
 <div class="image-grid">
   <figure>
-    <img class="shadow lozad" data-src="/images/html-elements/progress-bar-chrome.png" alt="Progress bar on Chrome">
-    <noscript>
-      <img class="shadow" src="/images/html-elements/progress-bar-chrome.png" alt="Progress bar on Chrome">
-    </noscript>
+    <img class="shadow" src="/images/html-elements/progress-bar-chrome.png" alt="Progress bar on Chrome" loading="lazy">
     <figcaption>Chrome</figcaption>
   </figure>
   <figure>
-    <img class="shadow lozad" data-src="/images/html-elements/progress-bar-edge.png" alt="Progress bar on Edge">
-    <noscript>
-      <img class="shadow" src="/images/html-elements/progress-bar-edge.png" alt="Progress bar on Edge">
-    </noscript>
+    <img class="shadow" src="/images/html-elements/progress-bar-edge.png" alt="Progress bar on Edge" loading="lazy">
     <figcaption>Edge</figcaption>
   </figure>
   <figure>
-    <img class="shadow lozad" data-src="/images/html-elements/progress-bar-firefox.png" alt="Progress bar on FireFox">
-    <noscript>
-      <img class="shadow" src="/images/html-elements/progress-bar-firefox.png" alt="Progress bar on FireFox">
-    </noscript>
+    <img class="shadow" src="/images/html-elements/progress-bar-firefox.png" alt="Progress bar on FireFox" loading="lazy">
     <figcaption>FireFox</figcaption>
   </figure>
   <figure>
-    <img class="shadow lozad" data-src="/images/html-elements/progress-bar-safari.png" alt="Progress bar on Safari">
-    <noscript>
-      <img class="shadow" src="/images/html-elements/progress-bar-safari.png" alt="Progress bar on Safari">
-    </noscript>
+    <img class="shadow" src="/images/html-elements/progress-bar-safari.png" alt="Progress bar on Safari" loading="lazy">
     <figcaption>Safari</figcaption>
   </figure>
 </div>

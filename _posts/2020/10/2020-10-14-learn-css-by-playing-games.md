@@ -23,10 +23,7 @@ The following list of CSS games is available to play online and is completely fr
 ## 1. CSS Diner
 
 <figure>
-  <img class="shadow lozad" data-src="/images/resources/css-diner.jpg" alt="CSS Diner game" />
-  <noscript>
-    <img class="shadow" src="/images/resources/css-diner.jpg" alt="CSS Diner game" />
-  </noscript>
+  <img class="shadow" src="/images/resources/css-diner.jpg" alt="CSS Diner game" loading="lazy" />
   <figcaption>CSS Diner game</figcaption>
 </figure>
 
@@ -37,10 +34,7 @@ It's a fun game to practice and learn CSS selectors. The game has 32 levels with
 ## 2. Flexbox Zombies
 
 <figure>
-  <img class="shadow lozad" data-src="/images/resources/flexbox-zombies.jpg" alt="Flexbox Zombies game" />
-  <noscript>
-    <img class="shadow" src="/images/resources/flexbox-zombies.jpg" alt="Flexbox Zombies game" />
-  </noscript>
+  <img class="shadow" src="/images/resources/flexbox-zombies.jpg" alt="Flexbox Zombies game" loading="lazy" />
   <figcaption>Flexbox Zombies game</figcaption>
 </figure>
 
@@ -53,10 +47,7 @@ This CSS game will help you master flexboxes. Fight zombies while learning the `
 ## 3. Grid Garden
 
 <figure>
-  <img class="shadow lozad" data-src="/images/resources/gridgarden.jpg" alt="Grid garden game" />
-  <noscript>
-    <img class="shadow" src="/images/resources/gridgarden.jpg" alt="Grid garden game" />
-  </noscript>
+  <img class="shadow" src="/images/resources/gridgarden.jpg" alt="Grid garden game" loading="lazy" />
   <figcaption>Grid garden game</figcaption>
 </figure>
 
@@ -67,10 +58,7 @@ A nice and simple CSS practice game to learn the `grid` property. This game feat
 ## 4. Flexbox Defense
 
 <figure>
-  <img class="shadow lozad" data-src="/images/resources/flexbox-defence.jpg" alt="Flexbox Defence game" />
-  <noscript>
-    <img class="shadow" src="/images/resources/flexbox-defence.jpg" alt="Flexbox Defence game" />
-  </noscript>
+  <img class="shadow" src="/images/resources/flexbox-defence.jpg" alt="Flexbox Defence game" loading="lazy" />
   <figcaption>Flexbox Defence game</figcaption>
 </figure>
 
@@ -81,10 +69,7 @@ If you like tower defense-like games, you'll love this one. The object of this g
 ## 5. Flexbox Froggy
 
 <figure>
-  <img class="shadow lozad" data-src="/images/resources/flexbox-froggy.jpg" alt="Flexbox Froggy game" />
-  <noscript>
-    <img class="shadow" src="/images/resources/flexbox-froggy.jpg" alt="Flexbox Froggy game" />
-  </noscript>
+  <img class="shadow" src="/images/resources/flexbox-froggy.jpg" alt="Flexbox Froggy game" loading="lazy" />
   <figcaption>Flexbox Froggy game</figcaption>
 </figure>
 
@@ -95,10 +80,7 @@ From the creator of Grid Garden, this game will help you practice your CSS `flex
 ## 6. Knights of the Flexbox table
 
 <figure>
-  <img class="shadow lozad" data-src="/images/resources/knightsoftheflexboxtable.png" alt="Knights of the Flexbox table game" />
-  <noscript>
-    <img class="shadow" src="/images/resources/knightsoftheflexboxtable.png" alt="Knights of the Flexbox table game" />
-  </noscript>
+  <img class="shadow" src="/images/resources/knightsoftheflexboxtable.png" alt="Knights of the Flexbox table game" loading="lazy" />
   <figcaption>Knights of the Flexbox table game</figcaption>
 </figure>
 
@@ -109,10 +91,7 @@ A game that teaches you flexboxes and [Tailwind CSS](https://tailwindcss.com/) a
 ## 7. Guess CSS
 
 <figure>
-  <img class="shadow lozad" data-src="/images/resources/guess-css.png" alt="Guess CSS game" />
-  <noscript>
-    <img class="shadow" src="/images/resources/guess-css.png" alt="Guess CSS game" />
-  </noscript>
+  <img class="shadow" src="/images/resources/guess-css.png" alt="Guess CSS game" loading="lazy" />
   <figcaption>Guess CSS game</figcaption>
 </figure>
 
@@ -123,10 +102,7 @@ This is a quiz type game designed to test your CSS knowledge. You are given the 
 ## 8. CSS Challenges
 
 <figure>
-  <img class="shadow lozad" data-src="/images/resources/csschallenges.png" alt="CSS Challenges" />
-  <noscript>
-    <img class="shadow" src="/images/resources/csschallenges.png" alt="CSS Challenges" />
-  </noscript>
+  <img class="shadow" src="/images/resources/csschallenges.png" alt="CSS Challenges" loading="lazy" />
   <figcaption>CSS Challenges</figcaption>
 </figure>
 
@@ -137,10 +113,7 @@ CSS Challenges is a resource that offers fun and playful ways to practice your C
 ## 9. Flex Box Adventure
 
 <figure>
-  <img class="shadow lozad" data-src="/images/resources/flex-box-adventure.png" alt="Flex Box Adventure game">
-  <noscript>
-    <img class="shadow" src="/images/resources/flex-box-adventure.png" alt="Flex Box Adventure game">
-  </noscript>
+  <img class="shadow" src="/images/resources/flex-box-adventure.png" alt="Flex Box Adventure game" loading="lazy">
   <figcaption>Flex Box Adventure game</figcaption>
 </figure>
 
@@ -151,10 +124,7 @@ Start a mysterious adventure and help King Arthur defeat three evil brothers usi
 ## 10. Grid Attack
 
 <figure>
-  <img class="shadow lozad" data-src="/images/resources/grid-attack.png" alt="Grid Attack game">
-  <noscript>
-    <img class="shadow" src="/images/resources/grid-attack.png" alt="Grid Attack game">
-  </noscript>
+  <img class="shadow" src="/images/resources/grid-attack.png" alt="Grid Attack game" loading="lazy">
   <figcaption>Grid Attack game</figcaption>
 </figure>
 
@@ -165,10 +135,7 @@ From the creators of Flex Box Adventure, is the Grid Attack game. Demons kidnapp
 ## 11. CSS Speedrun
 
 <figure>
-  <img class="shadow lozad" data-src="/images/resources/css-speedrun.png" alt="CSS Speedrun game">
-  <noscript>
-    <img class="shadow" src="/images/resources/css-speedrun.png" alt="CSS Speedrun game">
-  </noscript>
+  <img class="shadow" src="/images/resources/css-speedrun.png" alt="CSS Speedrun game" loading="lazy">
   <figcaption>CSS Speedrun</figcaption>
 </figure>
 
@@ -179,10 +146,7 @@ A nice little game to practice your CSS selectors knowledge. Game has 10 levels.
 ## 12. CSS Battle
 
 <figure>
-  <img class="shadow lozad" data-src="/images/resources/cssbattle.jpg" alt="CSS Battle game">
-  <noscript>
-    <img class="shadow" src="/images/resources/cssbattle.jpg" alt="CSS Battle game">
-  </noscript>
+  <img class="shadow" src="/images/resources/cssbattle.jpg" alt="CSS Battle game" loading="lazy">
   <figcaption>CSS Battle</figcaption>
 </figure>
 

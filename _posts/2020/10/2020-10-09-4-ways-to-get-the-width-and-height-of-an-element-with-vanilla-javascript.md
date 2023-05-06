@@ -29,10 +29,7 @@ You can think of an HTML element as a box. This box consists of several parts:
 > [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model)
 
 <figure>
-  <img class="shadow lozad" data-src="/images/misc/css-box-model.jpg" alt="CSS Box Model">
-  <noscript>
-    <img class="shadow" src="/images/misc/css-box-model.jpg" alt="CSS Box Model" />
-  </noscript>
+  <img class="shadow" src="/images/misc/css-box-model.jpg" alt="CSS Box Model" loading="lazy">
   <figcaption>CSS Box Model</figcaption>
 </figure>
 
@@ -45,20 +42,14 @@ Depending on what CSS `box-sizing` property is applied to the current element th
 By default, every element’s `box-sizing` property is set to the `content-box.` This means that if you set an element's width to `100px`, then the element's content box will be `100px` wide. And the width of any border or padding will be added to the final rendered width, making the element wider than `100px`.
 
 <figure>
-  <img class="shadow lozad" data-src="/images/dev-tools/div-box-padding-border.jpg" alt="Content Box">
-  <noscript>
-    <img class="shadow" src="/images/dev-tools/div-box-padding-border.jpg" alt="Content Box" />
-  </noscript>
+  <img class="shadow" src="/images/dev-tools/div-box-padding-border.jpg" alt="Content Box" loading="lazy">
   <figcaption>Content Box</figcaption>
 </figure>
 
 The `border-box` on the other hand, tells the browser to account for any `border` and `padding` in the values, you specify for an element's `width` and `height`. If you set an element's width to `100px`, that `100px` will include any `border` or `padding` you've added.
 
 <figure>
-  <img class="shadow lozad" data-src="/images/dev-tools/div-box-paddin-border-box-sizing.jpg" alt="Border Box">
-  <noscript>
-    <img class="shadow" src="/images/dev-tools/div-box-paddin-border-box-sizing.jpg" alt="Border Box" />
-  </noscript>
+  <img class="shadow" src="/images/dev-tools/div-box-paddin-border-box-sizing.jpg" alt="Border Box" loading="lazy">
   <figcaption>Border Box</figcaption>
 </figure>
 

@@ -240,39 +240,12 @@ blockquote {
   }
 }
 
-// Footnote
-a.footnote {
-  &,
-  .post p &,
-  .post ol &,
-  .post ul & {
-    margin: 0 3px;
-    padding: 0 2px;
-    font-size: $small-font-size;
-    text-align: center;
-    border: 1px solid $footnote-link-border-color;
-    border-radius: 2px;
-    -webkit-text-stroke: 0.25px;
-    transition: 0.2s ease-out all;
-    text-decoration: none;
-
-    &:hover {
-      background: $footnote-link-background-over-color;
-    }
-  }
-}
-
 // Image
 img {
   display: block;
   max-width: 100%;
   margin: 0 0 1em;
   border-radius: 5px;
-}
-
-// Fixes images in popup boxes from Google Translate
-.gmnoprint img {
-  max-width: none;
 }
 
 // Specify the color of the selection

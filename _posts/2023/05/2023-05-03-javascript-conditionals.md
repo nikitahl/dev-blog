@@ -133,6 +133,25 @@ isActive && getActiveUser("Leo") // User name is Leo
 💡 NOTE: Using OR (<code>||</code>) and AND (<code>&&</code>) operators for more than just simple boolean comparisons is called the <em>Short-circuit</em> evaluation.
 </p>
 
+### Optional chaining
+
+You can check object property existence with the [optional chaining operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining){:target="_blank"} `?.`.
+
+It greatly simplifies the code when checking long object property chain. Instead of using AND operator you can use optional chaining operator.
+
+```javascript
+const car = {
+  brand: "Audi",
+  features: {
+    type: "Sedan",
+    year: 2012
+  }
+}
+
+console.log(car?.features?.type) // Sedan
+console.log(car?.features?.color) // undefined
+```
+
 ### Comparison operators
 
 To enhance your conditions and cover more complex cases you can also use [comparison operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#comparison_operators){:target="_blank"}.

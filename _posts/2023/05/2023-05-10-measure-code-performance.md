@@ -4,7 +4,7 @@ permalink: measure-code-performance
 title: How to measure JavaScript code performance
 date: 2023-05-10T18:37:43.125Z
 description: If you want your website or app to work well, you have to make sure your JavaScript code is optimized and working as best as possible.
-tags: [javascript]
+tags: [javascript, performance]
 ---
 
 If you want your website or app to work well, you have to make sure your JavaScript code is optimized and working as best as possible.

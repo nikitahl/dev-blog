@@ -53,6 +53,7 @@ permalink: /about/
 	<li><a href="https://nikitahl.github.io/svg-2-code/">SVG to Code</a> - Online tool to convert SVG to code and vice versa</li>
 	<li><a href="https://nikitahl.github.io/bg-image/">Background Image CSS</a> - Prototype, modify and edit a background image position, size, etc. and get a ready to use CSS code for your project</li>
 	<li><a href="https://nikitahl.github.io/disavow-link-manager/">Disavow link manager</a> - Synchronize and manage disavow links for Google Search Console.</li>
+	<li><a href="https://nikitahl.github.io/svg-circle-progress-generator/">SVG circle progress generator</a> - Generate pure SVG circle progress bar.</li>
 </ul>
 <h2>Credits</h2>
 <p>This site was created using:</p>

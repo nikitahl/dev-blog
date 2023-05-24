@@ -64,7 +64,9 @@ The elements that are returned via the `elements` property will contain the foll
 
 To [convert](/convert-array-like-collections-to-array) HTMLCollection to an Array you can use `Array.from()` method.
 
-The benefit of having an Array instead of HTMLCollection is that you can use [Array methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array){:target="_blank"} like `.map()`, `.filter()`, `.sort()`, etc.
+Now you can use `forEach` to iterate over this Array and [find specific items](/how-to-find-an-item-in-a-javascript-array).
+
+Other benefit of having an Array instead of HTMLCollection is that you can use [Array methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array){:target="_blank"} like `.map()`, `.filter()`, `.sort()`, etc.
 
 ```javascript
 const form = document.querySelector('.newsletter-form')

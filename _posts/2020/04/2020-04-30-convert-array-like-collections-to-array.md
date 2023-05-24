@@ -3,6 +3,7 @@ layout: post
 title: Convert a NodeList or HTMLCollection to an Array with JavaScript
 description: A breakdown of 3 ways of how and why to convert a NodeList or HTMLCollection of elements to an Array with Vanilla JavaScript
 tags: [javascript]
+updated: 2023-05-24T14:32:19.407Z
 comments: true
 ---
 
@@ -25,7 +26,7 @@ it will return all paragraph elements on the page as a `NodeList`.
 [The `NodeList`](https://developer.mozilla.org/en-US/docs/Web/API/NodeList) is a collection of [DOM nodes](https://developer.mozilla.org/en-US/docs/Glossary/Node/DOM) 
  that has similar to an `Array` appearance and structure.
 
-You can, however, select element via other ways like `document.forms`:
+You can, however, select element via other ways like [all form elements](/get-all-form-elements) or all forms in the document via `document.forms`:
 
 ```javascript
 document.forms

@@ -222,7 +222,7 @@ Finally, let's animate the percentage value along with the progress bar. We will
 
 While pure CSS solution for circle progress bar is easy to implement it lacks additional customization. For the most part you can only control the width and color of the bar. 
 
-Another aspect of this solution, is that it's not yet fully supported by all browsers, the animation to be exact. So if you're considering a bulletproof way to display a circle progress bar with animation and possible customizations, you'd might want to use SVG.
+Another aspect of this solution, is that it's not yet fully supported by all browsers, the animation to be exact. So if you're considering a bulletproof way to display a circle progress bar with animation and possible customizations, you'd might want to use [SVG solution](/svg-circle-progress).
 
 Finally the end result with complete code can be viewed on CodePen:
 

@@ -23,7 +23,8 @@
   border-radius: 5px;
   color: $white;
 
-  &:hover {
+  &:hover,
+  &:focus {
     color: $white;
   }
 

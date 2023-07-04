@@ -3,6 +3,7 @@ layout: post
 permalink: custom-styled-input-type-file
 title: Custom styled input type file upload button with pure CSS
 description: Learn how to create a custom styled input type file upload button with drop zone only with pure CSS and HTML
+updated: 2023-07-04T20:45:15.123Z
 tags: [css]
 ---
 
@@ -25,12 +26,14 @@ In this guide I'll show you how to create a stylish and user friendly file uploa
     transition: background .2s ease-in-out, border .2s ease-in-out;
   }
 
-  .drop-container:hover {
+  .drop-container:hover,
+  .drop-container.drag-active {
     background: #eee;
     border-color: #111;
   }
 
-  .drop-container:hover .drop-title {
+  .drop-container:hover .drop-title,
+  .drop-container.drag-active .drop-title {
     color: #222;
   }
 
@@ -172,7 +175,7 @@ To implement a large drop zone, you'll need to wrap your file upload `input` int
 **HTML**
 
 ```html
-<label for="images" class="drop-container">
+<label for="images" class="drop-container" id="dropcontainer">
   <span class="drop-title">Drop files here</span>
   or
   <input type="file" id="images" accept="image/*" required>
@@ -226,14 +229,87 @@ For the layout, we need to set `display` to `flex` with flex related properties 
   <input class="file file-block" type="file" id="images" accept="image/*" required>
 </label>
 
+## Handling drag and drop events
+
+Additionally, you can handle cases when the user will try to drag the file over the drop area. CSS alone cannot handle such cases, so we can add a little bit of JavaScript.
+
+There are two points to consider to improve UX for the drop field:
+
+1. Indicate the drop area when the user is dragging a file over it
+2. Make it possible to drop a file inside the drop area, and not just the `input` element
+
+To indicate drop area when user is dragging a file over it, we'll need to use the `dragenter` and `dragleave` [events](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/drag_event){:target="_blank"}. Both on the `label` tag, since it represents the drop area. For each event we add or remove a CSS class accordingly.
+
+Since user will be dropping to the `label` tag we also need to set the `input` value with the file. To do that we need to do 2 things:
+
+1. Set `dragover` event for the `label` tag, set `e.preventDefault()` and pass `false` as the [third parameter](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener#usecapture){:target="_blank"} for the `addEventListener` method
+2. On `drop` event, we need to set the input's `files` property to the file via `fileInput.files = e.dataTransfer.files`
+
+```javascript
+  const dropContainer = document.getElementById("dropcontainer")
+  const fileInput = document.getElementById("images")
+
+  dropContainer.addEventListener("dragover", (e) => {
+    // prevent default to allow drop
+    e.preventDefault()
+  }, false)
+
+  dropContainer.addEventListener("dragenter", () => {
+    dropContainer.classList.add("drag-active")
+  })
+
+  dropContainer.addEventListener("dragleave", () => {
+    dropContainer.classList.remove("drag-active")
+  })
+
+  dropContainer.addEventListener("drop", (e) => {
+    e.preventDefault()
+    dropContainer.classList.remove("drag-active")
+    fileInput.files = e.dataTransfer.files
+  })
+```
+
+As for styles, we can use similar styles to `:hover` state, but this time with a designated class:
+
+```css
+.drop-container.drag-active {
+  background: #eee;
+  border-color: #111;
+}
+
+.drop-container.drag-active .drop-title {
+  color: #222;
+}
+```
+
+**Result:**
+
+<label for="files" class="drop-container" id="dropcontainer">
+  <span class="drop-title">Drop files here</span>
+  or
+  <input class="file file-block" type="file" id="files" accept="image/*" required>
+</label>
 
 ## Demo
 
 See the full example on CodePen:
 
-<p class="codepen" data-height="360" data-default-tab="html,result" data-slug-hash="oNqYaaQ" data-user="nikitahl" style="height: 360px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="360" data-default-tab="result" data-slug-hash="oNqYaaQ" data-user="nikitahl" style="height: 360px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/nikitahl/pen/oNqYaaQ">
   Untitled</a> by Nikita Hlopov (<a href="https://codepen.io/nikitahl">@nikitahl</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+<script>
+  const dropContainer = document.getElementById("dropcontainer")
+  const fileInput = document.getElementById("files")
+  dropContainer.addEventListener("dragover", (e) => {e.preventDefault()}, false)
+  dropContainer.addEventListener("dragenter", () => {dropContainer.classList.add("drag-active")})
+  dropContainer.addEventListener("dragleave", () => {dropContainer.classList.remove("drag-active")})
+  dropContainer.addEventListener("drop", (e) => {
+    e.preventDefault()
+    dropContainer.classList.remove("drag-active")
+    fileInput.files = e.dataTransfer.files
+  })
+</script>

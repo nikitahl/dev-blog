@@ -3,7 +3,7 @@ layout: post
 permalink: style-range-input-css
 title: Styling range input with CSS and JavaScript for better UX
 date: 2021-04-23T07:36:11.678Z
-updated: 2022-11-22T23:24:14.468Z
+updated: 2023-07-13T18:22:14.468Z
 description: A complete guide to style range input with CSS and JavaScript to
   make your UI consistent, more usable and visually appealing
 tags: [css, javascript, html]
@@ -13,10 +13,12 @@ To style the range input with CSS you'll need to apply styles to two pseudo-elem
 
 Contents of the article:
 
-1. [CSS selectors for the range input](#css-selectors-for-the-range-input)
-2. [Improving usability](#improving-usability)
-3. [A sprinkle of JavaScript](#a-sprinkle-of-javascript)
-4. [Demo](#custom-range-input-demo)
+1. [Accent color](#accent-color)
+2. [CSS selectors for the range input](#css-selectors-for-the-range-input)
+3. [Improving usability](#improving-usability)
+4. [A sprinkle of JavaScript](#a-sprinkle-of-javascript)
+5. [Range input for RTL direction](#range-input-for-rtl-direction)
+6. [Demo](#custom-range-input-demo)
 
 The `input` element with a type of range is a native HTML form UI element that allows users to select a value by dragging a slider over a range field.
 
@@ -27,6 +29,10 @@ The default browser styling for this element is very basic and doesn’t provide
 ```html
 <input type="range">
 ```
+
+**Result:**
+
+<input type="range">
 
 <style>
   .image-grid{display:flex;justify-content:space-evenly;flex-wrap:wrap;margin:0 0 30px}
@@ -57,25 +63,41 @@ The default browser styling for this element is very basic and doesn’t provide
 
 Luckily there are ways you can improve that using nothing but native CSS and JavaScript.
 
+## Accent color
+
+One simple way to customize the appearance of the range input without any specific selectors or additional HTML is to change the color of the range.
+
+To do so you can define the [`accent-color`](https://developer.mozilla.org/en-US/docs/Web/CSS/accent-color) property for the `input[type="range"]` selector which will update the color of the track and thumb.
+
+```css
+input[type="range"] {
+  accent-color: coral;
+}
+```
+
+**Result:**
+
+<input type="range" style="accent-color:coral">
+
 ## CSS selectors for the range input
 
 The range input widget consists of two parts the **thumb** and the **track**. Each one of these parts has its own pseudo-class selector for styling with a vendor suffix for cross-browser support.
 
 **Thumb**:
 
-`input[type=”range”]::-webkit-slider-thumb`
+`input[type="range"]::-webkit-slider-thumb`
 
-`input[type=”range”]::-moz-range-thumb`
+`input[type="range"]::-moz-range-thumb`
 
-`input[type=”range”]::-ms-thumb`
+`input[type="range"]::-ms-thumb`
 
 **Track**:
 
-`input[type=”range”]::-webkit-slider-runnable-track`
+`input[type="range"]::-webkit-slider-runnable-track`
 
-`input[type=”range”]::-moz-range-track`
+`input[type="range"]::-moz-range-track`
 
-`input[type=”range”]::-ms-track`
+`input[type="range"]::-ms-track`
 
 ```css
 input[type="range"] {
@@ -173,9 +195,62 @@ rangeInputs.forEach(input => {
 numberInput.addEventListener('input', handleInputChange)
 ```
 
+## Range input for RTL direction
+
+To make the above solution of custom range input work for RTL (right to left) web pages, you must make some adjustments for both CSS and JavaScript.
+
+The recommended way to set the text direction of a block or a whole page is to use the [`dir`](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes#dir){:target="_blank"} attribute.
+
+```html
+<html dir="rtl">
+  ...
+</html>
+```
+
+Once the `dir` attribute is set, we can specify the following selector for the range input `[dir="rtl"] input[type="range"]`.
+
+Now to set the same value for the RTL direction, we must revet the background colors and the value. So for the 70% range, it will look as follows:
+
+```css
+[dir="rtl"] input[type="range"] {
+  /* Used to be gradient color, the current progress */
+  background: #ff4500;
+
+  /* Used to be background color, the track */
+  background-image: linear-gradient(#fff, #fff);
+
+  /* 30% is the difference between the max and the current value (100 - 70) */
+  background-size: 30% 100%;
+  background-repeat: no-repeat;
+}
+```
+
+As for the JavaScript, we need to add a condition for the change handler function, to calculate the correct value: *max - current*.
+
+```javascript
+function handleInputChange(e) {
+  let target = e.target
+  if (e.target.type !== 'range') {
+    target = document.getElementById('range')
+  } 
+  const min = target.min
+  const max = target.max
+  const val = target.value
+  let percentage = (val - min) * 100 / (max - min)
+  
+  // condition to check whether the document has RTL direction
+  // you can move it to a variable, if document direction is dynamic
+  if (document.documentElement.dir === 'rtl') {
+    percentage = (max - val) 
+  }
+  
+  target.style.backgroundSize = percentage + '% 100%'
+}
+```
+
 ## Custom range input Demo
 
-**Full example with all the code can be seen on CodePen:**
+You can find a full demo with a complete code examples on CodePen:
 
 <p class="codepen" data-height="400" data-theme-id="dark" data-default-tab="result" data-user="tippingpointdev" data-slug-hash="bGgLqLY" style="height: 360px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Range Input with values (Pure HTML, CSS, JS)">
   <span>See the Pen <a href="https://codepen.io/tippingpointdev/pen/bGgLqLY">

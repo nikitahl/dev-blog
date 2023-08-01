@@ -95,16 +95,6 @@ strong, b {
   font-weight: bold;
 }
 
-sub {
-  vertical-align: sub;
-  font-size: smaller;
-}
-
-sup {
-  vertical-align: super;
-  font-size: smaller;
-}
-
 hr {
   border: 0;
   border-top: 1px solid $divider-color;
@@ -178,31 +168,6 @@ li {
       font-size: ($li-child-size-ratio * 1em);
       margin: 0 auto ($li-bottom-space * $li-child-size-ratio) ($li-bullets-width * $li-child-size-ratio);
     }
-  }
-}
-
-// Definition list
-dt {
-  float: left;
-  width: $dt-width;
-  overflow: auto;
-  clear: left;
-  text-align: right;
-  white-space: nowrap;
-  font-weight: bold;
-  margin-bottom: $li-bottom-space;
-
-  @include mobile {
-    width: 120px;
-  }
-}
-
-dd {
-  margin-left: $dd-position;
-  margin-bottom: $li-bottom-space;
-
-  @include mobile {
-    margin-left: 140px;
   }
 }
 
@@ -494,8 +459,10 @@ figcaption,
   color: $base-lighten-color;
 }
 
-// Archive
-.archive {
+// Archive & Tags
+.archive,
+.tags {
+  margin: 0 0 50px;
   time {
     color: $base-lighten-color;
     font-size: $small-font-size;
@@ -504,7 +471,6 @@ figcaption,
   }
 }
 
-// Tags
 .tags > .label {
   > li:before {
     content: "";
@@ -534,15 +500,6 @@ figcaption,
         }
       }
     }
-  }
-}
-
-.tags {
-  time {
-    color: $base-lighten-color;
-    font-size: $small-font-size;
-    font-weight: 300;
-    margin-left: 3px;
   }
 }
 

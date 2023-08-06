@@ -574,13 +574,8 @@ figcaption,
 }
 
 #carbonads {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-  Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial,
-  sans-serif;
-}
-
-#carbonads {
   display: block;
+  margin: 0 0 15px;
   overflow: hidden;
   max-width: 728px;
   position: relative;
@@ -588,6 +583,9 @@ figcaption,
   border: solid 1px #eee;
   font-size: 22px;
   box-sizing: content-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial,
+  sans-serif;
 }
 
 #carbonads > span {

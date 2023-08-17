@@ -9,7 +9,7 @@ tags: [css]
 
 A toggle switch button is a recognizable part of the User Interface. These days it is common beyond smartphones and widely used on the web.
 
-It's great way to let users know whether something can be enabled or disabled.
+It's great way to let users know whether something can be enabled or disabled. E.g. toggle switch is a great control to enable the [dark mode](/dark-mode).
 
 <style>
 .image-grid{display:flex;justify-content:space-evenly;flex-wrap:wrap;margin:0 0 30px}

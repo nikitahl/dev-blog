@@ -1,21 +1,46 @@
 ---
 layout: post
 permalink: clickable-email-and-phone-links
-title: How to make clickable contact links in HTML (email, phone, etc)
+title: Creating Accessible Clickable Contact Links in HTML
 description: To make your page more accessible and user-friendly you can create clickable links for specific texts.
-updated: 2023-02-10T09:45:10.124Z
+updated: 2023-10-16T20:15:10.124Z
 tags: [html]
 ---
 
-To make your page more accessible and user-friendly you can create clickable links for specific texts. It can be phone number, email, sms, and more.
+To make your page more accessible and user-friendly you can create clickable links for specific texts. It can be phone number, email, SMS, and more.
 
-In this article, I’d like to show you how you can improve the accessability of a page by implementing just [semantic HTML](/why-it-is-important-to-write-semantic-html) changes (additionally to indicate the link purpose you can add a [specific styles](/link-underline-with-css) to it).
+In this article, I’d like to show you how you can improve the accessibility of a page by implementing just [semantic HTML](/why-it-is-important-to-write-semantic-html) changes (additionally to indicate the link purpose you can add a [specific style](/link-underline-with-css) to it).
+
+1. [Clickable email link](#clickable-email-link)
+2. [Clickable phone link](#clickable-phone-link)
+3. [Clickable SMS link](#clickable-sms-link)
+4. [Clickable Geolocation link](#clickable-geolocation-link)
+5. [Tips to increase accessibility](#tips-to-increase-accessibility)
+
+<br />
 
 To create links with specific actions you should use an anchor tag with a `href` attribute that contains certain parameters (following the [URI syntax](https://en.wikipedia.org/wiki/Uniform_Resource_Identifier#Syntax){:target="blank"}).
 
+<style>
+.image-grid{display:flex;justify-content:space-evenly;flex-wrap:wrap;margin:0 0 30px}
+.image-grid figcaption{font-size:13px;color:#666;font-style:italic;text-align:center}
+.image-grid figure{margin:0 10px 30px;flex:0 0 85%}
+.vertical{width:60%}
+</style>
+<div class="image-grid">
+  <figure>
+    <img class="shadow" loading="lazy" src="/images/misc/tesla-contact-page.webp" alt="Tesla contact page">
+    <figcaption>Example of a clickable email link on a Tesla website</figcaption>
+  </figure>
+  <figure>
+    <img class="shadow" loading="lazy" src="/images/misc/tele2-contact-page.webp" alt="Tele2 contact page">
+    <figcaption>Example of a clickable phone link on a Tele2 website</figcaption>
+  </figure>
+</div>
+
 ## Clickable email link
 
-Inside the `href` attribute specify `mailto` parameter and the email that is separated by a colon
+Inside the `href` attribute specify the `mailto` parameter and the email that is separated by a colon as follows:
 
 ```html
 <a href="mailto:email@example.com">email@example.com</a>
@@ -49,7 +74,7 @@ The full set of these parameters might look like this:
 
 Having a click action on a phone number is as important as the previous one. Clicking on a phone number will instantly make a phone call.
 
-You'll need to specify the `tel` parameter separated by colon from a phone number:
+You'll need to specify the `tel` parameter separated by a colon from a phone number:
 
 ```html
 <a href="tel:+012345678910">0-123-45678910</a>
@@ -57,7 +82,7 @@ You'll need to specify the `tel` parameter separated by colon from a phone numbe
 
 A click on such a link will trigger a phone call.
 
-## Clickable sms link
+## Clickable SMS link
 
 To send an SMS message use the following syntax.
 
@@ -83,4 +108,23 @@ Clicking on such a link will open a map application with given coordinates.
 <a href='geo:47.26769008051434, 11.407943002524679'>Our location</a>
 ```
 
-<p class="note">💡 TIP: Make sure that these links are easily clickable on mobile devices. To do so, you can increase spacingbetween links by adding margin and increase tappable area by adding padding.</p>
+<p class="note">💡 TIP: Make sure that these links are easily clickable on mobile devices. To do so, you can increase spacing between links by adding margin and increase tapable area by adding padding.</p>
+
+## Tips to increase accessibility
+
+By adding the `title` and `aria-label` attributes, you improve the accessibility of the link for users with disabilities.
+
+* `title`: This attribute provides a [tooltip](/css-only-tooltip) or title for the link, which is displayed when users hover over it.
+* `aria-label`: This attribute provides an accessible label for the link, which is useful for screen readers and assistive technologies.
+
+Here's a more detailed example with additional attributes:
+
+```html
+<a href="tel:+1234567890" title="Call our support team" aria-label="Call Us">
+  Call Us
+</a>
+```
+
+## Conclusion
+
+By implementing clickable contact links with semantic HTML, you can enhance the accessibility and user-friendliness of your webpages. These links offer a seamless way for users to contact you, making their experience more convenient and engaging.

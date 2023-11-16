@@ -33,7 +33,7 @@
   }
 
   &.twitter {
-    background: #55acee;
+    background: #000000;
   }
 
   &.reddit {
@@ -58,5 +58,11 @@
 .share-button.reddit svg {
   width: 17px;
   height: 17px;
+  margin: 0 4px 0 0;
+}
+
+.share-button.twitter svg {
+  width: 14px;
+  height: 14px;
   margin: 0 4px 0 0;
 }

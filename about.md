@@ -69,4 +69,6 @@ permalink: /about/
 	</li>
 </ul>
 <h2>Find me on</h2>
+<div class="find-me">
 {% include svg-icons.html %}
+</div>

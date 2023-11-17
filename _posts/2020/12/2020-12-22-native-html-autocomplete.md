@@ -1,18 +1,20 @@
 ---
 layout: post
 permalink: html-autocomplete
-title: Native HTML autocomplete for input field from list
+title: Native HTML autocomplete with dropdown for input field from list
 date: 2020-12-23T21:37:59.290Z
-updated: 2022-11-25T09:35:10.124Z
-description: A definitive guide how to implement a simple native HTML autocomplete field from list using just HTML code
+updated: 2023-11-17T10:52:10.124Z
+description: A definitive guide how to implement a simple native HTML autocomplete field with dropdown from list using just HTML code
 tags: [html]
 ---
 
-Did you know that you can create a native HTML autocomplete field? Yes, it is possible with just a few lines of code.
+Did you know that you can create a native HTML autocomplete field with dropdown? Yes, it is possible with just a few lines of code.
 
 ## Markup
 
-It works as follows. We'll need to use an `input` element with a [`list` attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#attr-list) that will act as an autocomplete field. Next we need to assign a `list` attribute that should have the value of an `id` attribute of the `datalist` element.
+It works as follows. We'll need to use an `input` element with a [`list` attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#attr-list) that will act as an autocomplete field.
+
+Next we need to assign it a `list` attribute that should have the value of an `id` attribute of the `datalist` element.
 
 The [`datalist` element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/datalist) contains a set of predefined `option` elements that act as suggestions for our autocomplete `input` element.
 
@@ -75,7 +77,9 @@ The appearance of the autocomplete `input` field and the suggestion box will dif
 
 The `input` field is a common form element and it is easy to style consistently across different browsers, similar to the [select element](/how-to-custom-style-select-tag-with-css-only). 
 
-By default, the `datalist` element has a style of `display: none`. So when a user clicks on the `input` field the dropdown shown is not the `datalist` element, but instead a list preview rendered by the browser. That means to make the dropdown look consistent across different browsers additional functionality has to be added, like custom JavaScript and CSS.
+By default, the `datalist` element has a style of `display: none`. So when a user clicks on the `input` field the dropdown shown is not the `datalist` element, but instead a list preview rendered by the browser.
+
+That means to make the dropdown look consistent across different browsers additional functionality has to be added, like custom JavaScript and CSS.
 
 To change the appearance of the arrow, you'll need to hide it and then you can use [encoded SVG as a background image](/using-svg-background-image-with-css-code-only).
 
@@ -94,12 +98,24 @@ input#language-field {
 
 ### JavaScript
 
-The `datalist` element has no particular [Web API](https://developer.mozilla.org/en-US/docs/Web/API/HTMLDataListElement) attached to it, so you'll just have to use default JavaScript methods to manipulate your autocomplete field and list. This means that in order to customize the appearance and behavior of it, you'll have to sacrifice native behavior.
+The `datalist` element has no particular [Web API](https://developer.mozilla.org/en-US/docs/Web/API/HTMLDataListElement) attached to it, so you'll just have to use default JavaScript methods to manipulate your autocomplete field and dropdown list.
+
+This means that in order to customize the appearance and behavior of it, you'll have to sacrifice native behavior.
 
 ## Browser Compatibility
 
-The `datalist` is a [semantic HTML element](/why-it-is-important-to-write-semantic-html) and is supported in all modern browsers. However some issues may occur if you're willing to support older browsers, please refer to the [`datalist` compatibility table](https://caniuse.com/datalist).
+The `datalist` is a [semantic HTML element](/why-it-is-important-to-write-semantic-html) and is supported in all modern browsers. However some issues may occur if you're willing to support older browsers, please refer to the `datalist` compatibility table.
+
+<p class="ciu_embed" data-feature="datalist" data-periods="future_1,current,past_1,past_2" data-accessible-colours="false">
+<picture>
+<source type="image/webp" srcset="https://caniuse.bitsofco.de/image/datalist.webp">
+<source type="image/png" srcset="https://caniuse.bitsofco.de/image/datalist.png">
+<img src="https://caniuse.bitsofco.de/image/datalist.jpg" alt="Data on support for the datalist feature across the major browsers from caniuse.com">
+</picture>
+</p>
 
 ## Final thoughts
 
 All in all in my opinion, while the default styling and functionality are left untouched the HTML autocomplete is a pretty unique paradigm in web development. However, it lacks some flexibility and customization which can make it a rare use case.
+
+<script src="https://cdn.jsdelivr.net/gh/ireade/caniuse-embed/public/caniuse-embed.min.js"></script>

@@ -2,6 +2,8 @@
 layout: post
 permalink: custom-bullet-points-css
 title: Create cool custom bullet points with CSS
+date: 2020-08-11T20:31:19.390Z
+updated: 2023-11-17T11:57:13.124Z
 description: To make your lists stand out and look even fancier you can introduce a custom bullet points with pure CSS.
 tags: [css]
 ---
@@ -9,6 +11,12 @@ tags: [css]
 Lists are a great way to showcase structured data. To make them look even fancier you can introduce a custom bullet points with pure CSS.
 
 There are quite a few ways to make [lists in HTML](https://www.w3schools.com/HTML/html_lists.asp). But in this article I'm going to focus mainly on unordered list, as they're more often requires appearance customization.
+
+**Contents:**
+1. [Defaults](#defaults)
+2. [Images](#images)
+3. [Pseudo element](#pseudo-element)
+4. [Counter style rule](#counter-style-rule)
 
 <style>
   .bullet-image {
@@ -42,6 +50,29 @@ There are quite a few ways to make [lists in HTML](https://www.w3schools.com/HTM
   .bullet-marker li::marker {
     content: '✅ ';
     font-size: 15px;
+  }
+  @counter-style new-style {
+    system: extends decimal;
+    suffix: "> ";
+    prefix: "<";
+  }
+  .counter-style {
+    list-style-type: new-style;
+    list-style-position: inside;
+  }
+   .counter-style li::before,
+   .circled-nums li::before {
+    display: none;
+   }
+
+   @counter-style circled-nums {
+  system: fixed;
+  symbols: ➊ ➋ ➌ ➍ ➎ ➏ ➐ ➑ ➒ ➓;
+  suffix: " ";
+}
+
+.circled-nums {
+  list-style: circled-nums;
 }
 </style>
 
@@ -177,7 +208,67 @@ ul li::marker {
   <li>JavaScript</li>
 </ul>
 
-For list styling it is recommended use the `marker` pseudo-element it is supported by [all modern browsers](https://caniuse.com/css-marker-pseudo).
+For list styling it is recommended use the `marker` pseudo-element it is supported by all modern browsers.
 
+<p class="ciu_embed" data-feature="css-marker-pseudo" data-periods="future_1,current,past_1" data-accessible-colours="false">
+<picture>
+<source type="image/webp" srcset="https://caniuse.bitsofco.de/image/css-marker-pseudo.webp">
+<source type="image/png" srcset="https://caniuse.bitsofco.de/image/css-marker-pseudo.png">
+<img src="https://caniuse.bitsofco.de/image/css-marker-pseudo.jpg" alt="Data on support for the css-marker-pseudo feature across the major browsers from caniuse.com">
+</picture>
+</p>
+<script src="https://cdn.jsdelivr.net/gh/ireade/caniuse-embed/public/caniuse-embed.min.js"></script>
 
+## Counter style rule
 
+Finally, you can use the [`@counter-style`](https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style){:target="_blank"} CSS at-rule that lets you extend default list styles and define your own counter styles.
+
+```css
+@counter-style circled-nums {
+  system: fixed;
+  symbols: ➊ ➋ ➌ ➍ ➎ ➏ ➐ ➑ ➒ ➓;
+  suffix: " ";
+}
+
+.circled-nums {
+  list-style: circled-nums;
+}
+```
+
+**Result:**
+
+<ol class="circled-nums">
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+  <li>PHP</li>
+  <li>SQL</li>
+</ol>
+
+```css
+@counter-style new-style {
+  system: extends decimal;
+  suffix: ") ";
+  prefix: "(";
+}
+ol {
+  font-size: 30px;
+  list-style-type: new-style;
+  list-style-position: inside;
+}
+```
+
+**Result:**
+
+<ol class="counter-style">
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+</ol>
+
+However, the `@counter-style` rule is currently lacking full browser support. But it’s good to know that such a rule exists and explore its possibilities.
+
+<p class="ciu_embed" data-feature="mdn-css__at-rules__counter-style" data-periods="future_1,current,past_1" data-accessible-colours="false">
+<p>Data on support for the mdn-css__at-rules__counter-style feature across the major browsers</p>
+</p>
+<script src="https://cdn.jsdelivr.net/gh/ireade/caniuse-embed/public/caniuse-embed.min.js"></script>

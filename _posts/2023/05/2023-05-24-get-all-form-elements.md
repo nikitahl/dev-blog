@@ -3,6 +3,7 @@ layout: post
 permalink: get-all-form-elements
 title: Get all form's elements in JavaScript
 date: 2023-05-24T14:24:12.131Z
+updated: 2023-11-17T08:24:45.111Z
 description: When working with forms, there are cases when you need to get all of the form elemens in a nice and structured way.
 tags: [javascript]
 ---
@@ -28,7 +29,7 @@ Consider the following HTML form:
     <input type="checkbox" name="newsletter" id="newsletter">
   </fieldset>
   <fieldset>
-    <button type="submit" name="submit">Subscribe</button>
+    <button type="submit">Subscribe</button>
   </fieldset>
 </form>
 ```
@@ -62,7 +63,7 @@ The elements that are returned via the `elements` property will contain the foll
 * `select`
 * `textarea`
 
-To [convert](/convert-array-like-collections-to-array) HTMLCollection to an Array you can use `Array.from()` method.
+To [convert HTMLCollection](/convert-array-like-collections-to-array) to an Array you can use `Array.from()` method.
 
 Now you can use `forEach` to iterate over this Array and [find specific items](/how-to-find-an-item-in-a-javascript-array).
 
@@ -79,7 +80,7 @@ Array.from(form.elements) // (8) [fieldset, input#name, fieldset, input#email, f
   <figcaption>All form's elements as an Array</figcaption>
 </figure>
 
-## Get only inputs
+## Get only specific fields
 
 If you want to get only `input` elements then you can use the `querySelectorAll()` method.
 
@@ -101,6 +102,51 @@ const formElements = document.querySelectorAll('.newsletter-form input')
 
 Array.from(formElements) // (3) [input#name, input#email, input#newsletter]
 ```
+
+While your form may only contain input fields, that's not always the case. Besides the `input` fields, it can be `select` and `textarea` elements.
+
+Also, there can be some form elements that you don't want to get, like `fieldset` or `button` elements.
+
+So it's a good idea to give each form element a `name` attribute. One of the reasons is the `input` element's value won't be submitted with the form if the [`name` attribute is not specified](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#name){:target="_blank"}.
+
+That way your form will contain fields (elements) that might have a user-generated value.
+
+```html
+<form class="newsletter-form">
+  <fieldset>
+    <label for="name">Name: </label>
+    <input type="text" name="name" id="name" required>
+  </fieldset>
+  <fieldset>
+    <label for="email">Email: </label>
+    <input type="email" name="email" id="email" required>
+  </fieldset>
+  <fieldset>
+    <label for="newsletter">I'd like to receive newsletter: </label>
+    <input type="checkbox" name="newsletter" id="newsletter">
+  </fieldset>
+    <fieldset>
+    <label for="topic">Topic: </label>
+    <select name="topic" id="topic">
+      <option value="html">HTML</option>
+      <option value="CSS">CSS</option>
+      <option value="javascript">JavaScript</option>
+    </select>
+  </fieldset>
+  <fieldset>
+    <button type="submit">Subscribe</button>
+  </fieldset>
+</form>
+```
+
+Now you can get all form elements as previously, and use the `filter` method to get the ones with the `name` attribute.
+
+```javascript
+const formElements = Array.from(formElements).filter(element => element.name)
+
+formElements // (3) [input#name, input#email, input#newsletter, topic#newsletter]
+```
+
 
 ## Conclusion
 

@@ -144,7 +144,7 @@ Now you can get all form elements as previously, and use the `filter` method to 
 ```javascript
 const formElements = Array.from(formElements).filter(element => element.name)
 
-formElements // (4) [input#name, input#email, input#newsletter, select#newsletter]
+formElements // (4) [input#name, input#email, input#newsletter, select#topic]
 ```
 
 

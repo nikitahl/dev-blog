@@ -3,7 +3,7 @@ layout: post
 permalink: number-value-from-input-javascript
 title: How to get number value from input in JavaScript
 description: Working with HTML inputs may require handling proper value types, like numbers. However, the value property of an input element will return a string-type value by default.
-updated: 2023-02-10T09:45:10.124Z
+updated: 2023-11-20T18:42:10.124Z
 tags: [javascript]
 ---
 
@@ -19,7 +19,7 @@ Given the input with a `type` of `number` let's get its value.
 <input type="number" value="42">
 ```
 
-By default, the `value` property of the input element will always return a `string` type, even if the input `type` is a `number`.
+By default, the `value` property of the input element will always return a `string` type, even if the input [`type` is a `number`](/number-input-with-custom-buttons).
 
 ```javascript
 const numberInput = document.querySelector("input[type=number]")

@@ -11,9 +11,9 @@ By default, the appearance of the number input is not very user-friendly, partic
 
 **Contents:**
 1. [Hide default arrows](#hide-default-arrows)
-1. [Add custom buttons](#add-custom-buttons)
-1. [Styling the input](#styling-the-input)
-1. [Demo](#demo)
+2. [Add custom buttons](#add-custom-buttons)
+3. [Styling the input](#styling-the-input)
+4. [Demo](#demo)
 
 
 ## Hide default arrows

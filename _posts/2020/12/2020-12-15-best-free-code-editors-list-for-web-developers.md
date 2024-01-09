@@ -3,10 +3,9 @@ layout: post
 permalink: free-code-editors-list
 title: Best Free Code Editors List For Web Developers
 date: 2020-12-16T14:32:07.026Z
-description: An extensive list of the best free code editors for developers with
-  a description, comparison table, key features and images
-tags:
-  - tools
+updated: 2024-01-9T12:55:13.124Z
+description: An extensive list of the best free code editors for developers with a description, comparison table, key features and images
+tags: [tools]
 ---
 A code editor is a tool that a developer is using on a daily basis. It’s like a chef’s knife. A good code editor is going to affect your daily workflow and performance. So it’s a good idea to get a code editor that is functional and easy to use.
 
@@ -53,6 +52,13 @@ Luckily almost all of the below code editors supported by all operating systems 
       <td data-label="Built by">Microsoft</td>
       <td data-label="Is Open Source">Yes</td>
       <td data-label="GitHub"><a href="https://github.com/Microsoft/vscode" class=" externalLink" target="_blank" rel="noopener ">https://github.com/Microsoft/vscode</a></td>
+    </tr>
+    <tr>
+      <td data-label="Name"><a href="#vscodium">VSCodium</a></td>
+      <td data-label="Platform">Windows, Linux, macOS</td>
+      <td data-label="Built by">VSCodium</td>
+      <td data-label="Is Open Source">Yes</td>
+      <td data-label="GitHub"><a href="https://github.com/VSCodium/vscodium.github.io" class=" externalLink" target="_blank" rel="noopener ">https://github.com/VSCodium/vscodium.github.io</a></td>
     </tr>
     <tr>
       <td data-label="Name"><a href="#brackets">Brackets</a></td>
@@ -190,6 +196,35 @@ As the company says Sublime is a sophisticated text editor for code, markup, and
 **Description**:
 
 Visual Studio Code is a lightweight but powerful source code editor that runs on your desktop and is available for Windows, macOS, and Linux. It comes with built-in support for JavaScript, TypeScript, and Node.js and has a rich ecosystem of extensions for other languages (such as C++, C#, Java, Python, PHP, Go) and runtimes (such as .NET and Unity).
+
+**Key Features**:
+
+* Smart completions with IntelliSense
+* Debug code right from the editor
+* Git commands built-in
+* Extensible and customizable
+* Deploy with confidence and ease
+
+## VSCodium
+
+<figure>
+  <img class="shadow" src="/images/code-editors/vscode.png" alt="VSCodium code editor" loading="lazy">
+  <figcaption>VSCodium code editor</figcaption>
+</figure>
+
+**Website**: <https://vscodium.com//>
+
+**Platform**: Windows, Linux, macOS
+
+**Built by**: VSCodium
+
+**GitHub**: <https://github.com/VSCodium/vscodium.github.io>
+
+**Description**:
+
+VSCodium is essentially the clone of Visual Studio Code editor but without the without MS branding/telemetry/licensing.
+
+It offers the same functionality as the Visual Studio Code, except with the focus on privacy (check out the issue with VS Code explained in [this video](https://youtu.be/iq6hbY_fzYg?si=nl-eBZFvDSgygKPE){:target="_blank"}). I myself use this editor on a daily basis.
 
 **Key Features**:
 

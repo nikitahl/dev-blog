@@ -222,7 +222,7 @@ Visual Studio Code is a lightweight but powerful source code editor that runs on
 
 **Description**:
 
-VSCodium is essentially the clone of Visual Studio Code editor but without the without MS branding/telemetry/licensing.
+VSCodium is essentially the clone of Visual Studio Code editor but the without MS branding/telemetry/licensing.
 
 It offers the same functionality as the Visual Studio Code, except with the focus on privacy (check out the issue with VS Code explained in [this video](https://youtu.be/iq6hbY_fzYg?si=nl-eBZFvDSgygKPE){:target="_blank"}). I myself use this editor on a daily basis.
 

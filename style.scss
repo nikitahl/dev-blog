@@ -114,7 +114,15 @@ kbd {
 // https://gist.github.com/yeun/d824fc7b04b756508f4b0143535cec30
 
 ol, ul {
+  margin: 0 0 15px;
   > li {
+    margin: 0 auto $li-bottom-space $li-bullets-width;
+    line-height: $li-line-height;
+
+    > ol,
+    > ul {
+      margin-top: $li-bottom-space;
+    }
     &:before {
       position: absolute;
       width: $li-bullets-width;
@@ -146,18 +154,6 @@ ol {
     font-family: $ol-bullets-font;
     font-size: $ol-bullets-font-size;
     line-height: $ol-bullets-font-line-height;
-  }
-}
-
-ol, ul {
-  > li {
-    margin: 0 auto $li-bottom-space $li-bullets-width;
-    line-height: $li-line-height;
-
-    > ol,
-    > ul {
-      margin-top: $li-bottom-space;
-    }
   }
 }
 

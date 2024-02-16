@@ -47,6 +47,17 @@
   &.email {
     background: #444444;
   }
+
+  &.copy {
+    appearance: none;
+    border: none;
+    background: $oc-indigo-9;
+    cursor: pointer;
+
+    &:active {
+      background: $oc-indigo-5;
+    }
+  }
 }
 
 .share-button svg {

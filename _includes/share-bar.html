@@ -29,5 +29,8 @@
           title="Share via Email" >
           {% include svg-icons/email.html %} email
       </a>
+      <button class="share-button copy" title="Copy article link to clipboard" onclick="navigator.clipboard.writeText(window.location.href)">
+          {% include svg-icons/copy.html %} copy link
+      </button>
   </div>
 </section>

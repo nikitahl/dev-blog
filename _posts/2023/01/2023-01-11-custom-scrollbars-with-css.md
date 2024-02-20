@@ -78,7 +78,6 @@ You can check out a full solution with code and live example on my CodePen:
   Scrollbar properties</a> by Nikita Hlopov (<a href="https://codepen.io/nikitahl">@nikitahl</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 
 ## A cross-browser solution

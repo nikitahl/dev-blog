@@ -170,4 +170,3 @@ You can find a full demo with a complete code examples on my CodePen:
   Custom number input</a> by Nikita Hlopov (<a href="https://codepen.io/nikitahl">@nikitahl</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>

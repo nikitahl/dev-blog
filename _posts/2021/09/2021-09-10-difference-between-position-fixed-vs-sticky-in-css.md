@@ -78,5 +78,3 @@ Position `sticky` is [supported by all modern browsers](https://caniuse.com/css-
 <span>See the Pen <a href="https://codepen.io/tippingpointdev/pen/rNwyPrN">
 </a> by Tippingpoint Dev (<a href="https://codepen.io/tippingpointdev">@tippingpointdev</a>) on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
-
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>

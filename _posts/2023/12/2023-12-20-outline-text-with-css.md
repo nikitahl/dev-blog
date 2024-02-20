@@ -83,5 +83,3 @@ Data on support for the <a href="https://caniuse.com/text-stroke" target="_blank
 <p class="ciu_embed" data-feature="mdn-css__properties__-webkit-text-stroke-width" data-periods="future_1,current,past_1" data-accessible-colours="false">
 Data on support for the <a href="https://caniuse.com/text-stroke" target="_blank">-webkit-text-stroke-width</a> feature across the major browsers
 </p>
-
-<script src="https://cdn.jsdelivr.net/gh/ireade/caniuse-embed/public/caniuse-embed.min.js"></script>

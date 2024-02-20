@@ -117,5 +117,3 @@ The `datalist` is a [semantic HTML element](/why-it-is-important-to-write-semant
 ## Final thoughts
 
 All in all in my opinion, while the default styling and functionality are left untouched the HTML autocomplete is a pretty unique paradigm in web development. However, it lacks some flexibility and customization which can make it a rare use case.
-
-<script src="https://cdn.jsdelivr.net/gh/ireade/caniuse-embed/public/caniuse-embed.min.js"></script>

@@ -137,7 +137,6 @@ The final result of the HTML modal window can be seen on the CodePen:
   HTML dialog element as a modal/pop-up</a> by Nikita Hlopov (<a href="https://codepen.io/nikitahl">@nikitahl</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 ## Accessibility
 

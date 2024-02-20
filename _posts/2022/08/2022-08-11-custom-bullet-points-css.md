@@ -217,7 +217,6 @@ For list styling it is recommended use the `marker` pseudo-element it is support
 <img src="https://caniuse.bitsofco.de/image/css-marker-pseudo.jpg" alt="Data on support for the css-marker-pseudo feature across the major browsers from caniuse.com">
 </picture>
 </p>
-<script src="https://cdn.jsdelivr.net/gh/ireade/caniuse-embed/public/caniuse-embed.min.js"></script>
 
 ## Counter style rule
 
@@ -271,4 +270,3 @@ However, the `@counter-style` rule is currently lacking full browser support. Bu
 <p class="ciu_embed" data-feature="mdn-css__at-rules__counter-style" data-periods="future_1,current,past_1" data-accessible-colours="false">
 <p>Data on support for the mdn-css__at-rules__counter-style feature across the major browsers</p>
 </p>
-<script src="https://cdn.jsdelivr.net/gh/ireade/caniuse-embed/public/caniuse-embed.min.js"></script>

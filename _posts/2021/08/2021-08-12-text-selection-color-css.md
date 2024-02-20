@@ -70,5 +70,3 @@ In particular, `background-image` is ignored.
 <img src="https://caniuse.bitsofco.de/image/css-selection.jpg" alt="Data on support for the css-selection feature across the major browsers from caniuse.com">
 </picture>
 </p>
-
-<script src="https://cdn.jsdelivr.net/gh/ireade/caniuse-embed/public/caniuse-embed.min.js"></script>

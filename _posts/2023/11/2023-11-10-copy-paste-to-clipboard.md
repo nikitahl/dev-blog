@@ -194,5 +194,3 @@ When you use `navigator.clipboard`, you're using a high-level interface that han
 You don't need to worry about whether you're on a Windows or macOS system, what keyboard shortcuts to use, or the specific data formats supported. The browser abstracts these details and provides a common interface, making it easier for you to work with clipboard data in a cross-browser and user-friendly manner.
 
 In summary, `navigator.clipboard` abstracts the differences between the native clipboard mechanisms of different operating systems and the Clipboard API, allowing developers to work with clipboard data in a consistent and browser-agnostic way.
-
-<script src="https://cdn.jsdelivr.net/gh/ireade/caniuse-embed/public/caniuse-embed.min.js"></script>

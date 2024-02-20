@@ -51,7 +51,6 @@ html {
   Smooth scroll navigation</a> by Tippingpoint Dev (<a href="https://codepen.io/tippingpointdev">@tippingpointdev</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 Now if you have a fixed header, it’s a good idea to add a [scroll-margin](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-margin) property that will define the offset of the visible element that is being scrolled to. So for our navigation, we can set the `scroll-margin-top` property to all of the sections that will be equal to the height of the navbar, e.g. 50px.
 
@@ -101,5 +100,3 @@ If you’re implementing a simple web page with straightforward logic like on-pa
 The JavaScript approach on the other hand can be used to scroll to any element (even without the id attribute).
 
 The drawback for both approaches is the lack of full browser support or only partial support. Fortunately, there are some JS libraries that are able to handle that for you. On the other hand, 3rd party library is a dependency to manage in the long run and some issues can still arise since this is not a native behavior.
-
-<script src="https://cdn.jsdelivr.net/gh/ireade/caniuse-embed/public/caniuse-embed.min.js"></script>

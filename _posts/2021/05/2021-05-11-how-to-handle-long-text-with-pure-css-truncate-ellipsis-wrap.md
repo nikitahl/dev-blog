@@ -117,5 +117,3 @@ A full demo is available on [CodePen](https://codepen.io/tippingpointdev/pen/RwK
 Long text truncate and wrap with CSS</a> by Tippingpoint Dev (<a href="https://codepen.io/tippingpointdev">@tippingpointdev</a>)
 on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
-
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>

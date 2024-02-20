@@ -182,4 +182,3 @@ I've put together a collection of possible link underline styles on CodePen, che
   Link hover effect collection</a> by Nikita Hlopov (<a href="https://codepen.io/nikitahl">@nikitahl</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>

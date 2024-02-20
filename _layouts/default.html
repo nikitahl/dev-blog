@@ -15,48 +15,9 @@
     </footer>
 
     {% include analytics.html %}
-    <script type="text/javascript">
-      (function (w, d) {
-        var themeToggle = document.getElementById("theme-toggle");
-        var avatar = document.querySelector(".avatar");
-        var m = d.querySelector("#main");
-        var i = m.querySelectorAll(".lozad");
-
-        function toggleTheme(e) {
-          var theme = window.localStorage.theme;
-          if (window.localStorage.theme && e) {
-            document.body.classList.remove("theme-" + theme);
-            window.localStorage.theme = theme === "light" ? "dark" : "light";
-            avatar.src = theme === "light" ? "/images/logo-dark.webp" : "/images/logo.webp";
-          } else if (window.localStorage.theme && window.localStorage.theme === 'dark' && !e) {
-            avatar.src = "/images/logo-dark.webp";
-          } else if (!window.localStorage.theme) {
-            window.localStorage.theme = "light";
-          }
-          document.body.classList.add("theme-" + window.localStorage.theme);
-        }
-        themeToggle.addEventListener("click", toggleTheme);
-        toggleTheme();
-
-        if (i.length) {
-          var b = d.body;
-          var s = d.createElement("script"); s.async = true;
-          s.src = "https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js";
-          b.appendChild(s);
-
-          function initLozad () {
-            if (window.lozad) {
-              var observer = lozad();
-              observer.observe();
-            } else {
-              setTimeout(function () {
-                initLozad();
-              }, 90);
-            }
-          }
-          initLozad();
-        }
-      })(window, document);
-    </script>
+    {% include main-script.html %}
+    {% if page.layout == 'post' %}
+      {% include post-script.html %}
+    {% endif %}
   </body>
 </html>

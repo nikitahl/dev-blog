@@ -1,0 +1,22 @@
+<script type="text/javascript">
+  (function (w, d) {
+    var themeToggle = d.getElementById("theme-toggle");
+    var avatar = d.querySelector(".avatar");
+
+    function toggleTheme(e) {
+      var theme = w.localStorage.theme;
+      if (w.localStorage.theme && e) {
+        d.body.classList.remove("theme-" + theme);
+        w.localStorage.theme = theme === "light" ? "dark" : "light";
+        avatar.src = theme === "light" ? "/images/logo-dark.webp" : "/images/logo.webp";
+      } else if (w.localStorage.theme && w.localStorage.theme === 'dark' && !e) {
+        avatar.src = "/images/logo-dark.webp";
+      } else if (!w.localStorage.theme) {
+        w.localStorage.theme = "light";
+      }
+      d.body.classList.add("theme-" + w.localStorage.theme);
+    }
+    themeToggle.addEventListener("click", toggleTheme);
+    toggleTheme();
+  })(window, document);
+</script>

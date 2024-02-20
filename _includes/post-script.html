@@ -1,0 +1,67 @@
+<script type="text/javascript">
+  (function (w, d) {
+    var m = d.querySelector("#main");
+    var i = m.querySelectorAll(".lozad");
+    var e = m.querySelectorAll(".codepen, .ciu_embed");
+
+    if (i.length) {
+      var b = d.body;
+      var s = d.createElement("script"); s.async = true;
+      s.src = "https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js";
+      b.appendChild(s);
+
+      function initLozad () {
+        if (w.lozad) {
+          var observer = lozad();
+          observer.observe();
+        } else {
+          setTimeout(function () {
+            initLozad();
+          }, 90);
+        }
+      }
+      initLozad();
+    }
+
+    if (e.length) {
+      var b = d.body;
+      var isCpLoaded = false;
+      var isCiuLoaded = false;
+      var options = {
+        root: null,
+        rootMargin: "400px 0px",
+        threshold: 0
+      };
+      var io = new IntersectionObserver((entries, observer) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            var embed = entry.target;
+            var src = "";
+            if (!isCiuLoaded && embed.classList.contains("ciu_embed")) {
+              isCiuLoaded = true;
+              src = "https://cdn.jsdelivr.net/gh/ireade/caniuse-embed/public/caniuse-embed.min.js";
+            } else if (!isCpLoaded && embed.classList.contains("codepen")) {
+              isCpLoaded = true;
+              src = "https://cpwebassets.codepen.io/assets/embed/ei.js";
+            }
+            if (src) {
+              var s = d.createElement("script");s.src = src;s.async = true;
+              b.appendChild(s);
+              if (embed.classList.contains("ciu_embed")) {
+                s.onload = function(params) {
+                  var customEvent = new CustomEvent("DOMContentLoaded");
+                  d.dispatchEvent(customEvent);
+                }
+              }
+            }
+          }
+        })
+      }, options);
+
+      e.forEach((embed) => {
+        io.observe(embed);
+      });
+      
+    }
+  })(window, document);
+</script>

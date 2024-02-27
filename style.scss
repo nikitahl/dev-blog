@@ -191,10 +191,7 @@ blockquote {
   padding: 0 0 0 1.4rem;
   margin: 0 2rem 1rem 0;
   border-left: .2em solid $blockquote-border-color;
-
-  p {
-    color: $blockquote-color;
-  }
+  color: $blockquote-color;
 
   p:last-child {
     margin-bottom: 0;

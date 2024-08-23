@@ -54,6 +54,7 @@ permalink: /about/
 	<li><a href="https://nikitahl.github.io/bg-image/" target="_blank" rel="noopener">Background Image CSS</a> - Prototype, modify and edit a background image position, size, etc. and get a ready to use CSS code for your project</li>
 	<li><a href="https://nikitahl.github.io/disavow-link-manager/" target="_blank" rel="noopener">Disavow link manager</a> - Synchronize and manage disavow links for Google Search Console</li>
 	<li><a href="https://nikitahl.github.io/svg-circle-progress-generator/" target="_blank" rel="noopener">SVG circle progress generator</a> - Generate pure SVG circle progress bar</li>
+		<li><a href="https://github.com/nikitahl/youtube-local-library-ff" target="_blank" rel="noopener">YouTube Local Library</a> - A Firefox extension to create and manage YouTube playlists and channels locally.</li>
 </ul>
 <h2>Credits</h2>
 <p>This site was created using:</p>

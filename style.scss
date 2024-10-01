@@ -237,8 +237,8 @@ img {
 }
 
 .site-avatar {
-  width: 65px;
-  height: 65px;
+  width: 44px;
+  height: 44px;
   margin: 0 15px 0 0;
   padding: 5px;
   border-radius: 5px;
@@ -253,14 +253,14 @@ img {
   margin: 0;
   color: $base-color;
   font-weight: 200;
-  font-size: 28px;
+  font-size: 23px;
   letter-spacing: 1px;
 }
 
 .site-description {
   margin: -5px 0 0 0;
   color: $gray;
-  font-size: 16px;
+  font-size: 13px;
 
   @include mobile {
     margin: 3px 0;
@@ -343,7 +343,7 @@ img {
   .tag {
     display: inline;
     font-weight: 300;
-    font-size: $small-font-size;
+    font-size: 12px;
 
     li:before {
       content: '';

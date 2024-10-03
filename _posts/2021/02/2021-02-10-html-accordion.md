@@ -3,7 +3,7 @@ layout: post
 permalink: native-html-accordion
 title: Pure HTML accordion with details and summary elements
 date: 2021-02-17T14:08:50.492Z
-updated: 2022-11-25T09:35:10.124Z
+updated: 2024-10-03T18:35:10.124Z
 description: A modern way to create a pure HTML accordion widget on a page using nothing but the semantic elements
 tags: [html]
 ---
@@ -36,7 +36,7 @@ Now you can create a pure HTML accordion using nothing but these two tags. It's 
 <style>
   details { padding: 3px}
   .details-container { margin-bottom: 15px}
-  summary { padding: 5px} 
+  summary { padding: 5px; cursor:pointer} 
   .image-grid {display: flex;justify-content: space-evenly;flex-wrap: wrap;margin: 0 0 30px;}
   .image-grid figcaption {font-size: 13px; color: #666; font-style:italic; text-align:center}
   .image-grid figure{margin: 0 10px 10px;flex: 1 0 47%;}
@@ -44,18 +44,18 @@ Now you can create a pure HTML accordion using nothing but these two tags. It's 
 
 <div class="details-container ">
 
-<details>
-    <summary>What is HTML?</summary>
-    <p>HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content.</p>
-</details>
-<details>
-    <summary>What is CSS?</summary>
-    <p>Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML.</p>
-</details>
-<details>
-    <summary>What is JavaScript?</summary>
-    <p>JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions.</p>
-</details>
+  <details>
+      <summary>What is HTML?</summary>
+      <p>HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content.</p>
+  </details>
+  <details>
+      <summary>What is CSS?</summary>
+      <p>Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML.</p>
+  </details>
+  <details>
+      <summary>What is JavaScript?</summary>
+      <p>JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions.</p>
+  </details>
 
 </div>
 
@@ -108,9 +108,11 @@ summary::-webkit-details-marker {
 }
 ```
 
-To insert another symbol to replace the arrow you can use [encoded SVG as a background image](/using-svg-background-image-with-css-code-only).
+To insert another symbol to replace the arrow you can use an [encoded SVG image as a background](/using-svg-background-image-with-css-code-only).
 
-> **Note:** Unfortunately, at this time there's no built-in way to animate the transition between open and closed.
+<p class="note">
+  💡 NOTE: Unfortunately, at this time there's no built-in way to animate the transition between open and closed.
+</p>
 
 ## Events and API
 
@@ -131,43 +133,47 @@ details.addEventListener('toggle', (e) => {
 })
 ```
 
-To add a little more functionality and make a collapsible HTML accordion, a small JavaScript snippet is required.
+## Show a single section
 
-Assuming we're using the markup from above, the code snippet selects all `details` elements and assigns each one a `click` event handler that checks for the current opened one **and** that is not the target element and closes it.
+To add more functionality and create a collapsible HTML accordion, you can assign the same `name` attribute value to each of the `details` elements.
 
-```javascript
-  const details = Array.from(document.querySelectorAll('details'))
-  
-  details.forEach((detail) => {
-    detail.addEventListener('click', (e) => {
-      const active = details.find(d => d.open)
-      if (!e.currentTarget.open && active) {
-        active.open = false
-      }
-    })
-  })
+This will make it function like a classic accordion, where only one section is visible at a time, and the others collapse.
+
+```html
+<div class="details-container">
+  <details class="details" name="technology">
+      <summary>What is HTML?</summary>
+      <p>HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content.</p>
+  </details>
+  <details class="details" name="technology">
+      <summary>What is CSS?</summary>
+      <p>Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML.</p>
+  </details>
+  <details class="details" name="technology">
+      <summary>What is JavaScript?</summary>
+      <p>JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions.</p>
+  </details>
+</div>
 ```
 
 **Result:**
 
-<div class="details-container ">
-
-<details class="details">
-    <summary>What is HTML?</summary>
-    <p>HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content.</p>
-</details>
-<details class="details">
-    <summary>What is CSS?</summary>
-    <p>Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML.</p>
-</details>
-<details class="details">
-    <summary>What is JavaScript?</summary>
-    <p>JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions.</p>
-</details>
-
+<div class="details-container">
+  <details class="details" name="web-technology">
+      <summary>What is HTML?</summary>
+      <p>HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content.</p>
+  </details>
+  <details class="details" name="web-technology">
+      <summary>What is CSS?</summary>
+      <p>Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML.</p>
+  </details>
+  <details class="details" name="web-technology">
+      <summary>What is JavaScript?</summary>
+      <p>JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions.</p>
+  </details>
 </div>
 
-<script>
+<!-- <script>
   var details = Array.from(document.querySelectorAll('.details'));
   details.forEach((detail) => {
     detail.addEventListener('click', (e) => {
@@ -177,7 +183,7 @@ Assuming we're using the markup from above, the code snippet selects all `detail
       }
     });
   });
-</script>
+</script> -->
 
 ## Browser Support
 

@@ -44,17 +44,17 @@ permalink: /about/
 
 <img class="about-image" src="../../../images/me.png" alt="Nikita Hlopov's profile picture" loading="lazy">
 <h2>Hello! 👋</h2>
-<p>I've been a frontend developer since 2016. I've worked on a projects like <a href="http://visualcomposer.com" target="_blank" rel="noreferrer noopener">Visual Composer</a>, <a href="https://wpbakery.com" target="_blank" rel="noreferrer noopener">WPBakery</a> and <a href="https://indystack.com/" target="_blank" rel="noreferrer noopener">Indystack</a>.</p>
+<p>I'm a frontend developer since 2016. I've worked on a projects like <a href="http://visualcomposer.com" target="_blank" rel="noreferrer noopener">Visual Composer</a>, <a href="https://wpbakery.com" target="_blank" rel="noreferrer noopener">WPBakery</a> and <a href="https://indystack.com/" target="_blank" rel="noreferrer noopener">Indystack</a>.</p>
 <p>In this blog I share my experience related to frontend web development.</p>
 <h2>Personal Projects</h2>
-<p>Sometimes I like to make small tools like these:</p>
+<p>Sometimes I like to create small projects in my free time, like these:</p>
 <ul>
 	<li><a href="https://nikitahl.github.io/css-base/" target="_blank" rel="noopener">CSS Base</a> - An online tool to prototype and generate a base CSS theme</li>
 	<li><a href="https://nikitahl.github.io/svg-2-code/" target="_blank" rel="noopener">SVG to Code</a> - Online tool to convert SVG to code and vice versa</li>
 	<li><a href="https://nikitahl.github.io/bg-image/" target="_blank" rel="noopener">Background Image CSS</a> - Prototype, modify and edit a background image position, size, etc. and get a ready to use CSS code for your project</li>
 	<li><a href="https://nikitahl.github.io/disavow-link-manager/" target="_blank" rel="noopener">Disavow link manager</a> - Synchronize and manage disavow links for Google Search Console</li>
 	<li><a href="https://nikitahl.github.io/svg-circle-progress-generator/" target="_blank" rel="noopener">SVG circle progress generator</a> - Generate pure SVG circle progress bar</li>
-		<li><a href="https://github.com/nikitahl/youtube-local-library-ff" target="_blank" rel="noopener">YouTube Local Library</a> - A Firefox extension to create and manage YouTube playlists and channels locally.</li>
+		<li><a href="https://github.com/nikitahl/youtube-local-library-ff" target="_blank" rel="noopener">YouTube Local Library</a> - A Firefox extension to create and manage YouTube playlists and channels locally</li>
 </ul>
 <h2>Credits</h2>
 <p>This site was created using:</p>

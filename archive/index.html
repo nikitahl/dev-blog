@@ -36,7 +36,7 @@ permalink: /archive/
 {% assign years_array = posts_by_year | split: "," | sort %}
 
 <div class="tags">
-  <ul class="label" style="display: flex; flex-direction: row-reverse; justify-content: flex-end; gap: 5px">
+  <ul class="label">
   {% for year_data in years_array %}
     {% if year_data != "" %}
       {% assign year = year_data | split: ":" | first %}

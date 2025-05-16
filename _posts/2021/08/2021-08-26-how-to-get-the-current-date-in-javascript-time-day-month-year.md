@@ -3,6 +3,7 @@ layout: post
 permalink: get-the-current-date-in-javascript
 title: How to get the current date in JavaScript (Time, Day, Month, Year)
 date: 2021-08-26T12:21:12.144Z
+updated: 2025-05-16T09:06:18.123Z
 description: To get the current date in JavaScript you’ll only need the Vanilla
   JavaScript Date API. All the information about the current date can be
   accessed in one line of code in various formats.
@@ -16,6 +17,7 @@ To get the current date in JavaScript you’ll only need the Vanilla JavaScript 
 3. [Get Current Year](#get-current-year)
 4. [Get Current Time](#get-current-time)
 5. [Get Current Date](#get-current-date)
+6. [Online Demo](#demo)
 
 You’ll need to create a new Date object using the [`Date()` constructor](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/Date) to get the current date. The `Date` constructor is [supported in all browsers](https://caniuse.com/mdn-javascript_builtins_date_date). Instantiate it without any parameters:
 
@@ -203,4 +205,14 @@ currentDate.toLocaleString('en-US', options)
 <figure>
   <img class="shadow" src="/images/dev-tools/get-current-date-string.png" alt="Current date in string format output" loading="lazy">
   <figcaption>Current date in string format output</figcaption>
+</figure>
+
+## Demo
+I’ve made a small tool to get any date from the `Date` object. You can modify parameters and get ready to use JavaScript snippet.
+
+<figure>
+  <img class="shadow" src="/images/tools/any-date-online-tool.png" alt="Any date online tool" loading="lazy">
+  <figcaption>
+    <a href="https://nikitahl.github.io/any-date/" target="_blank">nikitahl.github.io/any-date/</a>
+  </figcaption>
 </figure>

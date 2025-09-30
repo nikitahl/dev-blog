@@ -55,8 +55,9 @@ permalink: /about/
 	<li><a href="https://nikitahl.github.io/disavow-link-manager/" target="_blank" rel="noopener">Disavow link manager</a> - Synchronize and manage disavow links for Google Search Console</li>
 	<li><a href="https://nikitahl.github.io/svg-circle-progress-generator/" target="_blank" rel="noopener">SVG circle progress generator</a> - Generate pure SVG circle progress bar</li>
 	<li><a href="https://github.com/nikitahl/youtube-local-library-ff" target="_blank" rel="noopener">YouTube Local Library</a> - A Firefox extension to create and manage YouTube playlists and channels locally</li>
-	<li><a href="https://github.com/nikitahl/sidebar-navigation-for-wpbakery" target="_blank" rel="noopener">Sidebar for WPBakery</a> - A WordPress plugin to extend WPBakery Page Builder UI.</li>
+	<li><a href="https://github.com/nikitahl/sidebar-navigation-for-wpbakery" target="_blank" rel="noopener">Sidebar for WPBakery</a> - A WordPress plugin to extend WPBakery Page Builder UI</li>
 	<li><a href="https://github.com/nikitahl/any-date" target="_blank" rel="noopener">Any date</a> - Online tool to get any date from JavaScript Date object</li>
+	<li><a href="https://github.com/nikitahl/simple-react-boilerplate" target="_blank" rel="noopener">Simple React Boilerplate</a> - A project to help you get started quickly with React development</li>
 </ul>
 <h2>Credits</h2>
 <p>This site was created using:</p>
@@ -71,6 +72,12 @@ permalink: /about/
 		<a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a> hosting
 	</li>
 </ul>
+<h2>Support me</h2>
+Thank you for visiting my website! If you like my work and wish to support me, here are some ways you can do it:
+<ul>
+	<li><strong>Spread the word!</strong> Share my website or my projects on X (Twitter), LinkedIn, Facebook, or any other platform to help more people find and use it.</li>
+</ul>
+
 <h2>Find me on</h2>
 <div class="find-me">
 {% include svg-icons.html %}

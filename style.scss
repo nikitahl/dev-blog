@@ -505,8 +505,10 @@ figcaption,
   text-align: center;
 
   p {
-    font-size: 0.75em;
+    text-align: center;
+    font-size: 0.85em;
     line-height: 2;
+    margin-bottom: 10px;
 
     @include mobile {
       line-height: 2.3;

@@ -8,6 +8,8 @@ $toggle-width: 36px;
 $toggle-height: $toggle-width/2;
 $dark-theme-background-color: #1c1e26;
 $dark-theme-text-color: #eee;
+$dark-theme-link-color: #89b7e9;
+$dark-theme-link-color-hover: #6aa8eb;
 
 .theme-switch {
 	appearance: none;
@@ -63,10 +65,10 @@ $dark-theme-text-color: #eee;
 	}
 
 	a {
-    color: #32d6ff;
+    color: $dark-theme-link-color;
     &:hover,
     &:active {
-    	color: #03a9f4; 
+    	color: $dark-theme-link-color-hover; 
     }
 	}
 
@@ -77,7 +79,7 @@ $dark-theme-text-color: #eee;
 	.nav-controls a:hover,
 	.nav-controls a:active,
 	.nav-controls a.active {
-    color: #14baff;
+    color: $dark-theme-link-color-hover;
 	}
 
 	.pagination > .next a,

@@ -49,6 +49,7 @@ permalink: /about/
 <h2>Personal Projects</h2>
 <p>Sometimes I like to create small projects in my free time, like these:</p>
 <ul>
+	<li><a href="https://nikitahl.com/">My blog</a>.</li>
 	<li><a href="https://nikitahl.github.io/css-base/" target="_blank" rel="noopener">CSS Base</a> - An online tool to prototype and generate a base CSS theme</li>
 	<li><a href="https://nikitahl.github.io/svg-2-code/" target="_blank" rel="noopener">SVG to Code</a> - Online tool to convert SVG to code and vice versa</li>
 	<li><a href="https://nikitahl.github.io/bg-image/" target="_blank" rel="noopener">Background Image CSS</a> - Prototype, modify and edit a background image position, size, etc. and get a ready to use CSS code for your project</li>
@@ -58,7 +59,7 @@ permalink: /about/
 	<li><a href="https://github.com/nikitahl/sidebar-navigation-for-wpbakery" target="_blank" rel="noopener">Sidebar for WPBakery</a> - A WordPress plugin to extend WPBakery Page Builder UI</li>
 	<li><a href="https://github.com/nikitahl/any-date" target="_blank" rel="noopener">Any date</a> - Online tool to get any date from JavaScript Date object</li>
 	<li><a href="https://github.com/nikitahl/simple-react-boilerplate" target="_blank" rel="noopener">Simple React Boilerplate</a> - A project to help you get started quickly with React development</li>
-	<li><a href="https://github.com/nikitahl/social-elements-for-wpbakery" target="_blank" rel="noopener">Social Elements For WPBakery</a> - A collection of social elements for WPBakery Page Builder.</li>
+	<li><a href="https://github.com/nikitahl/social-elements-for-wpbakery" target="_blank" rel="noopener">Social Elements For WPBakery</a> - A WordPress plugin to extend WPBakery Page Builder elements.</li>
 </ul>
 <h2>Credits</h2>
 <p>This site was created using:</p>

@@ -60,6 +60,7 @@ permalink: /about/
 	<li><a href="https://github.com/nikitahl/any-date" target="_blank" rel="noopener">Any date</a> - Online tool to get any date from JavaScript Date object</li>
 	<li><a href="https://github.com/nikitahl/simple-react-boilerplate" target="_blank" rel="noopener">Simple React Boilerplate</a> - A project to help you get started quickly with React development</li>
 	<li><a href="https://github.com/nikitahl/social-elements-for-wpbakery" target="_blank" rel="noopener">Social Elements For WPBakery</a> - A WordPress plugin to extend WPBakery Page Builder elements.</li>
+	<li><a href="https://github.com/nikitahl/dashboard-shortcuts" target="_blank" rel="noopener">Dashboard Shortcuts</a> - A WordPress plugin to manage shortcut links in the admin dashboard.</li>
 </ul>
 <h2>Credits</h2>
 <p>This site was created using:</p>

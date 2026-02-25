@@ -124,9 +124,9 @@ To test your project in a live environment you’ll need hosting. But usually ho
 
 While some code editors and IDEs provide a build-in tool to check the difference between the files, there are online tools that can help you manage that task:
 
-* [Linediff](https://linediff.com/);
 * [Mergely](https://editor.mergely.com/);
-* [Diffchecker](https://www.diffchecker.com/).
+* [Diffchecker](https://www.diffchecker.com/);
+* [JSONing](https://jsoning.com/compare/).
 
 ## Code formatter
 

@@ -14,7 +14,9 @@ permalink: /about/
 		margin: 0 50px 0 0 !important;
 	}
 	.svg-icon {
-		display: block;
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
 		font-size: 0;
 		list-style: none;
 		margin: 0;
@@ -28,6 +30,11 @@ permalink: /about/
     height: 30px;
     width: 30px;
   }
+
+	.wordpress svg {
+		width: 24px;
+		height: 24px;
+	}
 
   .svg-icon em {
     font-size: 18px;
